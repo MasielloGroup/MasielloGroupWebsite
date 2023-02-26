@@ -1,0 +1,40 @@
+project:
+  type: website
+
+
+website:
+  title: "Masiello Research Group"
+  site-url: "https://faculty.washington.edu/masiello/"
+  repo-url: "https://github.com/MasielloGroup/MasielloGroupWebsite"
+  favicon: favicon.png
+  google-analytics: "UA-177339812-1"
+  page-navigation: false
+  search: true
+  page-footer: 
+    background: "#d1dbe5"
+    center: © 2023  &middot; Made with {{< fa brands r-project >}} and 
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+  navbar:
+    search: true
+    logo: logo.png
+    logo-alt: "W"
+    left:
+      - href: news/index.qmd
+      - href: research/index.qmd
+      - href: publications/index.qmd
+      - text: NSF DMREF
+      - href: codes/index.qmd
+        text: Codes
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: 
+      - yeti
+      - styles/custom.css
+    toc: true
+    link-external-newwindow: true
+
+
+
