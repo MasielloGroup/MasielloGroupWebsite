@@ -1,3 +1,6 @@
 ---
 title: News
+listing: 
+  type: grid
+  sort: "date desc"
 ---
