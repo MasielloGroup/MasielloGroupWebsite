@@ -1,0 +1,51 @@
+---
+title: &TITLE Elliot K. Beutler
+last: Beutler
+first: Elliot
+people_group: postdoc
+email: ekb123@uw.edu
+education:
+  - Ph.D. Chemistry | University of Washington | 2022 <br> B.S. Chemistry | University of Washington
+subtitle: "Postdoctoral Fellow"
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ekb123@uw.edu
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
+

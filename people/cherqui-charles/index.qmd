@@ -1,0 +1,48 @@
+---
+title: &TITLE Charles Cherqui
+last: Cherqui
+first: Charles
+people_group: "alumni"
+email: 
+education: "Ph.D. Physics | University of New Mexico & Los Alamos National Laboratory <br>B.S. Physics | Loyola University Chicago <br> B.S. Mathematics | Loyola University Chicago"
+subtitle: "Postdoctoral Fellow"
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
+
+
+

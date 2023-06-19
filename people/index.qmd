@@ -1,0 +1,52 @@
+---
+title: "People"
+listing:
+  - id: pi
+    include: 
+      people_group: "Principal Investigator"
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: postdoc
+    sort: last
+    include: 
+      people_group: "postdoc"
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: gradstudent
+    sort: last
+    include: 
+      people_group: "gradstudent"
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: alumni
+    sort: last
+    include: 
+      people_group: "alumni"
+    type: grid
+    fields: [title, subtitle, image]
+page-layout: full
+---
+
+<hr>
+
+<br>
+
+## Principal Investigator
+
+::: {#pi}
+:::
+
+## Postdoctoral Fellows
+
+::: {#postdoc}
+:::
+
+## Graduate Students
+
+::: {#gradstudent}
+:::
+
+
+## Alumni
+::: {#alumni}
+:::

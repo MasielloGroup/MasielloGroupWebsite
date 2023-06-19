@@ -1,0 +1,49 @@
+---
+title: &TITLE Xiaofei Guo
+first: Xiaofei (Betty)
+last: Guo
+people_group: gradstudent
+education: B.S. Chemistry | Bard College
+email: "xfguo93@uw.edu"
+subtitle: Graduate Student, Chemistry
+degrees: B.S. Chemistry, Bard College
+image: avatar.jpeg
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:xfguo93@uw.edu
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

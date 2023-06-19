@@ -1,0 +1,48 @@
+---
+title: &TITLE Austin G. Nixon
+last: Nixon
+first: Austin
+people_group: gradstudent
+email: "austinxn@uw.edu"
+education: B.S. Physics and Chemistry | University of Washington
+subtitle: Graduate Student, Chemistry
+image: avatar.jpg
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:austinxn@uw.edu
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

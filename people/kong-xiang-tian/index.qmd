@@ -1,0 +1,45 @@
+---
+subtitle: Post-Doctoral Fellow
+first: Xiang-Tian
+last: Kong
+title: &TITLE Xiang-Tian Kong
+people_group: alumni
+image: avatar.png
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
+-
+
+

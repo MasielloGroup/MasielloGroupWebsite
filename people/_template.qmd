@@ -1,0 +1,50 @@
+---
+title: &TITLE Name
+last: 
+first: 
+people_group: "postdoc | gradstudent | alumni"
+email: 
+education:
+  - deg | inst | year <br> 
+subtitle: "Postdoctoral Fellow | Graduate Student, dept "
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

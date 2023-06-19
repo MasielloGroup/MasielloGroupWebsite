@@ -1,0 +1,50 @@
+---
+title: &TITLE Michael Hilyard
+first: Michael
+last: Hilyard
+people_group: gradstudent
+education: B.S. Chemistry | University of Toledo
+email: "mhilyar2@uw.edu"
+subtitle: Graduate Student, Materials Science and Engineering
+image: avatar.png
+listing:
+  id: pubs
+  contents: ../../../publications/**/*.qmd
+  sort: date desc
+  sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date]
+page-layout: full
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:mhilyar2@uw.edu
+---
+
+<hr>
+
+
+:::{#about}
+
+
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
+
+
