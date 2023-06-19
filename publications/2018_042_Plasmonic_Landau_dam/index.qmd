@@ -1,0 +1,11 @@
+---
+title: "Plasmonic Landau damping in active environments"
+date: 2018-03-01
+author: ["Niket Thakkar", "Nicholas P. Montoni", "Charles Cherqui", "David J. Masiello"]
+publication: "Physical Review B, **97**, _pp. 121403_ (2018)."
+categories: ["fast_electron_nano-spectroscopy"]
+url_source: https://link.aps.org/doi/10.1103/PhysRevB.97.121403
+url_preprint: 
+image: featured.png
+pub_number: 42
+---

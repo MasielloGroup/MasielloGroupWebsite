@@ -1,0 +1,10 @@
+---
+title: "Comment on \"HgS and HgS/CdS Colloidal Quantum Dots with Infrared Intraband Transitions and Emergence of a Surface Plasmon\""
+date: 2016-01-01
+author: ["Niket Thakkar", "Alina M. Schimpf", "Carolyn E. Gunthardt", "Daniel R. Gamelin", "David J. Masiello"]
+publication: "Journal of Physical Chemistry C, **120**, _pp. 28900-28902_ (2016)."
+categories: []
+url_source: https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b10200
+url_preprint: 
+pub_number: 29
+---

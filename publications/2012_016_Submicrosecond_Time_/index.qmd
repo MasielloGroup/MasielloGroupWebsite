@@ -1,0 +1,11 @@
+---
+title: "Submicrosecond Time Resolution Atomic Force Microscopy for Probing Nanoscale Dynamics"
+date: 2012-01-01
+author: ["Rajiv Giridharagopal", "Glennis E. Rayermann", "Guozheng Shao", "David T. Moore", "Obadiah G. Reid", "Andreas F. Tillack", "David. J. Masiello", "David S. Ginger"]
+publication: "Nano Letters, **12**, _pp. 893-898_ (2012)."
+categories: []
+url_source: https://pubs.acs.org/doi/10.1021/nl203956q
+url_preprint: 
+image: featured.gif
+pub_number: 16
+---

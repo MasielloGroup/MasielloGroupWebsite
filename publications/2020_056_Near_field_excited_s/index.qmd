@@ -1,0 +1,10 @@
+---
+title: "Near field excited state imaging via stimulated electron energy gain spectroscopy of localized surface plasmon resonances in plasmonic nanorod antennas"
+date: 2020-06-01
+author: ["Robyn Collette", "David A. Garfinkel", "Zhongwei Hu", "David J. Masiello", "Philip D. Rack"]
+publication: "Scientific Reports, **10**, _pp. 12537_ (2020)."
+categories: ["fast_electron_nano-spectroscopy"]
+url_source: https://doi.org/10.1038/s41598-020-69066-z
+url_preprint: 
+pub_number: 56
+---

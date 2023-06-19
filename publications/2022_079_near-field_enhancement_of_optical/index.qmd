@@ -1,0 +1,10 @@
+---
+title: "Near-Field Enhancement of Optical Second Harmonic Generation in Hybrid Gold-Lithium Niobate Nanostructures"
+date: 2023-01-10
+author: ["Rana Faryad Ali", "Jacob A. Busche", "Saeid Kamal", "David J. Masiello", "Byron D. Gates"]
+publication: "Light: Science & Applications, accepted  (2023)"
+categories: ["nanophotonics-quantum_optics"]
+url_source: 
+url_preprint: 
+pub_number: 79
+---

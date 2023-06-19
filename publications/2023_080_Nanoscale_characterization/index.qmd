@@ -1,0 +1,10 @@
+---
+title: "Nanoscale Characterization of Individual 3D Split Ring Resonator Dimers and Trimers"
+date: 2023-01-09
+author: [ "C. Praise Anyanwu", "Grace Pakeltis", "Philip D. Rack", "David J. Masiello"]
+publication: "ACS Applied Optical Materials, accepted (2023)"
+categories: ["fast_electron_nano-spectroscopy", "nanophotonics-quantum_optics"]
+url_source: 
+url_preprint: 
+pub_number: 80
+---

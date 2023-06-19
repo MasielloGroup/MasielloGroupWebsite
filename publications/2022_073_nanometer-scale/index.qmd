@@ -1,0 +1,11 @@
+---
+title: "Nanometer-Scale Spatial and Spectral Mapping of Exciton Polaritons in Structured Plasmonic Cavities"
+date: 2022-05-03
+author: ["Marc R. Bourgeois", "Elliot K. Beutler", "Siamak Khorasani", "Nicole Panek", "David J. Masiello"]
+publication: "Physical Review Letters, **128**, _pp. 197401_ (2022)."
+categories: ["fast_electron_nano-spectroscopy"]
+url_source: https://link.aps.org/doi/10.1103/PhysRevLett.128.197401
+url_preprint: 
+image: featured.png
+pub_number: 73
+---

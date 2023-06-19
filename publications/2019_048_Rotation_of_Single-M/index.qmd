@@ -1,0 +1,11 @@
+---
+title: "Rotation of Single-Molecule Emission Polarization by Plasmonic Nanorods"
+date: 2019-04-01
+author: ["Tiancheng Zuo", "Harrison J. Goldwyn", "Benjamin P. Isaacoff", "David J. Masiello", "Julie S. Biteen"]
+publication: "Journal of Physical Chemistry Letters, **10**, _pp. 5047-5054_ (2019)."
+categories: ["photothermal_spectroscopy_and_microscopy"]
+url_source: https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b02270
+url_preprint: 
+image: featured.gif
+pub_number: 48
+---

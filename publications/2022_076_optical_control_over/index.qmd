@@ -1,0 +1,10 @@
+---
+title: "Optical Control Over Thermal Distributions in Topologically Trivial and Non-Trivial Plasmon Lattices"
+date: 2022-07-15
+author: ["Marc R. Bourgeois", "Andrew W. Rossi", "Siamak Khorasani", "David J. Masiello"]
+publication: "ACS Photonics, **9**, _pp. 3656–3667_ (2022)"
+categories: ["photothermal_spectroscopy_and_microscopy", "nanophotonics-quantum_optics"]
+url_source: https://pubs.acs.org/doi/10.1021/acsphotonics.2c01155
+url_preprint: 
+pub_number: 76
+---

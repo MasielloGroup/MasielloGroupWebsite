@@ -1,0 +1,11 @@
+---
+title: "Lattice Kerker Effect with Plasmonic Oligomers"
+date: 2021-08-19
+author: ["Marc R. Bourgeois", "Andrew W. Rossi", "Matthieu Chalifour", "Charles Cherqui", "David J. Masiello"]
+publication: "Journal of Physical Chemistry C, **125**, _pp. 18817-18826_ (2021)."
+categories: ["nanophotonics-quantum_optics"]
+url_source: https://pubs.acs.org/doi/10.1021/acs.jpcc.1c05024
+url_preprint: 
+image: featured.gif
+pub_number: 68
+---

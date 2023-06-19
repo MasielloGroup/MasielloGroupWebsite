@@ -1,0 +1,10 @@
+---
+title: "On the linear response and scattering of an interacting molecule-metal system"
+date: 2010-01-01
+author: ["David J. Masiello", "George C. Schatz"]
+publication: "Journal of Chemical Physics, **132**, _pp. 064102_ (2010)."
+categories: []
+url_source: https://aip.scitation.org/doi/10.1063/1.3308624
+url_preprint: 
+pub_number: 11
+---

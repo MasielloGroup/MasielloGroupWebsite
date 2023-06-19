@@ -1,0 +1,10 @@
+---
+title: "On the Canonical Formulation of Electrodynamics and Wave Mechanics"
+date: 2005-01-01
+author: ["David Masiello", "Erik Deumens", "Yngve Ohrn"]
+publication: "Advances Quantum Chemistry, **49**, _pp. 6_ (2005)."
+categories: []
+url_source: https://www.sciencedirect.com/science/article/pii/S0065327605490061
+url_preprint: 
+pub_number: 5
+---

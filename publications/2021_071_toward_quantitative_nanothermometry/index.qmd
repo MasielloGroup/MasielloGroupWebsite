@@ -1,0 +1,11 @@
+---
+title: "Toward Quantitative Nanothermometry Using Single-Molecule Counting"
+date: 2021-11-01
+author: ["Phillip A. Reinhardt", "Abigail P. Crawford", "Claire A. West", "Gabe DeLong", "Stephan Link", "David J. Masiello", "Katherine A. Willets"]
+publication: "Journal of Physical Chemistry B, **125**, _pp. 12197-12205_ (2021)."
+categories: ["photothermal_spectroscopy_and_microscopy"]
+url_source: https://doi.org/10.1021/acs.jpcb.1c08348
+url_preprint: 
+image: featured.gif
+pub_number: 71
+---
