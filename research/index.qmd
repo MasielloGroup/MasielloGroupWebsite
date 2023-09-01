@@ -1,0 +1,7 @@
+---
+title: Research
+listing:
+  id: research
+  type: grid
+page-layout: full
+---
