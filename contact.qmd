@@ -1,38 +1,32 @@
 ---
-title: "Finley Malloc"
-about:
-  id: hero-heading
-  template: jolla
-  image: chalkboard_sm.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: github
-      text: Github
-      href: https://github.com
+title: "David J. Masiello"
+about: 
+  id: contact
+  template: solana
+  image-shape: round
+  image: people/masiello-david/avatar.jpg
 ---
 
-### This content appears above the formatted about page content.
 
-:::{#hero-heading}
+<hr>
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending  time unicycling and playing with her pet iguana.
 
-## Education
+:::{#contact}
 
-University of California, San Diego | San Diego, CA
-PhD in Mathematics | Sept 2011 - June 2015
+#### {{< fa envelope >}} &nbsp; masiello@uw.edu
 
-Macalester College | St. Paul MA
-B.A in Economics | Sept 2007 - June 2011
+#### {{< fa phone >}} &nbsp; 206-543-5579
 
-## Experience
+#### {{< fa map-location-dot >}} &nbsp; Department of Chemistry, CHB 304F, Seattle, WA 98195-1700
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
-
-GeoScynce | Chief Analyst | Sept 2012 - April 2018
 
 :::
 
-### This content appears below the formatted about page content.
+```{r}
+#| echo: false
+library(leaflet)
+leaflet() %>%
+  addTiles() %>%  # Add default OpenStreetMap map tiles
+  addMarkers(lng=-122.30830, lat=47.65297)
+```
+
