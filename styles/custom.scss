@@ -1,0 +1,138 @@
+/*-- scss:defaults --*/
+
+// Colors
+$primary: #4b2e83; 
+$sand_old: #f0eeeb;
+$sand: #F6F5F3;
+$gold: #e8e3d3;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Bebas+Neue&family=Economica&display=swap');
+
+/*-- scss:rules --*/
+/* -- fonts * --*/
+// h1, .h1 {
+//   font-family: 'Bebas Neue', sans-serif;
+// }
+
+// h2, .h2 {
+//   font-family: 'Bebas Neue', sans-serif;
+
+// }
+
+
+/* -- people --*/
+
+
+
+/*-- navbar --*/
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1em;
+  // font-family: 'Arsenal', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
+  // font-family: 'Economica', sans-serif;
+  }
+
+#quarto-header {
+  /*border-bottom: 1px solid black; */
+}
+
+
+.navbar-brand.navbar-brand-logo {
+  display: flex;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 1.5em;
+}
+
+.navbar-logo {
+  max-height: 150px;
+  width: auto;
+  align-items: baseline;
+}
+
+/*
+@media (max-width: 991px) {
+  .navbar-brand.navbar-brand-logo {
+    margin-left: 5vw;
+    margin-right: 10vw;
+}
+}
+
+@media (max-width: 991px) {
+.navbar-logo {
+  max-height: 100px;
+  width: auto;
+  align-items: baseline;
+}
+}
+*/
+
+.nav-item {
+  margin-top: 5rem; 
+}
+
+/* homepage */
+.content-container {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  
+}
+
+.top-story {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 1em; 
+  box-sizing: border-box;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.top-story img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.top-story-text {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1.5rem;
+  // font-weight: bold;
+  font-size: larger;
+}
+
+
+
+.top-story-img p {
+  margin-bottom: 0;
+}
+
+/*-- background styles --*/
+
+.black-background {
+  background-color: black;
+}
+
+.primary-background {
+  background-color: $primary;
+}
+
+.gold-background {
+  background-color: $gold;
+}
+
+.sand-background {
+  background-color: $sand;
+}
+
+.cmm-background {
+  background-image: url(/images/cmm5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
