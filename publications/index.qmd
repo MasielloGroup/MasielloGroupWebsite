@@ -1,0 +1,20 @@
+---
+title: "Publications"
+listing:
+  id: pubs
+  categories: false
+  contents: ../publications/**/*.qmd
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: "David J. Masiello"
+  fields: [date, title, description, publication, image, pub_number, author]
+page-layout: full
+---
+
+<hr>
+<br>
+
+:::{#pubs}
+:::
+
