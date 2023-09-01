@@ -18,7 +18,7 @@ listing:
   filter-ui: true
   include:
     author: *TITLE
-  fields: [publication, title, categories, image, date]
+  fields: [publication, title, categories, image, date, author]
 about: 
   id: about
   template: trestles

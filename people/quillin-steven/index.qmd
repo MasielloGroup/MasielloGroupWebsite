@@ -13,7 +13,7 @@ listing:
   filter-ui: true
   include:
     author: *TITLE
-  fields: [publication, title, categories, image, date]
+  fields: [publication, title, categories, image, date, author]
 page-layout: full
 about: 
   id: about
@@ -27,10 +27,6 @@ about:
 
 :::{#about}
 
-
-
-## Education
-{{< meta education >}}
 
 <br>
 

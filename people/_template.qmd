@@ -17,7 +17,7 @@ listing:
   filter-ui: true
   include:
     author: *TITLE
-  fields: [publication, title, categories, image, date]
+  fields: [publication, title, categories, image, date, author]
 page-layout: full
 about: 
   id: about
@@ -27,7 +27,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:
+      href: mailto:email@example.org
 ---
 
 <hr>
