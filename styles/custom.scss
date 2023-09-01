@@ -21,7 +21,6 @@ $gold: #e8e3d3;
 // }
 
 
-/* -- people --*/
 
 
 
@@ -136,3 +135,92 @@ $gold: #e8e3d3;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+/* -- people --*/
+
+.listing-box {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  max-height: 100%;
+    padding: 20px;
+  margin-bottom: 24px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  background-color: #fff;
+    -webkit-transition: border-color .2s,box-shadow .2s,color .2s;
+  transition: border-color .2s,box-shadow .2s,color .2s;
+  text-decoration: none;
+}
+
+.listing-box:hover {
+  border-color: $primary;
+  background-color: transparent;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+            0px 2px 4px rgba(0,0,0,0.1), 
+            0px 4px 8px rgba(0,0,0,0.1), 
+            0px 8px 16px rgba(0,0,0,0.1);
+}
+
+.listing-box-title {
+  max-width: 80%;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #222;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.listing-box-subtitle {
+  /*    margin-top: auto;*/
+  font-family: 'Bebas Neue', sans-serif;
+  margin-bottom: 0;
+  color: #757883;
+  line-height: 1.5;
+}
+
+.listing-box-education {
+  margin-bottom: 0;
+  color: #757883;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.listing-box-button a[role="button"] {
+  width: 140px;
+  min-height: 150px;
+  color: rgb(55, 58, 60);
+  text-align: center;
+  border: 1px solid rgb(222, 226, 230);
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.listing-box-section {
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.listing-box-section .people {
+  display: inline-block;
+  width: 33%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  vertical-align: top;
+}
+
+
+
+/* -- publications --*/

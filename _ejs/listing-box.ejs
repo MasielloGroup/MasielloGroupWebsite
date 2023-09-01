@@ -1,0 +1,43 @@
+```{=html}
+
+<div class="listing-box-section">
+  
+  <!-- 'console.log(item);' added for debugging so you can see what is being fed into the ejs template -->
+  <% for (const item of items) { console.log(item);%> 
+  
+  <div class="people">
+    
+    
+    
+    <a href="<%- item.path %>" role="button" class="listing-box-button listing-box">
+      
+        <div class="card-img-top">
+          <img alt="<%= item.title %>" src="<%= item.image %>" class="thumbnail-image card-img" >
+        </div>
+          
+        <div class="listing-box-title">
+          <%= item.title %><br> 
+        </div>
+            
+        <div class="listing-box-subtitle">
+          <%= item.subtitle %><br>
+        </div>
+              
+        <div class="listing-box-education">
+           
+          <% if (item.education) { %>
+            <b>education: <br></b><%= item.education %><br>
+          <%} else { %>
+            <p> Not Allowed </p>
+          <% } %>
+            
+        </div>          
+    </a>
+    
+  </div>
+
+  <% } %>
+
+</div>
+
+```
