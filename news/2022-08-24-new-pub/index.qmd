@@ -1,0 +1,5 @@
+---
+title: "Our paper on Polarization-Resolved Electron Energy Gain Nanospectroscopy With Vortex Beams is accepted in Nano Letters"
+date: '2022-08-23'
+description: Congratulations to Marc, Austin, Matthieu, and Elliot for their theoretical development and interpretation of a new class of transverse phase structured inelastic electron scattering signals capable of retrieving the full 3D electromagnetic local density of states and local chirality of nanoscale material specimens in a scanning transmission electron microscope.
+---

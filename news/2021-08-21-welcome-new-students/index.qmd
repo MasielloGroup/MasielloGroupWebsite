@@ -1,5 +1,5 @@
 ---
 title: Welcome New Students!
 date: '2021-08-18'
+description: Warm welcome to new graduate students Matthieu Chalifour, Austin Nixon, Nicole Panek, and Andrew Rossi!
 ---
-Warm welcome to new graduate students Matthieu Chalifour, Austin Nixon, Nicole Panek, and Andrew Rossi!

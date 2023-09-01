@@ -1,6 +1,8 @@
 ---
 title: News
 listing: 
-  type: grid
+  type: default
   sort: "date desc"
+  fields: [date, title, description]
+
 ---
