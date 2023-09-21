@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 listing:
+  type: table
   id: pubs
   categories: false
   contents: ../publications/**/*.qmd
@@ -8,7 +9,11 @@ listing:
   filter-ui: true
   include:
     author: "David J. Masiello"
-  fields: [date, title, description, publication, image, pub_number, author]
+  fields: [image, pub_number, date, title, publication, author]
+  field-display-names:
+    pub_number: "No."
+    date: "Year"
+    publication: "Journal"
 page-layout: full
 ---
 
