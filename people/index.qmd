@@ -2,23 +2,27 @@
 title: "People"
 listing:
   - id: pi
+    template: ../_ejs/people-box.ejs
     include: 
       people_group: "Principal Investigator"
-    type: grid
+    # type: grid
     fields: [title, subtitle, image, education]
   - id: postdoc
+    template: ../_ejs/people-box.ejs
     sort: last
     include: 
       people_group: "postdoc"
-    type: grid
+    # type: grid
     fields: [title, subtitle, image, education]
   - id: gradstudent
+    template: ../_ejs/people-box.ejs
     sort: last
     include: 
       people_group: "gradstudent"
     type: grid
     fields: [title, subtitle, image, education]
   - id: alumni
+    template: ../_ejs/people-box.ejs
     sort: last
     include: 
       people_group: "alumni"
