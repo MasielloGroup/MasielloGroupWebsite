@@ -7,12 +7,16 @@ listing:
       people_group: "Principal Investigator"
     # type: grid
     fields: [title, subtitle, image, education]
+  - id: researcher
+    template: ../_ejs/people-box.ejs
+    sort: last
+    include: 
+      people_group: "researcher"
   - id: postdoc
     template: ../_ejs/people-box.ejs
     sort: last
     include: 
       people_group: "postdoc"
-    # type: grid
     fields: [title, subtitle, image, education]
   - id: gradstudent
     template: ../_ejs/people-box.ejs
@@ -38,6 +42,11 @@ page-layout: full
 ## Principal Investigator
 
 ::: {#pi}
+:::
+
+## Research Scientists
+
+::: {#researcher}
 :::
 
 ## Postdoctoral Fellows

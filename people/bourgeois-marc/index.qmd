@@ -2,8 +2,8 @@
 title: &TITLE Marc R. Bourgeois
 last: Bourgeois
 first: Marc
-subtitle: "Postdoctoral Fellow"
-people_group: "postdoc"
+subtitle: "Research Scientist"
+people_group: "researcher"
 email: "mrb179@uw.edu"
 education:
   - Ph.D. Chemistry | Northwestern University <br> M.S. Physics | University of Arizona <br> B.A. Physics, Mathematics, and Integrated Sciences | Northwestern University
