@@ -25,8 +25,8 @@ website:
       - href: people/index.qmd
       - href: research/index.qmd
       - href: publications/index.qmd
-      - text: NSF DMREF
-        href: dmref
+      # - text: NSF DMREF
+      #   href: dmref
       - href: codes/index.qmd
         text: Codes
       - href: contact.qmd
