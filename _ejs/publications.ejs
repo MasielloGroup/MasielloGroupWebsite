@@ -1,0 +1,64 @@
+```{=html}
+
+<div class="class="quarto-listing quarto-listing-container-default">
+  
+  <div class="list quarto-listing-default"> 
+
+    <% for (const item of items) { ;%> 
+    
+      <div class="list quarto-listing-default">
+      
+        <div class="quarto-post image-right">
+          
+          <div class="thumbnail">
+            <p>
+              <% if (item.image) { %>
+              <img alt="<%= item.title %>" src="<%= item.image %>" class="thumbnail-image">
+              <% } %>
+            </p>
+
+            
+          </div>
+
+          <div class="body">
+
+            <div class="listing-pub-title">
+              <%= item.title %><br> 
+            </div>
+
+            <div class="listing-pub-author">
+              <%= item.author %><br> 
+            </div>
+            
+            <div class="listing-pub-journal">
+              <%= item.publication %><br> 
+
+              
+            </div>
+
+          </div>
+
+          <div class="metadata">
+            
+            <div class="listing-pub-number">
+              <%= item.pub_number %><br> 
+            </div>
+            
+          </div>
+
+
+
+
+        </div>
+      
+      
+
+      
+      </div>
+  
+    <% } %>
+  
+  </div>
+</div>
+
+```
