@@ -6,6 +6,10 @@ publication: "Nano Letters, **12**, _pp. 893-898_ (2012)."
 categories: []
 url_source: https://pubs.acs.org/doi/10.1021/nl203956q
 url_preprint: 
+journ: "Nano Letters"
+issue: 12
+page: 893-898
+year: 2012
 image: featured.gif
 pub_number: 16
 ---

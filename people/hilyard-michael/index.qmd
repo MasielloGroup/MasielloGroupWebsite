@@ -9,10 +9,11 @@ subtitle: Graduate Student, Materials Science and Engineering
 image: avatar.png
 listing:
   id: pubs
+  template: ../../_ejs/publications-people.ejs 
   contents: ../../../publications/**/*.qmd
-  sort: date desc
-  sort-ui: true
-  filter-ui: true
+  sort: "pub_number desc"
+  # sort-ui: true
+  # filter-ui: true
   include:
     author: *TITLE
   fields: [publication, title, categories, image, date, author]

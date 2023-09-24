@@ -6,6 +6,10 @@ publication: "ACS Photonics, **3**, _pp. 130-138_ (2016)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://doi.org/10.1021/acsphotonics.5b00548
 url_preprint: 
+journ: "ACS Photonics"
+issue: 3
+page: 130-138
+year: 2016
 image: featured.gif
 pub_number: 30
 ---

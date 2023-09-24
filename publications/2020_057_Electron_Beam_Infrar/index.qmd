@@ -6,6 +6,10 @@ publication: "Nano Letters, **20**, _pp. 7987-7994_ (2020)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://doi.org/10.1021/acs.nanolett.0c02772
 url_preprint: 
+journ: "Nano Letters"
+issue: 20
+page: 7987-7994
+year: 2020
 image: featured.jpg
 pub_number: 57
 ---

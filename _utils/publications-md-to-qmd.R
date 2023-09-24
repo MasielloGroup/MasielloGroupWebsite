@@ -24,7 +24,22 @@ convert_md_to_qmd <- function(input, output_file) {
   # Put title and publication in quotes
   qmd_header <- str_replace(qmd_header, "(title: )(.*)", "\\1\\\"\\2\\\"")
   qmd_header <- str_replace(qmd_header, "(publication: )(.*)", "\\1\\\"\\2\\\"")
-  
+
+  # parse out publication into separate units
+  # everything after 'publication:' and before the comma
+  journ_name <- str_extract(qmd_header, '(publication: \")([^,]+)',2) |> discard(is.na)
+  # the part between double **
+  issue <-  str_extract(qmd_header, 'publication: \".*\\*\\*(.*?)\\*\\*',1) |> discard(is.na)
+  # what's after pp.
+  page <- str_extract(qmd_header, 'publication:.*(_|\\*{1})pp. (.*)(_|\\*{1})',2)  |> discard(is.na)
+  # the value in the parentheses
+  year <- str_extract(qmd_header, 'publication: \".*\\((\\d+)\\)',1) |> discard(is.na)
+  if(length(journ_name) == 1){qmd_header <- append(qmd_header, paste0('journ: "', journ_name,'"'))}
+  if(length(issue) == 1){qmd_header <- append(qmd_header, paste("issue:", issue))}
+  if(length(page) == 1){qmd_header <- append(qmd_header, paste("page:", page))}
+  if(length(year) == 1){qmd_header <- append(qmd_header, paste("year:", year))}
+ 
+
   # add featured image, if it exists
   if(length(dir_ls(path_dir(input$inputs),glob = "*featured*")) == 1){
     image_name <- path_file(dir_ls(path_dir(input$inputs),glob = "*featured*"))
@@ -72,3 +87,5 @@ purrr::map2(input_list, outputs, convert_md_to_qmd)
 # purrr::map(path_dir(inputs), dir_delete)
 
 dir_ls("publications", recurse = TRUE, glob = "*featured*")
+
+

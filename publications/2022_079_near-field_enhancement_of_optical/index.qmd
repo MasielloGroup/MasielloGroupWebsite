@@ -6,5 +6,7 @@ publication: "Light: Science & Applications, accepted  (2023)"
 categories: ["nanophotonics-quantum_optics"]
 url_source: 
 url_preprint: 
+journ: "Light: Science & Applications"
+year: 2023
 pub_number: 79
 ---

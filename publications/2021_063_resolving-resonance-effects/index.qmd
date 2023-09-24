@@ -6,5 +6,8 @@ publication: "**under review**, (2021)."
 categories: ["photothermal_spectroscopy_and_microscopy"]
 url_source: 
 url_preprint: https://arxiv.org/abs/2103.01494
+journ: "**under review**"
+issue: under review
+year: 2021
 pub_number: 63
 ---

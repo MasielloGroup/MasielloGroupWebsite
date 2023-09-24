@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry C, **125**, _pp. 18817-18826_ (2021)
 categories: ["nanophotonics-quantum_optics"]
 url_source: https://pubs.acs.org/doi/10.1021/acs.jpcc.1c05024
 url_preprint: 
+journ: "Journal of Physical Chemistry C"
+issue: 125
+page: 18817-18826
+year: 2021
 image: featured.gif
 pub_number: 68
 ---

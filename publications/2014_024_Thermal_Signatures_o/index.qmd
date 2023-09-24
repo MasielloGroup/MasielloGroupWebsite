@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry Letters, **5**, _pp. 1347-1354_ (201
 categories: ["photothermal_spectroscopy_and_microscopy"]
 url_source: https://pubs.acs.org/doi/10.1021/jz500421z
 url_preprint: 
+journ: "Journal of Physical Chemistry Letters"
+issue: 5
+page: 1347-1354
+year: 2014
 image: featured.gif
 pub_number: 24
 ---

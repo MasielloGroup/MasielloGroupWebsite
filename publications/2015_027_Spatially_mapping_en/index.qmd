@@ -6,6 +6,10 @@ publication: "Nano Letters, **15**, _pp. 3465-3471_ (2015)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5b00802
 url_preprint: 
+journ: "Nano Letters"
+issue: 15
+page: 3465-3471
+year: 2015
 image: featured.gif
 pub_number: 27
 ---

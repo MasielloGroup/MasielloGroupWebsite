@@ -6,5 +6,9 @@ publication: "Nano Letters, **22**, _pp. 7158–7165_  (2022)"
 categories: ["fast_electron_nano-spectroscopy", "nanophotonics-quantum_optics"]
 url_source: https://pubs.acs.org/doi/10.1021/acs.nanolett.2c02375
 url_preprint: 
+journ: "Nano Letters"
+issue: 22
+page: 7158–7165
+year: 2022
 pub_number: 77
 ---

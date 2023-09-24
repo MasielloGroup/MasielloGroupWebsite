@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry C, **117**, _pp. 12249-12257_ (2013)
 categories: []
 url_source: https://pubs.acs.org/doi/10.1021/jp403047t
 url_preprint: 
+journ: "Journal of Physical Chemistry C"
+issue: 117
+page: 12249-12257
+year: 2013
 image: featured.gif
 pub_number: 18
 ---

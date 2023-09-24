@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry B, **124**, _pp. 11680-11689_ (2020)
 categories: ["photothermal_spectroscopy_and_microscopy"]
 url_source: https://doi.org/10.1021/acs.jpcb.0c07719
 url_preprint: 
+journ: "Journal of Physical Chemistry B"
+issue: 124
+page: 11680-11689
+year: 2020
 image: featured.gif
 pub_number: 59
 ---

@@ -1,64 +1,75 @@
 ```{=html}
-
-<div class="class="quarto-listing quarto-listing-container-default">
-  
-  <div class="list quarto-listing-default"> 
-
-    <% for (const item of items) { ;%> 
+<div class="list quarto-listing-default">
+    <% for (const item of items) { %>
     
-      <div class="list quarto-listing-default">
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="<%- item.path %>"> -->
+
+                <p>
+                    <% if (item.image) { %>
+                    <img alt="<%= item.title %>" src="<%= item.image %>" class="thumbnail-image">
+                    <% } %>
+
+                </p>
       
-        <div class="quarto-post image-right">
-          
-          <div class="thumbnail">
-            <p>
-              <% if (item.image) { %>
-              <img alt="<%= item.title %>" src="<%= item.image %>" class="thumbnail-image">
-              <% } %>
-            </p>
 
-            
-          </div>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="<%- item.path %>"> -->
+            <div class="no-anchor listing-pub-title"><%= item.title %></div>
+            <!-- </a> -->
+            <!-- <a href="<%- item.path %>"> -->
+                
+                <div class="listing-pub-author">
+                    <%= item.author %><br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal">
+                    <% if (item.journ) { %>
+                        <i><%= item.journ %></i><% if (item.issue) { %>, <b><%= item.issue %></b><% } %><% if (item.page) { %>, <%= item.page %><% } %><% if (item.year) { %> (<%= item.year %>)<% } %><br>
+                        
+                        <% } %>
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <% for (const category of item.categories) { %>
+                <div class="listing-category" onclick="window.quartoListingCategory('<%=category%>'); return false;"><%= category %></div>
+                <% } %>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <!-- <a href="<%- item.path %>"> -->
+                <div class="listing-pub-number">
+                    <%= item.pub_number %><br> 
+                </div>
 
-          <div class="body">
+            <!-- </a> -->
+            <% if (item.url_source) { %>
+            <div class="listing-pub-url">
 
-            <div class="listing-pub-title">
-              <%= item.title %><br> 
-            </div>
-
-            <div class="listing-pub-author">
-              <%= item.author %><br> 
-            </div>
-            
-            <div class="listing-pub-journal">
-              <%= item.publication %><br> 
-
-              
-            </div>
-
-          </div>
-
-          <div class="metadata">
-            
-            <div class="listing-pub-number">
-              <%= item.pub_number %><br> 
-            </div>
-            
-          </div>
+                    <a href="<%- item.url_source %>">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    <% } %>
 
 
 
 
         </div>
-      
-      
-
-      
-      </div>
-  
+    </div>
+    
     <% } %>
-  
-  </div>
-</div>
+    </div>
 
 ```

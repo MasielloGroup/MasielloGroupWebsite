@@ -6,5 +6,9 @@ publication: "Scientific Reports, **10**, _pp. 12537_ (2020)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://doi.org/10.1038/s41598-020-69066-z
 url_preprint: 
+journ: "Scientific Reports"
+issue: 10
+page: 12537
+year: 2020
 pub_number: 56
 ---

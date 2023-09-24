@@ -6,6 +6,10 @@ publication: "Physical Review Letters, **123**, _pp. 177401_ (2019)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://link.aps.org/doi/10.1103/PhysRevLett.123.177401
 url_preprint: 
+journ: "Physical Review Letters"
+issue: 123
+page: 177401
+year: 2019
 image: featured.png
 pub_number: 50
 ---

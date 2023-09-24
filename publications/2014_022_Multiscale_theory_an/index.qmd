@@ -6,6 +6,10 @@ publication: "International Journal of Quantum Chemistry, **114**, _pp. 1413-142
 categories: []
 url_source: https://onlinelibrary.wiley.com/doi/abs/10.1002/qua.24705
 url_preprint: 
+journ: "International Journal of Quantum Chemistry"
+issue: 114
+page: 1413-1420
+year: 2014
 image: featured.png
 pub_number: 22
 ---

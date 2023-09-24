@@ -6,6 +6,10 @@ publication: "ACS Nano, **8**, _pp. 1065-1072_ (2014)."
 categories: []
 url_source: https://pubs.acs.org/doi/10.1021/nn406126u
 url_preprint: 
+journ: "ACS Nano"
+issue: 8
+page: 1065-1072
+year: 2014
 image: featured.gif
 pub_number: 20
 ---

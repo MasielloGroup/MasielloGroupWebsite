@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry Letters, **3**, _pp. 2303-2309_ (201
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://pubs.acs.org/doi/10.1021/jz300967q
 url_preprint: 
+journ: "Journal of Physical Chemistry Letters"
+issue: 3
+page: 2303-2309
+year: 2012
 image: featured.gif
 pub_number: 15
 ---

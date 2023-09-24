@@ -6,5 +6,9 @@ publication: "ACS Photonics, **9**, _pp. 3656–3667_ (2022)"
 categories: ["photothermal_spectroscopy_and_microscopy", "nanophotonics-quantum_optics"]
 url_source: https://pubs.acs.org/doi/10.1021/acsphotonics.2c01155
 url_preprint: 
+journ: "ACS Photonics"
+issue: 9
+page: 3656–3667
+year: 2022
 pub_number: 76
 ---

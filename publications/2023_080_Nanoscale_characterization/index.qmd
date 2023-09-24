@@ -6,5 +6,7 @@ publication: "ACS Applied Optical Materials, accepted (2023)"
 categories: ["fast_electron_nano-spectroscopy", "nanophotonics-quantum_optics"]
 url_source: 
 url_preprint: 
+journ: "ACS Applied Optical Materials"
+year: 2023
 pub_number: 80
 ---

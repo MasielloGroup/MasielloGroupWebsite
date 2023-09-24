@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry Letters, **2**, _pp. 1695-1700_ (201
 categories: []
 url_source: https://pubs.acs.org/doi/abs/10.1021/jz200743t
 url_preprint: 
+journ: "Journal of Physical Chemistry Letters"
+issue: 2
+page: 1695-1700
+year: 2011
 image: featured.gif
 pub_number: 13
 ---

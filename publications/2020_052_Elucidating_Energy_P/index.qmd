@@ -6,6 +6,10 @@ publication: "Nano Letters, **20**, _pp. 50-58_ (2020)."
 categories: ["nanophotonics-quantum_optics"]
 url_source: https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.9b02796
 url_preprint: 
+journ: "Nano Letters"
+issue: 20
+page: 50-58
+year: 2020
 image: featured.jpg
 pub_number: 52
 ---

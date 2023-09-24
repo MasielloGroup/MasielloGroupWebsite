@@ -6,6 +6,10 @@ publication: "Optics Express, **29**, _pp. 4661-4671_ (2021)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-29-3-4661&id=447032
 url_preprint: 
+journ: "Optics Express"
+issue: 29
+page: 4661-4671
+year: 2021
 image: featured.jpg
 pub_number: 60
 ---

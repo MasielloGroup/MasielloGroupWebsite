@@ -6,5 +6,9 @@ publication: "Journal of Chemical Physics, **158**, _pp. 024202_ (2023)"
 categories: ["photothermal_spectroscopy_and_microscopy"]
 url_source: https://aip.scitation.org/doi/10.1063/5.0132167
 url_preprint: 
+journ: "Journal of Chemical Physics"
+issue: 158
+page: 024202
+year: 2023
 pub_number: 81
 ---

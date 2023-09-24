@@ -6,5 +6,9 @@ publication: "Nature Photonics, **10**, _pp. 788--796_ (2016)."
 categories: ["nanophotonics-quantum_optics"]
 url_source: https://www.nature.com/articles/nphoton.2016.217
 url_preprint: 
+journ: "Nature Photonics"
+issue: 10
+page: 788--796
+year: 2016
 pub_number: 33
 ---

@@ -5,5 +5,7 @@ author: ["David John Masiello"]
 publication: "NA (2004)."
 categories: []
 url_preprint: 
+journ: "NA"
+year: 2004
 pub_number: 2
 ---

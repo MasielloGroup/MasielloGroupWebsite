@@ -1,25 +1,27 @@
 ---
 title: "Publications"
 listing:
-  type: table
-  id: pubs
-  categories: false
-  contents: ../publications/**/*.qmd
-  sort: "pub_number desc"
-  filter-ui: true
-  include:
-    author: "David J. Masiello"
-  fields: [image, pub_number, date, title, publication, author]
-  field-display-names:
-    pub_number: "No."
-    date: "Year"
-    publication: "Journal"
+  - id: pubs
+    template: ../_ejs/publications.ejs
+    contents: ../publications/**/*.qmd
+    sort: "pub_number desc"
+    page-size: 30
+    # filter-ui: [title]
+    fields: [image, pub_number, title, publication, author,url_source]
+  # - id: pubs
+    # type: default
+    # categories: false
+    # contents: ../publications/**/*.qmd
+    # sort: "pub_number desc"
+    # filter-ui: false
+    # fields: [image, pub_number, title, publication, author]
 page-layout: full
 ---
 
 <hr>
-<br>
 
 :::{#pubs}
 :::
+
+
 

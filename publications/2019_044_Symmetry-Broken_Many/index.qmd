@@ -6,6 +6,10 @@ publication: "Journal of Physical Chemistry A, **123**, _pp. 1962-1967_ (2019)."
 categories: []
 url_source: https://doi.org/10.1021/acs.jpca.8b10583
 url_preprint: 
+journ: "Journal of Physical Chemistry A"
+issue: 123
+page: 1962-1967
+year: 2019
 image: featured.gif
 pub_number: 44
 ---

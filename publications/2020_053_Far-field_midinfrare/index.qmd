@@ -6,6 +6,10 @@ publication: "Proceedings of the National Academy of Sciences, **117**, _pp. 228
 categories: ["photothermal_spectroscopy_and_microscopy"]
 url_source: https://www.pnas.org/content/117/5/2288
 url_preprint: 
+journ: "Proceedings of the National Academy of Sciences"
+issue: 117
+page: 2288--2293
+year: 2020
 image: featured.gif
 pub_number: 53
 ---

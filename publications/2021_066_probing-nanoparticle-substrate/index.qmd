@@ -6,6 +6,10 @@ publication: "Physical Review B, **104**, *pp. 035412* (2021)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://link.aps.org/doi/10.1103/PhysRevB.104.035412
 url_preprint: 
+journ: "Physical Review B"
+issue: 104
+page: 035412
+year: 2021
 image: featured.png
 pub_number: 66
 ---
