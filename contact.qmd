@@ -4,7 +4,7 @@ about:
   id: contact
   template: solana
   image-shape: round
-  image: people/masiello-david/avatar.jpg
+  image: people/masiello-david/avatar.png
 ---
 
 
