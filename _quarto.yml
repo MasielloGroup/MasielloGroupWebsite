@@ -21,7 +21,6 @@ website:
     background: "#F6F5F3"
     logo-alt: "Masiello Research Group"
     left:
-      - href: news/index.qmd
       - href: people/index.qmd
       - href: research/index.qmd
       - href: publications/index.qmd
@@ -29,6 +28,7 @@ website:
       #   href: dmref
       - href: codes/index.qmd
         text: Codes
+      - href: news/index.qmd
       - href: contact.qmd
         text: Contact
 
