@@ -35,9 +35,9 @@ $gold: #e8e3d3;
   // font-family: 'Economica', sans-serif;
   }
 
-#quarto-header {
+/*quarto-header {
   /*border-bottom: 1px solid black; */
-}
+/*}*/
 
 
 .navbar-brand.navbar-brand-logo {
@@ -202,3 +202,38 @@ $gold: #e8e3d3;
 
 
 /* -- publications --*/
+
+.listing-pub-title {
+  /*font-family: 'Bebas Neue', sans-serif;
+  max-width: 80%;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: #222;
+  line-height: 1.2;*/
+  font-size: 18px;
+  font-weight: 700; 
+}
+
+.listing-pub-author {
+  color: #757883;
+  font-size: 13px;
+  margin-bottom: 6px;
+  /*line-height: 1.5;*/
+}
+
+.listing-pub-number {
+  font-weight: 700; 
+  font-size: 15px;
+
+}
+
+.listing-pub-journal {
+  color: #757883;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.listing-pub-url {
+  font-size: 13px;
+
+}
