@@ -69,7 +69,20 @@
   },
   {
     "listing": "/research/nanophotonics-quantum_optics/index.html",
-    "items": []
+    "items": [
+      "/publications/2022_079_near-field_enhancement_of_optical/index.html",
+      "/publications/2023_080_Nanoscale_characterization/index.html",
+      "/publications/2022_078_active_control_of_plasmonic-photonic/index.html",
+      "/publications/2022_076_optical_control_over/index.html",
+      "/publications/2022_077_polarization_resolved/index.html",
+      "/publications/2021_068_lattice_kerker/index.html",
+      "/publications/2021_067_Exact_k-body_represe/index.html",
+      "/publications/2020_055_Active_Tuning_of_Hyb/index.html",
+      "/publications/2020_052_Elucidating_Energy_P/index.html",
+      "/publications/2017_037_Sculpting_Fano_Reson/index.html",
+      "/publications/2016_033_Optical_microresonat/index.html",
+      "/publications/2015_026_Quantum_Beats_from_E/index.html"
+    ]
   },
   {
     "listing": "/publications/index.html",
@@ -195,7 +208,10 @@
   },
   {
     "listing": "/people/chalifour-matthieu/index.html",
-    "items": []
+    "items": [
+      "/publications/2022_077_polarization_resolved/index.html",
+      "/publications/2021_068_lattice_kerker/index.html"
+    ]
   },
   {
     "listing": "/people/guo-xiaofei/index.html",
@@ -250,17 +266,17 @@
     "items": [
       "/publications/2021_068_lattice_kerker/index.html",
       "/publications/2018_042_Plasmonic_Landau_dam/index.html",
-      "/publications/2018_040_Multipolar_Nanocube_/index.html",
       "/publications/2018_041_Tunable_Spectral_Ord/index.html",
+      "/publications/2018_040_Multipolar_Nanocube_/index.html",
       "/publications/2017_036_Noninvasive_Cathodol/index.html",
-      "/publications/2016_028_Characterizing_Local/index.html",
-      "/publications/2016_030_Electron_Energy_Loss/index.html",
-      "/publications/2016_032_Imaging_Plasmon_Hybr/index.html",
-      "/publications/2016_033_Optical_microresonat/index.html",
       "/publications/2016_034_STEM_EELS_Imaging_of/index.html",
-      "/publications/2015_025_Examining_Substrate-/index.html",
-      "/publications/2015_026_Quantum_Beats_from_E/index.html",
+      "/publications/2016_033_Optical_microresonat/index.html",
+      "/publications/2016_032_Imaging_Plasmon_Hybr/index.html",
+      "/publications/2016_030_Electron_Energy_Loss/index.html",
+      "/publications/2016_028_Characterizing_Local/index.html",
       "/publications/2015_027_Spatially_mapping_en/index.html",
+      "/publications/2015_026_Quantum_Beats_from_E/index.html",
+      "/publications/2015_025_Examining_Substrate-/index.html",
       "/publications/2014_021_Combined_Tight-Bindi/index.html"
     ]
   },
@@ -277,13 +293,13 @@
     "items": [
       "/publications/2019_050_Direct_Observation_o/index.html",
       "/publications/2019_043_Nanoscale_probing_of/index.html",
-      "/publications/2018_040_Multipolar_Nanocube_/index.html",
       "/publications/2018_041_Tunable_Spectral_Ord/index.html",
-      "/publications/2017_036_Noninvasive_Cathodol/index.html",
+      "/publications/2018_040_Multipolar_Nanocube_/index.html",
       "/publications/2017_037_Sculpting_Fano_Reson/index.html",
-      "/publications/2016_032_Imaging_Plasmon_Hybr/index.html",
+      "/publications/2017_036_Noninvasive_Cathodol/index.html",
+      "/publications/2016_034_STEM_EELS_Imaging_of/index.html",
       "/publications/2016_033_Optical_microresonat/index.html",
-      "/publications/2016_034_STEM_EELS_Imaging_of/index.html"
+      "/publications/2016_032_Imaging_Plasmon_Hybr/index.html"
     ]
   },
   {
@@ -308,8 +324,8 @@
       "/publications/2023_081_Nonlinear_effects/index.html",
       "/publications/2021_072_model-based_insight/index.html",
       "/publications/2021_065_wavelength-dependent-photothermal/index.html",
-      "/publications/2021_062_coupled-dipole-modeling/index.html",
       "/publications/2021_063_resolving-resonance-effects/index.html",
+      "/publications/2021_062_coupled-dipole-modeling/index.html",
       "/publications/2020_059_Intermolecular_hydrogen/index.html",
       "/publications/2019_048_Rotation_of_Single-M/index.html",
       "/publications/2019_047_Active_Far-Field_Con/index.html",
@@ -424,11 +440,11 @@
     "items": [
       "/publications/2018_042_Plasmonic_Landau_dam/index.html",
       "/publications/2017_037_Sculpting_Fano_Reson/index.html",
-      "/publications/2016_028_Characterizing_Local/index.html",
-      "/publications/2016_029_Comment_on_HgS_and_H/index.html",
-      "/publications/2016_030_Electron_Energy_Loss/index.html",
-      "/publications/2016_033_Optical_microresonat/index.html",
       "/publications/2016_034_STEM_EELS_Imaging_of/index.html",
+      "/publications/2016_033_Optical_microresonat/index.html",
+      "/publications/2016_030_Electron_Energy_Loss/index.html",
+      "/publications/2016_029_Comment_on_HgS_and_H/index.html",
+      "/publications/2016_028_Characterizing_Local/index.html",
       "/publications/2015_026_Quantum_Beats_from_E/index.html",
       "/publications/2014_020_Charge-Tunable_Quant/index.html"
     ]

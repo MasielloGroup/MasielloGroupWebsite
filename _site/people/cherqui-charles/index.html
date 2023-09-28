@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -147,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -203,510 +203,469 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Charles’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="nanophotonics-quantum_optics" data-listing-date-sort="1629356400000" data-listing-file-modified-sort="1687132921517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_068_lattice_kerker/index.html"> <img src="../../publications/2021_068_lattice_kerker/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_068_lattice_kerker/index.html">
-<h3 class="no-anchor listing-title">
-Lattice Kerker Effect with Plasmonic Oligomers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">
-nanophotonics-quantum_optics
-</div>
-</div>
-<a href="../../publications/2021_068_lattice_kerker/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_068_lattice_kerker/index.html">
-<div class="listing-date">
-Aug 2021
-</div>
-<div class="listing-author">
-Marc R. Bourgeois, Andrew W. Rossi, Matthieu Chalifour, Charles Cherqui, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry C, <strong>125</strong>, <em>pp.&nbsp;18817-18826</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1519891200000" data-listing-file-modified-sort="1687132921467" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2018_042_Plasmonic_Landau_dam/index.html"> <img src="../../publications/2018_042_Plasmonic_Landau_dam/featured.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2018_042_Plasmonic_Landau_dam/index.html">
-<h3 class="no-anchor listing-title">
-Plasmonic Landau damping in active environments
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2018_042_Plasmonic_Landau_dam/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2018_042_Plasmonic_Landau_dam/index.html">
-<div class="listing-date">
-Mar 2018
-</div>
-<div class="listing-author">
-Niket Thakkar, Nicholas P. Montoni, Charles Cherqui, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Physical Review B, <strong>97</strong>, <em>pp.&nbsp;121403</em> (2018).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1514793600000" data-listing-file-modified-sort="1687132921464" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2018_040_Multipolar_Nanocube_/index.html"> <img src="../../publications/2018_040_Multipolar_Nanocube_/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2018_040_Multipolar_Nanocube_/index.html">
-<h3 class="no-anchor listing-title">
-Multipolar Nanocube Plasmon Mode-Mixing in Finite Substrates
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2018_040_Multipolar_Nanocube_/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2018_040_Multipolar_Nanocube_/index.html">
-<div class="listing-date">
-Jan 2018
-</div>
-<div class="listing-author">
-Charles Cherqui, Guoliang Li, Jacob A. Busche, Steven C. Quillin, Jon P. Camden, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry Letters, <strong>9</strong>, <em>pp.&nbsp;504-512</em> (2018).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1514793600000" data-listing-file-modified-sort="1687132921465" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2018_041_Tunable_Spectral_Ord/index.html"> <img src="../../publications/2018_041_Tunable_Spectral_Ord/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2018_041_Tunable_Spectral_Ord/index.html">
-<h3 class="no-anchor listing-title">
-Tunable Spectral Ordering of Magnetic Plasmon Resonances in Noble Metal Nanoclusters
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2018_041_Tunable_Spectral_Ord/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2018_041_Tunable_Spectral_Ord/index.html">
-<div class="listing-date">
-Jan 2018
-</div>
-<div class="listing-author">
-Nicholas P. Montoni, Steven C. Quillin, Charles Cherqui, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>5</strong>, <em>pp.&nbsp;3272-3281</em> (2018).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1483257600000" data-listing-file-modified-sort="1687132921457" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2017_036_Noninvasive_Cathodol/index.html"> <img src="../../publications/2017_036_Noninvasive_Cathodol/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2017_036_Noninvasive_Cathodol/index.html">
-<h3 class="no-anchor listing-title">
-Noninvasive Cathodoluminescence-Activated Nanoimaging of Dynamic Processes in Liquids
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2017_036_Noninvasive_Cathodol/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2017_036_Noninvasive_Cathodol/index.html">
-<div class="listing-date">
-Jan 2017
-</div>
-<div class="listing-author">
-Connor G. Bischak, Rebecca B. Wai, Charles Cherqui, Jacob A. Busche, Steven C. Quillin, Craig L. Hetherington, Zhe Wang, Clarice D. Aiello, Darrell G. Schlom, Shaul Aloni, D. Frank Ogletree, David J. Masiello, Naomi S. Ginsberg
-</div>
-<div class="metadata-value listing-publication">
-ACS Nano, <strong>11</strong>, <em>pp.&nbsp;10583-10590</em> (2017).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1451635200000" data-listing-file-modified-sort="1687132921446" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2016_028_Characterizing_Local/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2016_028_Characterizing_Local/index.html">
-<h3 class="no-anchor listing-title">
-Characterizing Localized Surface Plasmons Using Electron Energy-Loss Spectroscopy
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2016_028_Characterizing_Local/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2016_028_Characterizing_Local/index.html">
-<div class="listing-date">
-Jan 2016
-</div>
-<div class="listing-author">
-Charles Cherqui, Niket Thakkar, Guoliang Li, Jon P. Camden, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Annual Review of Physical Chemistry, <strong>67</strong>, <em>pp.&nbsp;331-357</em> (2016).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1451635200000" data-listing-file-modified-sort="1687132921449" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2016_030_Electron_Energy_Loss/index.html"> <img src="../../publications/2016_030_Electron_Energy_Loss/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2016_030_Electron_Energy_Loss/index.html">
-<h3 class="no-anchor listing-title">
-Electron Energy Loss Spectroscopy Study of the Full Plasmonic Spectrum of Self-Assembled Au–Ag Alloy Nanoparticles: Unraveling Size, Composition, and Substrate Effects
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2016_030_Electron_Energy_Loss/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2016_030_Electron_Energy_Loss/index.html">
-<div class="listing-date">
-Jan 2016
-</div>
-<div class="listing-author">
-Yueying Wu, Guoliang Li, Charles Cherqui, Nicholas W. Bigelow, Niket Thakkar, David J. Masiello, Jon P. Camden, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>3</strong>, <em>pp.&nbsp;130-138</em> (2016).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1451635200000" data-listing-file-modified-sort="1687132921452" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2016_032_Imaging_Plasmon_Hybr/index.html"> <img src="../../publications/2016_032_Imaging_Plasmon_Hybr/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2016_032_Imaging_Plasmon_Hybr/index.html">
-<h3 class="no-anchor listing-title">
-Imaging Plasmon Hybridization in Metal Nanoparticle Aggregates with Electron Energy-Loss Spectroscopy
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2016_032_Imaging_Plasmon_Hybr/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2016_032_Imaging_Plasmon_Hybr/index.html">
-<div class="listing-date">
-Jan 2016
-</div>
-<div class="listing-author">
-Steven C. Quillin, Charles Cherqui, Nicholas P. Montoni, Guoliang Li, Jon P. Camden, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry C, <strong>120</strong>, <em>pp.&nbsp;20852-20859</em> (2016).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="nanophotonics-quantum_optics" data-listing-date-sort="1451635200000" data-listing-file-modified-sort="1687132921453" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2016_033_Optical_microresonat/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2016_033_Optical_microresonat/index.html">
-<h3 class="no-anchor listing-title">
-Optical microresonators as single-particle absorption spectrometers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">
-nanophotonics-quantum_optics
-</div>
-</div>
-<a href="../../publications/2016_033_Optical_microresonat/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2016_033_Optical_microresonat/index.html">
-<div class="listing-date">
-Jan 2016
-</div>
-<div class="listing-author">
-Kevin D. Heylman, Niket Thakkar, Erik H. Horak, Steven C. Quillin, Charles Cherqui, Kassandra A. Knapper, David J. Masiello, Randall H. Goldsmith
-</div>
-<div class="metadata-value listing-publication">
-Nature Photonics, <strong>10</strong>, <em>pp.&nbsp;788–796</em> (2016).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1451635200000" data-listing-file-modified-sort="1687132921454" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html"> <img src="../../publications/2016_034_STEM_EELS_Imaging_of/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html">
-<h3 class="no-anchor listing-title">
-STEM/EELS Imaging of Magnetic Hybridization in Symmetric and Symmetry-Broken Plasmon Oligomer Dimers and All-Magnetic Fano Interference
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html">
-<div class="listing-date">
-Jan 2016
-</div>
-<div class="listing-author">
-Charles Cherqui, Yueying Wu, Guoliang Li, Steven C. Quillin, Jacob A. Busche, Niket Thakkar, Claire A. West, Nicholas P. Montoni, Philip D. Rack, Jon P. Camden, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Nano Letters, <strong>16</strong>, <em>pp.&nbsp;6668-6676</em> (2016).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="10" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1420099200000" data-listing-file-modified-sort="1687132921442" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2015_025_Examining_Substrate-/index.html"> <img src="../../publications/2015_025_Examining_Substrate-/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2015_025_Examining_Substrate-/index.html">
-<h3 class="no-anchor listing-title">
-Examining Substrate-Induced Plasmon Mode Splitting and Localization in Truncated Silver Nanospheres with Electron Energy Loss Spectroscopy
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2015_025_Examining_Substrate-/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2015_025_Examining_Substrate-/index.html">
-<div class="listing-date">
-Jan 2015
-</div>
-<div class="listing-author">
-Guoliang Li, Charles Cherqui, Yueying Wu, Nicholas W. Bigelow, Philip D. Simmons, Philip D. Rack, David J. Masiello, Jon P. Camden
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry Letters, <strong>6</strong>, <em>pp.&nbsp;2569-2576</em> (2015).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="11" data-categories="nanophotonics-quantum_optics" data-listing-date-sort="1420099200000" data-listing-file-modified-sort="1687132921443" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2015_026_Quantum_Beats_from_E/index.html"> <img src="../../publications/2015_026_Quantum_Beats_from_E/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2015_026_Quantum_Beats_from_E/index.html">
-<h3 class="no-anchor listing-title">
-Quantum Beats from Entangled Localized Surface Plasmons
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">
-nanophotonics-quantum_optics
-</div>
-</div>
-<a href="../../publications/2015_026_Quantum_Beats_from_E/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2015_026_Quantum_Beats_from_E/index.html">
-<div class="listing-date">
-Jan 2015
-</div>
-<div class="listing-author">
-Niket Thakkar, Charles Cherqui, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>2</strong>, <em>pp.&nbsp;157-164</em> (2015).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="12" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1420099200000" data-listing-file-modified-sort="1687132921445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2015_027_Spatially_mapping_en/index.html"> <img src="../../publications/2015_027_Spatially_mapping_en/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2015_027_Spatially_mapping_en/index.html">
-<h3 class="no-anchor listing-title">
-Spatially mapping energy transfer from single plasmonic particles to semiconductor substrates via STEM/EELS
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2015_027_Spatially_mapping_en/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2015_027_Spatially_mapping_en/index.html">
-<div class="listing-date">
-Jan 2015
-</div>
-<div class="listing-author">
-Guoliang Li, Charles Cherqui, Nicholas W. Bigelow, Gerd Duscher, Patrick J. Straney, Jill E. Millstone, David J. Masiello, Jon P. Camden
-</div>
-<div class="metadata-value listing-publication">
-Nano Letters, <strong>15</strong>, <em>pp.&nbsp;3465-3471</em> (2015).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="13" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1388563200000" data-listing-file-modified-sort="1687132921434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2014_021_Combined_Tight-Bindi/index.html"> <img src="../../publications/2014_021_Combined_Tight-Bindi/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2014_021_Combined_Tight-Bindi/index.html">
-<h3 class="no-anchor listing-title">
-Combined Tight-Binding and Numerical Electrodynamics Understanding of the STEM/EELS Magneto-optical Responses of Aromatic Plasmon-Supporting Metal Oligomers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2014_021_Combined_Tight-Bindi/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2014_021_Combined_Tight-Bindi/index.html">
-<div class="listing-date">
-Jan 2014
-</div>
-<div class="listing-author">
-Charles Cherqui, Nicholas W. Bigelow, Alex Vaschillo, Harrison Goldwyn, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>1</strong>, <em>pp.&nbsp;1013-1024</em> (2014).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_068_lattice_kerker/index.qmd"> -->
+                <p>
+                    <img alt="Lattice Kerker Effect with Plasmonic Oligomers" src="../../publications/2021_068_lattice_kerker/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_068_lattice_kerker/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Lattice Kerker Effect with Plasmonic Oligomers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_068_lattice_kerker/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Marc R. Bourgeois, Andrew W. Rossi, Matthieu Chalifour, Charles Cherqui, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry C</i>, <b>125</b>, 18817-18826 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">nanophotonics-quantum_optics</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acs.jpcc.1c05024">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2018_042_Plasmonic_Landau_dam/index.qmd"> -->
+                <p>
+                    <img alt="Plasmonic Landau damping in active environments" src="../../publications/2018_042_Plasmonic_Landau_dam/featured.png" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2018_042_Plasmonic_Landau_dam/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Plasmonic Landau damping in active environments</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2018_042_Plasmonic_Landau_dam/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Niket Thakkar, Nicholas P. Montoni, Charles Cherqui, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Physical Review B</i>, <b>97</b>, 121403 (2018)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://link.aps.org/doi/10.1103/PhysRevB.97.121403">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2018_041_Tunable_Spectral_Ord/index.qmd"> -->
+                <p>
+                    <img alt="Tunable Spectral Ordering of Magnetic Plasmon Resonances in Noble Metal Nanoclusters" src="../../publications/2018_041_Tunable_Spectral_Ord/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2018_041_Tunable_Spectral_Ord/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Tunable Spectral Ordering of Magnetic Plasmon Resonances in Noble Metal Nanoclusters</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2018_041_Tunable_Spectral_Ord/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Nicholas P. Montoni, Steven C. Quillin, Charles Cherqui, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>5</b>, 3272-3281 (2018)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acsphotonics.8b00519">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2018_040_Multipolar_Nanocube_/index.qmd"> -->
+                <p>
+                    <img alt="Multipolar Nanocube Plasmon Mode-Mixing in Finite Substrates" src="../../publications/2018_040_Multipolar_Nanocube_/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2018_040_Multipolar_Nanocube_/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Multipolar Nanocube Plasmon Mode-Mixing in Finite Substrates</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2018_040_Multipolar_Nanocube_/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Charles Cherqui, Guoliang Li, Jacob A. Busche, Steven C. Quillin, Jon P. Camden, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry Letters</i>, <b>9</b>, 504-512 (2018)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.7b03271">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2017_036_Noninvasive_Cathodol/index.qmd"> -->
+                <p>
+                    <img alt="Noninvasive Cathodoluminescence-Activated Nanoimaging of Dynamic Processes in Liquids" src="../../publications/2017_036_Noninvasive_Cathodol/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2017_036_Noninvasive_Cathodol/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Noninvasive Cathodoluminescence-Activated Nanoimaging of Dynamic Processes in Liquids</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2017_036_Noninvasive_Cathodol/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Connor G. Bischak, Rebecca B. Wai, Charles Cherqui, Jacob A. Busche, Steven C. Quillin, Craig L. Hetherington, Zhe Wang, Clarice D. Aiello, Darrell G. Schlom, Shaul Aloni, D. Frank Ogletree, David J. Masiello, Naomi S. Ginsberg<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Nano</i>, <b>11</b>, 10583-10590 (2017)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/full/10.1021/acsnano.7b06081">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2016_034_STEM_EELS_Imaging_of/index.qmd"> -->
+                <p>
+                    <img alt="STEM/EELS Imaging of Magnetic Hybridization in Symmetric and Symmetry-Broken Plasmon Oligomer Dimers and All-Magnetic Fano Interference" src="../../publications/2016_034_STEM_EELS_Imaging_of/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2016_034_STEM_EELS_Imaging_of/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">STEM/EELS Imaging of Magnetic Hybridization in Symmetric and Symmetry-Broken Plasmon Oligomer Dimers and All-Magnetic Fano Interference</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2016_034_STEM_EELS_Imaging_of/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Charles Cherqui, Yueying Wu, Guoliang Li, Steven C. Quillin, Jacob A. Busche, Niket Thakkar, Claire A. West, Nicholas P. Montoni, Philip D. Rack, Jon P. Camden, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Nano Letters</i>, <b>16</b>, 6668-6676 (2016)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.nanolett.6b03504">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2016_033_Optical_microresonat/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2016_033_Optical_microresonat/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Optical microresonators as single-particle absorption spectrometers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2016_033_Optical_microresonat/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Kevin D. Heylman, Niket Thakkar, Erik H. Horak, Steven C. Quillin, Charles Cherqui, Kassandra A. Knapper, David J. Masiello, Randall H. Goldsmith<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Nature Photonics</i>, <b>10</b>, 788--796 (2016)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">nanophotonics-quantum_optics</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://www.nature.com/articles/nphoton.2016.217">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2016_032_Imaging_Plasmon_Hybr/index.qmd"> -->
+                <p>
+                    <img alt="Imaging Plasmon Hybridization in Metal Nanoparticle Aggregates with Electron Energy-Loss Spectroscopy" src="../../publications/2016_032_Imaging_Plasmon_Hybr/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2016_032_Imaging_Plasmon_Hybr/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Imaging Plasmon Hybridization in Metal Nanoparticle Aggregates with Electron Energy-Loss Spectroscopy</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2016_032_Imaging_Plasmon_Hybr/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Steven C. Quillin, Charles Cherqui, Nicholas P. Montoni, Guoliang Li, Jon P. Camden, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry C</i>, <b>120</b>, 20852-20859 (2016)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b02170">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2016_030_Electron_Energy_Loss/index.qmd"> -->
+                <p>
+                    <img alt="Electron Energy Loss Spectroscopy Study of the Full Plasmonic Spectrum of Self-Assembled Au–Ag Alloy Nanoparticles: Unraveling Size, Composition, and Substrate Effects" src="../../publications/2016_030_Electron_Energy_Loss/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2016_030_Electron_Energy_Loss/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Electron Energy Loss Spectroscopy Study of the Full Plasmonic Spectrum of Self-Assembled Au–Ag Alloy Nanoparticles: Unraveling Size, Composition, and Substrate Effects</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2016_030_Electron_Energy_Loss/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Yueying Wu, Guoliang Li, Charles Cherqui, Nicholas W. Bigelow, Niket Thakkar, David J. Masiello, Jon P. Camden, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>3</b>, 130-138 (2016)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acsphotonics.5b00548">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2016_028_Characterizing_Local/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2016_028_Characterizing_Local/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Characterizing Localized Surface Plasmons Using Electron Energy-Loss Spectroscopy</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2016_028_Characterizing_Local/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Charles Cherqui, Niket Thakkar, Guoliang Li, Jon P. Camden, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Annual Review of Physical Chemistry</i>, <b>67</b>, 331-357 (2016)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://www.annualreviews.org/doi/abs/10.1146/annurev-physchem-040214-121612">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2015_027_Spatially_mapping_en/index.qmd"> -->
+                <p>
+                    <img alt="Spatially mapping energy transfer from single plasmonic particles to semiconductor substrates via STEM/EELS" src="../../publications/2015_027_Spatially_mapping_en/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2015_027_Spatially_mapping_en/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Spatially mapping energy transfer from single plasmonic particles to semiconductor substrates via STEM/EELS</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2015_027_Spatially_mapping_en/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Guoliang Li, Charles Cherqui, Nicholas W. Bigelow, Gerd Duscher, Patrick J. Straney, Jill E. Millstone, David J. Masiello, Jon P. Camden<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Nano Letters</i>, <b>15</b>, 3465-3471 (2015)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.5b00802">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2015_026_Quantum_Beats_from_E/index.qmd"> -->
+                <p>
+                    <img alt="Quantum Beats from Entangled Localized Surface Plasmons" src="../../publications/2015_026_Quantum_Beats_from_E/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2015_026_Quantum_Beats_from_E/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Quantum Beats from Entangled Localized Surface Plasmons</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2015_026_Quantum_Beats_from_E/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Niket Thakkar, Charles Cherqui, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>2</b>, 157-164 (2015)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">nanophotonics-quantum_optics</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/ph500387c">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2015_025_Examining_Substrate-/index.qmd"> -->
+                <p>
+                    <img alt="Examining Substrate-Induced Plasmon Mode Splitting and Localization in Truncated Silver Nanospheres with Electron Energy Loss Spectroscopy" src="../../publications/2015_025_Examining_Substrate-/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2015_025_Examining_Substrate-/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Examining Substrate-Induced Plasmon Mode Splitting and Localization in Truncated Silver Nanospheres with Electron Energy Loss Spectroscopy</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2015_025_Examining_Substrate-/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Guoliang Li, Charles Cherqui, Yueying Wu, Nicholas W. Bigelow, Philip D. Simmons, Philip D. Rack, David J. Masiello, Jon P. Camden<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry Letters</i>, <b>6</b>, 2569-2576 (2015)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.jpclett.5b00961">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2014_021_Combined_Tight-Bindi/index.qmd"> -->
+                <p>
+                    <img alt="Combined Tight-Binding and Numerical Electrodynamics Understanding of the STEM/EELS Magneto-optical Responses of Aromatic Plasmon-Supporting Metal Oligomers" src="../../publications/2014_021_Combined_Tight-Bindi/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2014_021_Combined_Tight-Bindi/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Combined Tight-Binding and Numerical Electrodynamics Understanding of the STEM/EELS Magneto-optical Responses of Aromatic Plasmon-Supporting Metal Oligomers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2014_021_Combined_Tight-Bindi/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Charles Cherqui, Nicholas W. Bigelow, Alex Vaschillo, Harrison Goldwyn, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>1</b>, 1013-1024 (2014)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/ph5002268">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -717,7 +676,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

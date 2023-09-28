@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -147,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -203,374 +203,338 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Claire’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1672905600000" data-listing-file-modified-sort="1687132921531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2023_081_Nonlinear_effects/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2023_081_Nonlinear_effects/index.html">
-<h3 class="no-anchor listing-title">
-Nonlinear effects in single-particle photothermal imaging
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2023_081_Nonlinear_effects/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2023_081_Nonlinear_effects/index.html">
-<div class="listing-date">
-Jan 2023
-</div>
-<div class="listing-author">
-Claire A. West, Stephen A. Lee, Jesse Shooter, Emily K. Searles, Harrison J. Goldwyn, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Journal of Chemical Physics, <strong>158</strong>, <em>pp.&nbsp;024202</em> (2023)
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1635750000000" data-listing-file-modified-sort="1687132921520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_071_toward_quantitative_nanothermometry/index.html"> <img src="../../publications/2021_071_toward_quantitative_nanothermometry/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_071_toward_quantitative_nanothermometry/index.html">
-<h3 class="no-anchor listing-title">
-Toward Quantitative Nanothermometry Using Single-Molecule Counting
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_071_toward_quantitative_nanothermometry/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_071_toward_quantitative_nanothermometry/index.html">
-<div class="listing-date">
-Nov 2021
-</div>
-<div class="listing-author">
-Phillip A. Reinhardt, Abigail P. Crawford, Claire A. West, Gabe DeLong, Stephan Link, David J. Masiello, Katherine A. Willets
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry B, <strong>125</strong>, <em>pp.&nbsp;12197-12205</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1622530800000" data-listing-file-modified-sort="1687132921512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html"> <img src="../../publications/2021_065_wavelength-dependent-photothermal/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html">
-<h3 class="no-anchor listing-title">
-Wavelength-dependent photothermal imaging probes nanoscale temperature differences among sub-diffraction coupled plasmonic nanorods
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html">
-<div class="listing-date">
-Jun 2021
-</div>
-<div class="listing-author">
-Seyyed Ali Hosseini Jebeli, Claire A. West, Stephen A. Lee, Harrison J. Goldwyn, Connor R. Bilchak, Zahra Fakhraai, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Nano Letters, <strong>21</strong>, <em>pp.&nbsp;5386-5393</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1615964400000" data-listing-file-modified-sort="1687132921507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_062_coupled-dipole-modeling/index.html"> <img src="../../publications/2021_062_coupled-dipole-modeling/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_062_coupled-dipole-modeling/index.html">
-<h3 class="no-anchor listing-title">
-Coupled Dipole Modeling and Experimental Characterization of Geometry-Dependent Trochoidal Dichroism in Nanorod Trimers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_062_coupled-dipole-modeling/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_062_coupled-dipole-modeling/index.html">
-<div class="listing-date">
-Mar 2021
-</div>
-<div class="listing-author">
-Rashad Baiyasi, Harrison J. Goldwyn, Lauren A. McCarthy, Claire A. West, Seyyed Ali Hosseini Jebeli, David J. Masiello, Stephan Link, Christy F. Landes
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>8</strong>, <em>pp.&nbsp;1159–1168</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1601535600000" data-listing-file-modified-sort="1687132921497" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_060_High_Spatial_and_Energy/index.html"> <img src="../../publications/2021_060_High_Spatial_and_Energy/featured.jpg" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_060_High_Spatial_and_Energy/index.html">
-<h3 class="no-anchor listing-title">
-High Spatial and Energy Resolution Electron Energy Loss Spectroscopy of the Magnetic and Electric Excitations in Plasmonic Nanorod Oligomers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2021_060_High_Spatial_and_Energy/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_060_High_Spatial_and_Energy/index.html">
-<div class="listing-date">
-Oct 2020
-</div>
-<div class="listing-author">
-Grace Pakeltis, Enzo Rotunno, Siamak Khorassani, David A. Garfinkel, Robyn Collette, Claire A. West, Scott T. Retterer, Juan Carlos Idrobo, David J. Masiello, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-Optics Express, <strong>29</strong>, <em>pp.&nbsp;4661-4671</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1596265200000" data-listing-file-modified-sort="1687132921494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2020_058_Plasmon_hybridization/index.html"> <img src="../../publications/2020_058_Plasmon_hybridization/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2020_058_Plasmon_hybridization/index.html">
-<h3 class="no-anchor listing-title">
-Plasmon Hybridization in Nanorhombus Assemblies
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2020_058_Plasmon_hybridization/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2020_058_Plasmon_hybridization/index.html">
-<div class="listing-date">
-Aug 2020
-</div>
-<div class="listing-author">
-Claire A. West, Agust Olafsson, Grace Pakeltis, David Garfinkel, Philip D. Rack, David J. Masiello, Jon P. Camden, Juan Carlos Idrobo
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry C, <strong>124</strong>, <em>pp.&nbsp;27009-27016</em> (2020).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1561964400000" data-listing-file-modified-sort="1687132921481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_051_Focused_Electron_Bea/index.html"> <img src="../../publications/2019_051_Focused_Electron_Bea/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html">
-<h3 class="no-anchor listing-title">
-Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html">
-<div class="listing-date">
-Jul 2019
-</div>
-<div class="listing-author">
-Grace Pakeltis, Zhongwei Hu, Austin G. Nixon, Eva Mutunga, C. Praise Anyanwu, Claire A. West, Juan Carlos Idrobo, Harald Plank, David J. Masiello, Jason D. Fowlkes, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-ACS Applied Nano Materials, <strong>2</strong>, <em>pp.&nbsp;8075-8082</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1551427200000" data-listing-file-modified-sort="1687132921475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> <img src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<h3 class="no-anchor listing-title">
-Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<div class="listing-date">
-Mar 2019
-</div>
-<div class="listing-author">
-Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Nano, <strong>13</strong>, <em>pp.&nbsp;9655-9663</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1549008000000" data-listing-file-modified-sort="1687132921473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html"> <img src="../../publications/2019_046_Plasmon_Heating_Prom/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html">
-<h3 class="no-anchor listing-title">
-Plasmon Heating Promotes Ligand Reorganization on Single Gold Nanorods
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html">
-<div class="listing-date">
-Feb 2019
-</div>
-<div class="listing-author">
-Xiaoyu Cheng, Taryn P. Anthony, Claire A. West, Zhongwei Hu, Vignesh Sundaresan, Aaron J. McLeod, David J. Masiello, Katherine A. Willets
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry Letters, <strong>10</strong>, <em>pp.&nbsp;1394-1401</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1451635200000" data-listing-file-modified-sort="1687132921454" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html"> <img src="../../publications/2016_034_STEM_EELS_Imaging_of/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html">
-<h3 class="no-anchor listing-title">
-STEM/EELS Imaging of Magnetic Hybridization in Symmetric and Symmetry-Broken Plasmon Oligomer Dimers and All-Magnetic Fano Interference
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2016_034_STEM_EELS_Imaging_of/index.html">
-<div class="listing-date">
-Jan 2016
-</div>
-<div class="listing-author">
-Charles Cherqui, Yueying Wu, Guoliang Li, Steven C. Quillin, Jacob A. Busche, Niket Thakkar, Claire A. West, Nicholas P. Montoni, Philip D. Rack, Jon P. Camden, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Nano Letters, <strong>16</strong>, <em>pp.&nbsp;6668-6676</em> (2016).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2023_081_Nonlinear_effects/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2023_081_Nonlinear_effects/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Nonlinear effects in single-particle photothermal imaging</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2023_081_Nonlinear_effects/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Claire A. West, Stephen A. Lee, Jesse Shooter, Emily K. Searles, Harrison J. Goldwyn, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Chemical Physics</i>, <b>158</b>, 10370 (2023)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://aip.scitation.org/doi/10.1063/5.0132167">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_071_toward_quantitative_nanothermometry/index.qmd"> -->
+                <p>
+                    <img alt="Toward Quantitative Nanothermometry Using Single-Molecule Counting" src="../../publications/2021_071_toward_quantitative_nanothermometry/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_071_toward_quantitative_nanothermometry/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Toward Quantitative Nanothermometry Using Single-Molecule Counting</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_071_toward_quantitative_nanothermometry/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Phillip A. Reinhardt, Abigail P. Crawford, Claire A. West, Gabe DeLong, Stephan Link, David J. Masiello, Katherine A. Willets<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry B</i>, <b>125</b>, 12197-12205 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.jpcb.1c08348">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_065_wavelength-dependent-photothermal/index.qmd"> -->
+                <p>
+                    <img alt="Wavelength-dependent photothermal imaging probes nanoscale temperature differences among sub-diffraction coupled plasmonic nanorods" src="../../publications/2021_065_wavelength-dependent-photothermal/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_065_wavelength-dependent-photothermal/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Wavelength-dependent photothermal imaging probes nanoscale temperature differences among sub-diffraction coupled plasmonic nanorods</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_065_wavelength-dependent-photothermal/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Seyyed Ali Hosseini Jebeli, Claire A. West, Stephen A. Lee, Harrison J. Goldwyn, Connor R. Bilchak, Zahra Fakhraai, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Nano Letters</i>, <b>21</b>, 5386-5393 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acs.nanolett.1c01740">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_062_coupled-dipole-modeling/index.qmd"> -->
+                <p>
+                    <img alt="Coupled Dipole Modeling and Experimental Characterization of Geometry-Dependent Trochoidal Dichroism in Nanorod Trimers" src="../../publications/2021_062_coupled-dipole-modeling/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_062_coupled-dipole-modeling/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Coupled Dipole Modeling and Experimental Characterization of Geometry-Dependent Trochoidal Dichroism in Nanorod Trimers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_062_coupled-dipole-modeling/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Rashad Baiyasi, Harrison J. Goldwyn, Lauren A. McCarthy, Claire A. West, Seyyed Ali Hosseini Jebeli, David J. Masiello, Stephan Link, Christy F. Landes<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>8</b>, 1159–1168 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsphotonics.1c00073">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_060_High_Spatial_and_Energy/index.qmd"> -->
+                <p>
+                    <img alt="High Spatial and Energy Resolution Electron Energy Loss Spectroscopy of the Magnetic and Electric Excitations in Plasmonic Nanorod Oligomers" src="../../publications/2021_060_High_Spatial_and_Energy/featured.jpg" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_060_High_Spatial_and_Energy/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">High Spatial and Energy Resolution Electron Energy Loss Spectroscopy of the Magnetic and Electric Excitations in Plasmonic Nanorod Oligomers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_060_High_Spatial_and_Energy/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Grace Pakeltis, Enzo Rotunno, Siamak Khorassani, David A. Garfinkel, Robyn Collette, Claire A. West, Scott T. Retterer, Juan Carlos Idrobo, David J. Masiello, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Optics Express</i>, <b>29</b>, 4661-4671 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://www.osapublishing.org/oe/fulltext.cfm?uri=oe-29-3-4661&amp;id=447032">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2020_058_Plasmon_hybridization/index.qmd"> -->
+                <p>
+                    <img alt="Plasmon Hybridization in Nanorhombus Assemblies" src="../../publications/2020_058_Plasmon_hybridization/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2020_058_Plasmon_hybridization/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Plasmon Hybridization in Nanorhombus Assemblies</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2020_058_Plasmon_hybridization/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Claire A. West, Agust Olafsson, Grace Pakeltis, David Garfinkel, Philip D. Rack, David J. Masiello, Jon P. Camden, Juan Carlos Idrobo<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry C</i>, <b>124</b>, 27009-27016 (2020)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.jpcc.0c08098">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+                <p>
+                    <img alt="Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators" src="../../publications/2019_051_Focused_Electron_Bea/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Grace Pakeltis, Zhongwei Hu, Austin G. Nixon, Eva Mutunga, C. Praise Anyanwu, Claire A. West, Juan Carlos Idrobo, Harald Plank, David J. Masiello, Jason D. Fowlkes, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Applied Nano Materials</i>, <b>2</b>, 8075-8082 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acsanm.9b02182">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <p>
+                    <img alt="Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization" src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Nano</i>, <b>13</b>, 9655-9663 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsnano.9b04968">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_046_Plasmon_Heating_Prom/index.qmd"> -->
+                <p>
+                    <img alt="Plasmon Heating Promotes Ligand Reorganization on Single Gold Nanorods" src="../../publications/2019_046_Plasmon_Heating_Prom/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_046_Plasmon_Heating_Prom/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Plasmon Heating Promotes Ligand Reorganization on Single Gold Nanorods</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_046_Plasmon_Heating_Prom/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Xiaoyu Cheng, Taryn P. Anthony, Claire A. West, Zhongwei Hu, Vignesh Sundaresan, Aaron J. McLeod, David J. Masiello, Katherine A. Willets<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry Letters</i>, <b>10</b>, 1394-1401 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.9b00079">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2016_034_STEM_EELS_Imaging_of/index.qmd"> -->
+                <p>
+                    <img alt="STEM/EELS Imaging of Magnetic Hybridization in Symmetric and Symmetry-Broken Plasmon Oligomer Dimers and All-Magnetic Fano Interference" src="../../publications/2016_034_STEM_EELS_Imaging_of/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2016_034_STEM_EELS_Imaging_of/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">STEM/EELS Imaging of Magnetic Hybridization in Symmetric and Symmetry-Broken Plasmon Oligomer Dimers and All-Magnetic Fano Interference</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2016_034_STEM_EELS_Imaging_of/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Charles Cherqui, Yueying Wu, Guoliang Li, Steven C. Quillin, Jacob A. Busche, Niket Thakkar, Claire A. West, Nicholas P. Montoni, Philip D. Rack, Jon P. Camden, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Nano Letters</i>, <b>16</b>, 6668-6676 (2016)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.nanolett.6b03504">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -581,7 +545,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

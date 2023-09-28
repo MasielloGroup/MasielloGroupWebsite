@@ -8,6 +8,7 @@ website:
   repo-url: "https://github.com/MasielloGroup/MasielloGroupWebsite"
   favicon: images/favicon.drawio.png
   google-analytics: "UA-177339812-1"
+  back-to-top-navigation: true
   page-navigation: false
   search: true
   page-footer: 
@@ -22,6 +23,7 @@ website:
     logo-alt: "Masiello Research Group"
     left:
       - href: people/index.qmd
+        text: people
       - href: research/index.qmd
       - href: publications/index.qmd
       # - text: NSF DMREF
@@ -37,6 +39,7 @@ format:
     theme: 
       - styles/custom.scss
       - yeti
+    mainfont: Nunito Sans
     toc: true
     link-external-newwindow: true
     date-format: "MMM YYYY"

@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -147,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -198,136 +198,108 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Xiang-Tian’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1585724400000" data-listing-file-modified-sort="1687132921487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2020_054_Infrared_plasmonics_/index.html"> <img src="../../publications/2020_054_Infrared_plasmonics_/featured.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2020_054_Infrared_plasmonics_/index.html">
-<h3 class="no-anchor listing-title">
-Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2020_054_Infrared_plasmonics_/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2020_054_Infrared_plasmonics_/index.html">
-<div class="listing-date">
-Apr 2020
-</div>
-<div class="listing-author">
-Yueying Wu, Zhongwei Hu, Xiang-Tian Kong, Juan Carlos Idrobo, Austin G. Nixon, Philip D. Rack, David J. Masiello, Jon P. Camden
-</div>
-<div class="metadata-value listing-publication">
-Physical Review B, <strong>101</strong>, <em>pp.&nbsp;085409</em> (2020).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1580544000000" data-listing-file-modified-sort="1687132921485" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2020_053_Far-field_midinfrare/index.html"> <img src="../../publications/2020_053_Far-field_midinfrare/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2020_053_Far-field_midinfrare/index.html">
-<h3 class="no-anchor listing-title">
-Far-field midinfrared superresolution imaging and spectroscopy of single high aspect ratio gold nanowires
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2020_053_Far-field_midinfrare/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2020_053_Far-field_midinfrare/index.html">
-<div class="listing-date">
-Feb 2020
-</div>
-<div class="listing-author">
-Kyle Aleshire, Ilia M. Pavlovetc, Robyn Collette, Xiang-Tian Kong, Philip D. Rack, Shubin Zhang, David J. Masiello, Jon P. Camden, Gregory V. Hartland, Masaru Kuno
-</div>
-<div class="metadata-value listing-publication">
-Proceedings of the National Academy of Sciences, <strong>117</strong>, <em>pp.&nbsp;2288–2293</em> (2020).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1551427200000" data-listing-file-modified-sort="1687132921475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> <img src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<h3 class="no-anchor listing-title">
-Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<div class="listing-date">
-Mar 2019
-</div>
-<div class="listing-author">
-Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Nano, <strong>13</strong>, <em>pp.&nbsp;9655-9663</em> (2019).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2020_054_Infrared_plasmonics_/index.qmd"> -->
+                <p>
+                    <img alt="Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires" src="../../publications/2020_054_Infrared_plasmonics_/featured.png" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2020_054_Infrared_plasmonics_/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2020_054_Infrared_plasmonics_/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Yueying Wu, Zhongwei Hu, Xiang-Tian Kong, Juan Carlos Idrobo, Austin G. Nixon, Philip D. Rack, David J. Masiello, Jon P. Camden<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Physical Review B</i>, <b>101</b>, 085409 (2020)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://link.aps.org/doi/10.1103/PhysRevB.101.085409">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2020_053_Far-field_midinfrare/index.qmd"> -->
+                <p>
+                    <img alt="Far-field midinfrared superresolution imaging and spectroscopy of single high aspect ratio gold nanowires" src="../../publications/2020_053_Far-field_midinfrare/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2020_053_Far-field_midinfrare/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Far-field midinfrared superresolution imaging and spectroscopy of single high aspect ratio gold nanowires</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2020_053_Far-field_midinfrare/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Kyle Aleshire, Ilia M. Pavlovetc, Robyn Collette, Xiang-Tian Kong, Philip D. Rack, Shubin Zhang, David J. Masiello, Jon P. Camden, Gregory V. Hartland, Masaru Kuno<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Proceedings of the National Academy of Sciences</i>, <b>117</b>, 2288--2293 (2020)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://www.pnas.org/content/117/5/2288">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <p>
+                    <img alt="Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization" src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Nano</i>, <b>13</b>, 9655-9663 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsnano.9b04968">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -341,7 +313,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

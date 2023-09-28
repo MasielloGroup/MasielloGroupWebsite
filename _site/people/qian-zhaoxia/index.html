@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -147,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -198,66 +198,41 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Zhaoxia’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="" data-listing-date-sort="1483257600000" data-listing-file-modified-sort="1687132921456" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2017_035_Dynamic_Optical_Swit/index.html"> <img src="../../publications/2017_035_Dynamic_Optical_Swit/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2017_035_Dynamic_Optical_Swit/index.html">
-<h3 class="no-anchor listing-title">
-Dynamic Optical Switching of Polymer/Plasmonic Nanoparticle Hybrids with Sparse Loading
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-
-</div>
-<a href="../../publications/2017_035_Dynamic_Optical_Swit/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2017_035_Dynamic_Optical_Swit/index.html">
-<div class="listing-date">
-Jan 2017
-</div>
-<div class="listing-author">
-Zhaoxia Qian, Kathryn N. Guye, David J. Masiello, David S. Ginger
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry B, <strong>121</strong>, <em>pp.&nbsp;1092-1099</em> (2017).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2017_035_Dynamic_Optical_Swit/index.qmd"> -->
+                <p>
+                    <img alt="Dynamic Optical Switching of Polymer/Plasmonic Nanoparticle Hybrids with Sparse Loading" src="../../publications/2017_035_Dynamic_Optical_Swit/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2017_035_Dynamic_Optical_Swit/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Dynamic Optical Switching of Polymer/Plasmonic Nanoparticle Hybrids with Sparse Loading</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2017_035_Dynamic_Optical_Swit/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Zhaoxia Qian, Kathryn N. Guye, David J. Masiello, David S. Ginger<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry B</i>, <b>121</b>, 1092-1099 (2017)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acs.jpcb.7b00013">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -268,7 +243,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

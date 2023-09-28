@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.3.340">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -59,8 +59,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-submit-button-title": "Submit"
   }
 }</script>
 <script>
@@ -73,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -130,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -148,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -210,105 +209,70 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Praise’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="fast_electron_nano-spectroscopy,nanophotonics-quantum_optics" data-listing-date-sort="1673251200000" data-listing-file-modified-sort="1687132921530" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2023_080_Nanoscale_characterization/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2023_080_Nanoscale_characterization/index.html">
-<h3 class="no-anchor listing-title">
-Nanoscale Characterization of Individual 3D Split Ring Resonator Dimers and Trimers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">
-nanophotonics-quantum_optics
-</div>
-</div>
-<a href="../../publications/2023_080_Nanoscale_characterization/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2023_080_Nanoscale_characterization/index.html">
-<div class="listing-date">
-Jan 2023
-</div>
-<div class="listing-author">
-C. Praise Anyanwu, Grace Pakeltis, Philip D. Rack, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Applied Optical Materials, accepted (2023)
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1561964400000" data-listing-file-modified-sort="1687132921481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_051_Focused_Electron_Bea/index.html"> <img src="../../publications/2019_051_Focused_Electron_Bea/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html">
-<h3 class="no-anchor listing-title">
-Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html">
-<div class="listing-date">
-Jul 2019
-</div>
-<div class="listing-author">
-Grace Pakeltis, Zhongwei Hu, Austin G. Nixon, Eva Mutunga, C. Praise Anyanwu, Claire A. West, Juan Carlos Idrobo, Harald Plank, David J. Masiello, Jason D. Fowlkes, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-ACS Applied Nano Materials, <strong>2</strong>, <em>pp.&nbsp;8075-8082</em> (2019).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2023_080_Nanoscale_characterization/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2023_080_Nanoscale_characterization/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Nanoscale Characterization of Individual 3D Split Ring Resonator Dimers and Trimers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2023_080_Nanoscale_characterization/index.qmd"> -->
+                <div class="listing-pub-author">
+                    C. Praise Anyanwu, Grace Pakeltis, Philip D. Rack, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Applied Optical Materials</i> (2023)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                <div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">nanophotonics-quantum_optics</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+                <p>
+                    <img alt="Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators" src="../../publications/2019_051_Focused_Electron_Bea/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Grace Pakeltis, Zhongwei Hu, Austin G. Nixon, Eva Mutunga, C. Praise Anyanwu, Claire A. West, Juan Carlos Idrobo, Harald Plank, David J. Masiello, Jason D. Fowlkes, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Applied Nano Materials</i>, <b>2</b>, 8075-8082 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acsanm.9b02182">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -319,7 +283,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

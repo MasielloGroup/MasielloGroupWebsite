@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -147,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -203,340 +203,299 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Harrison’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1672905600000" data-listing-file-modified-sort="1687132921531" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2023_081_Nonlinear_effects/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2023_081_Nonlinear_effects/index.html">
-<h3 class="no-anchor listing-title">
-Nonlinear effects in single-particle photothermal imaging
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2023_081_Nonlinear_effects/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2023_081_Nonlinear_effects/index.html">
-<div class="listing-date">
-Jan 2023
-</div>
-<div class="listing-author">
-Claire A. West, Stephen A. Lee, Jesse Shooter, Emily K. Searles, Harrison J. Goldwyn, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Journal of Chemical Physics, <strong>158</strong>, <em>pp.&nbsp;024202</em> (2023)
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1635836400000" data-listing-file-modified-sort="1687132921522" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_072_model-based_insight/index.html"> <img src="../../publications/2021_072_model-based_insight/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_072_model-based_insight/index.html">
-<h3 class="no-anchor listing-title">
-Model-Based Insight into Single-Molecule Plasmonic Mislocalization
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_072_model-based_insight/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_072_model-based_insight/index.html">
-<div class="listing-date">
-Nov 2021
-</div>
-<div class="listing-author">
-Tiancheng Zuo, Harrison J. Goldwyn, David J. Masiello, Julie S. Biteen
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry C, <strong>125</strong>, <em>pp.&nbsp;24531-24539</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1622530800000" data-listing-file-modified-sort="1687132921512" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html"> <img src="../../publications/2021_065_wavelength-dependent-photothermal/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html">
-<h3 class="no-anchor listing-title">
-Wavelength-dependent photothermal imaging probes nanoscale temperature differences among sub-diffraction coupled plasmonic nanorods
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_065_wavelength-dependent-photothermal/index.html">
-<div class="listing-date">
-Jun 2021
-</div>
-<div class="listing-author">
-Seyyed Ali Hosseini Jebeli, Claire A. West, Stephen A. Lee, Harrison J. Goldwyn, Connor R. Bilchak, Zahra Fakhraai, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-Nano Letters, <strong>21</strong>, <em>pp.&nbsp;5386-5393</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1615964400000" data-listing-file-modified-sort="1687132921507" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_062_coupled-dipole-modeling/index.html"> <img src="../../publications/2021_062_coupled-dipole-modeling/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_062_coupled-dipole-modeling/index.html">
-<h3 class="no-anchor listing-title">
-Coupled Dipole Modeling and Experimental Characterization of Geometry-Dependent Trochoidal Dichroism in Nanorod Trimers
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_062_coupled-dipole-modeling/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_062_coupled-dipole-modeling/index.html">
-<div class="listing-date">
-Mar 2021
-</div>
-<div class="listing-author">
-Rashad Baiyasi, Harrison J. Goldwyn, Lauren A. McCarthy, Claire A. West, Seyyed Ali Hosseini Jebeli, David J. Masiello, Stephan Link, Christy F. Landes
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>8</strong>, <em>pp.&nbsp;1159–1168</em> (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1610697600000" data-listing-file-modified-sort="1687132921508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2021_063_resolving-resonance-effects/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2021_063_resolving-resonance-effects/index.html">
-<h3 class="no-anchor listing-title">
-Resolving resonance effects in the theory of single particle photothermal imaging
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2021_063_resolving-resonance-effects/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2021_063_resolving-resonance-effects/index.html">
-<div class="listing-date">
-Jan 2021
-</div>
-<div class="listing-author">
-Harrison J. Goldwyn, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-<strong>under review</strong>, (2021).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1598943600000" data-listing-file-modified-sort="1687132921495" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2020_059_Intermolecular_hydrogen/index.html"> <img src="../../publications/2020_059_Intermolecular_hydrogen/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2020_059_Intermolecular_hydrogen/index.html">
-<h3 class="no-anchor listing-title">
-Intermolecular Hydrogen Bonding Tunes Vibronic Coupling in Heptazine Complexes
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2020_059_Intermolecular_hydrogen/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2020_059_Intermolecular_hydrogen/index.html">
-<div class="listing-date">
-Sep 2020
-</div>
-<div class="listing-author">
-Emily J. Rabe, Harrison J. Goldwyn, Doyk Hwang, David J. Masiello, Cody W. Schlenker
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry B, <strong>124</strong>, <em>pp.&nbsp;11680-11689</em> (2020).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1554102000000" data-listing-file-modified-sort="1687132921477" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_048_Rotation_of_Single-M/index.html"> <img src="../../publications/2019_048_Rotation_of_Single-M/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_048_Rotation_of_Single-M/index.html">
-<h3 class="no-anchor listing-title">
-Rotation of Single-Molecule Emission Polarization by Plasmonic Nanorods
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_048_Rotation_of_Single-M/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_048_Rotation_of_Single-M/index.html">
-<div class="listing-date">
-Apr 2019
-</div>
-<div class="listing-author">
-Tiancheng Zuo, Harrison J. Goldwyn, Benjamin P. Isaacoff, David J. Masiello, Julie S. Biteen
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry Letters, <strong>10</strong>, <em>pp.&nbsp;5047-5054</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1551427200000" data-listing-file-modified-sort="1687132921475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> <img src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<h3 class="no-anchor listing-title">
-Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<div class="listing-date">
-Mar 2019
-</div>
-<div class="listing-author">
-Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Nano, <strong>13</strong>, <em>pp.&nbsp;9655-9663</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1514793600000" data-listing-file-modified-sort="1687132921462" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2018_039_Mislocalization_in_P/index.html"> <img src="../../publications/2018_039_Mislocalization_in_P/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2018_039_Mislocalization_in_P/index.html">
-<h3 class="no-anchor listing-title">
-Mislocalization in Plasmon-Enhanced Single-Molecule Fluorescence Microscopy as a Dynamical Young’s Interferometer
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2018_039_Mislocalization_in_P/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2018_039_Mislocalization_in_P/index.html">
-<div class="listing-date">
-Jan 2018
-</div>
-<div class="listing-author">
-Harrison J. Goldwyn, Kevin C. Smith, Jacob A. Busche, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>5</strong>, <em>pp.&nbsp;3141-3151</em> (2018).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2023_081_Nonlinear_effects/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2023_081_Nonlinear_effects/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Nonlinear effects in single-particle photothermal imaging</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2023_081_Nonlinear_effects/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Claire A. West, Stephen A. Lee, Jesse Shooter, Emily K. Searles, Harrison J. Goldwyn, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Chemical Physics</i>, <b>158</b>, 10370 (2023)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://aip.scitation.org/doi/10.1063/5.0132167">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_072_model-based_insight/index.qmd"> -->
+                <p>
+                    <img alt="Model-Based Insight into Single-Molecule Plasmonic Mislocalization" src="../../publications/2021_072_model-based_insight/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_072_model-based_insight/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Model-Based Insight into Single-Molecule Plasmonic Mislocalization</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_072_model-based_insight/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Tiancheng Zuo, Harrison J. Goldwyn, David J. Masiello, Julie S. Biteen<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry C</i>, <b>125</b>, 24531-24539 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.jpcc.1c07989">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_065_wavelength-dependent-photothermal/index.qmd"> -->
+                <p>
+                    <img alt="Wavelength-dependent photothermal imaging probes nanoscale temperature differences among sub-diffraction coupled plasmonic nanorods" src="../../publications/2021_065_wavelength-dependent-photothermal/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_065_wavelength-dependent-photothermal/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Wavelength-dependent photothermal imaging probes nanoscale temperature differences among sub-diffraction coupled plasmonic nanorods</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_065_wavelength-dependent-photothermal/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Seyyed Ali Hosseini Jebeli, Claire A. West, Stephen A. Lee, Harrison J. Goldwyn, Connor R. Bilchak, Zahra Fakhraai, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Nano Letters</i>, <b>21</b>, 5386-5393 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acs.nanolett.1c01740">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_063_resolving-resonance-effects/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_063_resolving-resonance-effects/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Resolving resonance effects in the theory of single particle photothermal imaging</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_063_resolving-resonance-effects/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Harrison J. Goldwyn, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>**under review**</i>, <b>under review</b> (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2021_062_coupled-dipole-modeling/index.qmd"> -->
+                <p>
+                    <img alt="Coupled Dipole Modeling and Experimental Characterization of Geometry-Dependent Trochoidal Dichroism in Nanorod Trimers" src="../../publications/2021_062_coupled-dipole-modeling/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2021_062_coupled-dipole-modeling/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Coupled Dipole Modeling and Experimental Characterization of Geometry-Dependent Trochoidal Dichroism in Nanorod Trimers</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2021_062_coupled-dipole-modeling/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Rashad Baiyasi, Harrison J. Goldwyn, Lauren A. McCarthy, Claire A. West, Seyyed Ali Hosseini Jebeli, David J. Masiello, Stephan Link, Christy F. Landes<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>8</b>, 1159–1168 (2021)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsphotonics.1c00073">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2020_059_Intermolecular_hydrogen/index.qmd"> -->
+                <p>
+                    <img alt="Intermolecular Hydrogen Bonding Tunes Vibronic Coupling in Heptazine Complexes" src="../../publications/2020_059_Intermolecular_hydrogen/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2020_059_Intermolecular_hydrogen/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Intermolecular Hydrogen Bonding Tunes Vibronic Coupling in Heptazine Complexes</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2020_059_Intermolecular_hydrogen/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Emily J. Rabe, Harrison J. Goldwyn, Doyk Hwang, David J. Masiello, Cody W. Schlenker<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry B</i>, <b>124</b>, 11680-11689 (2020)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1021/acs.jpcb.0c07719">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_048_Rotation_of_Single-M/index.qmd"> -->
+                <p>
+                    <img alt="Rotation of Single-Molecule Emission Polarization by Plasmonic Nanorods" src="../../publications/2019_048_Rotation_of_Single-M/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_048_Rotation_of_Single-M/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Rotation of Single-Molecule Emission Polarization by Plasmonic Nanorods</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_048_Rotation_of_Single-M/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Tiancheng Zuo, Harrison J. Goldwyn, Benjamin P. Isaacoff, David J. Masiello, Julie S. Biteen<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry Letters</i>, <b>10</b>, 5047-5054 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b02270">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <p>
+                    <img alt="Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization" src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Nano</i>, <b>13</b>, 9655-9663 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsnano.9b04968">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2018_039_Mislocalization_in_P/index.qmd"> -->
+                <p>
+                    <img alt="Mislocalization in Plasmon-Enhanced Single-Molecule Fluorescence Microscopy as a Dynamical Young's Interferometer" src="../../publications/2018_039_Mislocalization_in_P/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2018_039_Mislocalization_in_P/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Mislocalization in Plasmon-Enhanced Single-Molecule Fluorescence Microscopy as a Dynamical Young's Interferometer</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2018_039_Mislocalization_in_P/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Harrison J. Goldwyn, Kevin C. Smith, Jacob A. Busche, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>5</b>, 3141-3151 (2018)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acsphotonics.8b00372">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -547,7 +506,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

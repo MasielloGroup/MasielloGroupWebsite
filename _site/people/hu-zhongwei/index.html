@@ -72,9 +72,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-url_preprint","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,12 +129,8 @@ ga('send', {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../news/index.html" rel="" target="">
- <span class="menu-text">News</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link" href="../../people/index.html" rel="" target="">
- <span class="menu-text">People</span></a>
+ <span class="menu-text">people</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../research/index.html" rel="" target="">
@@ -147,6 +143,10 @@ ga('send', {
   <li class="nav-item">
     <a class="nav-link" href="../../codes/index.html" rel="" target="">
  <span class="menu-text">Codes</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news/index.html" rel="" target="">
+ <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../contact.html" rel="" target="">
@@ -198,238 +198,206 @@ ga('send', {
 
 <section id="meta-first-s-group-publications" class="level2">
 <h2 data-anchor-id="meta-first-s-group-publications">Zhongwei’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-default">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-pubs-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-pubs'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title" data-direction="asc">
-          Title
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Oldest
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Newest
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Author
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
+<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1590994800000" data-listing-file-modified-sort="1687132921490" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2020_056_Near_field_excited_s/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2020_056_Near_field_excited_s/index.html">
-<h3 class="no-anchor listing-title">
-Near field excited state imaging via stimulated electron energy gain spectroscopy of localized surface plasmon resonances in plasmonic nanorod antennas
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2020_056_Near_field_excited_s/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2020_056_Near_field_excited_s/index.html">
-<div class="listing-date">
-Jun 2020
-</div>
-<div class="listing-author">
-Robyn Collette, David A. Garfinkel, Zhongwei Hu, David J. Masiello, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-Scientific Reports, <strong>10</strong>, <em>pp.&nbsp;12537</em> (2020).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1585724400000" data-listing-file-modified-sort="1687132921487" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2020_054_Infrared_plasmonics_/index.html"> <img src="../../publications/2020_054_Infrared_plasmonics_/featured.png" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2020_054_Infrared_plasmonics_/index.html">
-<h3 class="no-anchor listing-title">
-Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2020_054_Infrared_plasmonics_/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2020_054_Infrared_plasmonics_/index.html">
-<div class="listing-date">
-Apr 2020
-</div>
-<div class="listing-author">
-Yueying Wu, Zhongwei Hu, Xiang-Tian Kong, Juan Carlos Idrobo, Austin G. Nixon, Philip D. Rack, David J. Masiello, Jon P. Camden
-</div>
-<div class="metadata-value listing-publication">
-Physical Review B, <strong>101</strong>, <em>pp.&nbsp;085409</em> (2020).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1561964400000" data-listing-file-modified-sort="1687132921481" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_051_Focused_Electron_Bea/index.html"> <img src="../../publications/2019_051_Focused_Electron_Bea/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html">
-<h3 class="no-anchor listing-title">
-Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_051_Focused_Electron_Bea/index.html">
-<div class="listing-date">
-Jul 2019
-</div>
-<div class="listing-author">
-Grace Pakeltis, Zhongwei Hu, Austin G. Nixon, Eva Mutunga, C. Praise Anyanwu, Claire A. West, Juan Carlos Idrobo, Harald Plank, David J. Masiello, Jason D. Fowlkes, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-ACS Applied Nano Materials, <strong>2</strong>, <em>pp.&nbsp;8075-8082</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="fast_electron_nano-spectroscopy" data-listing-date-sort="1556694000000" data-listing-file-modified-sort="1687132921478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_049_Continuous_Wave_Reso/index.html"> <img src="../../publications/2019_049_Continuous_Wave_Reso/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_049_Continuous_Wave_Reso/index.html">
-<h3 class="no-anchor listing-title">
-Continuous Wave Resonant Photon Stimulated Electron Energy-Gain and Electron Energy-Loss Spectroscopy of Individual Plasmonic Nanoparticles
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">
-fast_electron_nano-spectroscopy
-</div>
-</div>
-<a href="../../publications/2019_049_Continuous_Wave_Reso/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_049_Continuous_Wave_Reso/index.html">
-<div class="listing-date">
-May 2019
-</div>
-<div class="listing-author">
-Chenze Liu, Yueying Wu, Zhongwei Hu, Jacob A. Busche, Elliot K. Beutler, Nicholas P. Montoni, Thomas M. Moore, Gregory A. Magel, Jon P. Camden, David J. Masiello, Gerd Duscher, Philip D. Rack
-</div>
-<div class="metadata-value listing-publication">
-ACS Photonics, <strong>6</strong>, <em>pp.&nbsp;2499-2508</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1551427200000" data-listing-file-modified-sort="1687132921475" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> <img src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<h3 class="no-anchor listing-title">
-Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_047_Active_Far-Field_Con/index.html">
-<div class="listing-date">
-Mar 2019
-</div>
-<div class="listing-author">
-Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello
-</div>
-<div class="metadata-value listing-publication">
-ACS Nano, <strong>13</strong>, <em>pp.&nbsp;9655-9663</em> (2019).
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="photothermal_spectroscopy_and_microscopy" data-listing-date-sort="1549008000000" data-listing-file-modified-sort="1687132921473" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html"> <img src="../../publications/2019_046_Plasmon_Heating_Prom/featured.gif" class="thumbnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html">
-<h3 class="no-anchor listing-title">
-Plasmon Heating Promotes Ligand Reorganization on Single Gold Nanorods
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">
-photothermal_spectroscopy_and_microscopy
-</div>
-</div>
-<a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html"> </a>
-</div>
-<div class="metadata">
-<a href="../../publications/2019_046_Plasmon_Heating_Prom/index.html">
-<div class="listing-date">
-Feb 2019
-</div>
-<div class="listing-author">
-Xiaoyu Cheng, Taryn P. Anthony, Claire A. West, Zhongwei Hu, Vignesh Sundaresan, Aaron J. McLeod, David J. Masiello, Katherine A. Willets
-</div>
-<div class="metadata-value listing-publication">
-Journal of Physical Chemistry Letters, <strong>10</strong>, <em>pp.&nbsp;1394-1401</em> (2019).
-</div>
-</a>
-</div>
-</div>
-</div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2020_056_Near_field_excited_s/index.qmd"> -->
+                <p>
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2020_056_Near_field_excited_s/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Near field excited state imaging via stimulated electron energy gain spectroscopy of localized surface plasmon resonances in plasmonic nanorod antennas</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2020_056_Near_field_excited_s/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Robyn Collette, David A. Garfinkel, Zhongwei Hu, David J. Masiello, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Scientific Reports</i>, <b>10</b>, 12537 (2020)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://doi.org/10.1038/s41598-020-69066-z">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2020_054_Infrared_plasmonics_/index.qmd"> -->
+                <p>
+                    <img alt="Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires" src="../../publications/2020_054_Infrared_plasmonics_/featured.png" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2020_054_Infrared_plasmonics_/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2020_054_Infrared_plasmonics_/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Yueying Wu, Zhongwei Hu, Xiang-Tian Kong, Juan Carlos Idrobo, Austin G. Nixon, Philip D. Rack, David J. Masiello, Jon P. Camden<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Physical Review B</i>, <b>101</b>, 085409 (2020)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://link.aps.org/doi/10.1103/PhysRevB.101.085409">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+                <p>
+                    <img alt="Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators" src="../../publications/2019_051_Focused_Electron_Bea/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Focused Electron Beam Induced Deposition Synthesis of 3D Photonic and Magnetic Nanoresonators</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_051_Focused_Electron_Bea/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Grace Pakeltis, Zhongwei Hu, Austin G. Nixon, Eva Mutunga, C. Praise Anyanwu, Claire A. West, Juan Carlos Idrobo, Harald Plank, David J. Masiello, Jason D. Fowlkes, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Applied Nano Materials</i>, <b>2</b>, 8075-8082 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acsanm.9b02182">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_049_Continuous_Wave_Reso/index.qmd"> -->
+                <p>
+                    <img alt="Continuous Wave Resonant Photon Stimulated Electron Energy-Gain and Electron Energy-Loss Spectroscopy of Individual Plasmonic Nanoparticles" src="../../publications/2019_049_Continuous_Wave_Reso/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_049_Continuous_Wave_Reso/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Continuous Wave Resonant Photon Stimulated Electron Energy-Gain and Electron Energy-Loss Spectroscopy of Individual Plasmonic Nanoparticles</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_049_Continuous_Wave_Reso/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Chenze Liu, Yueying Wu, Zhongwei Hu, Jacob A. Busche, Elliot K. Beutler, Nicholas P. Montoni, Thomas M. Moore, Gregory A. Magel, Jon P. Camden, David J. Masiello, Gerd Duscher, Philip D. Rack<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Photonics</i>, <b>6</b>, 2499-2508 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/abs/10.1021/acsphotonics.9b00830">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <p>
+                    <img alt="Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization" src="../../publications/2019_047_Active_Far-Field_Con/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Active Far-Field Control of the Thermal Near-Field via Plasmon Hybridization</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_047_Active_Far-Field_Con/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Ujjal Bhattacharjee, Claire A. West, Seyyed Ali Hosseini Jebeli, Harrison J. Goldwyn, Xiang-Tian Kong, Zhongwei Hu, Elliot K. Beutler, Wei-Shun Chang, Katherine A. Willets, Stephan Link, David J. Masiello<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>ACS Nano</i>, <b>13</b>, 9655-9663 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acsnano.9b04968">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    <div class="quarto-post image-right">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2019_046_Plasmon_Heating_Prom/index.qmd"> -->
+                <p>
+                    <img alt="Plasmon Heating Promotes Ligand Reorganization on Single Gold Nanorods" src="../../publications/2019_046_Plasmon_Heating_Prom/featured.gif" class="thumbnail-image">
+                </p>
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2019_046_Plasmon_Heating_Prom/index.qmd"> -->
+            <div class="no-anchor listing-pub-title">Plasmon Heating Promotes Ligand Reorganization on Single Gold Nanorods</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2019_046_Plasmon_Heating_Prom/index.qmd"> -->
+                <div class="listing-pub-author">
+                    Xiaoyu Cheng, Taryn P. Anthony, Claire A. West, Zhongwei Hu, Vignesh Sundaresan, Aaron J. McLeod, David J. Masiello, Katherine A. Willets<br> 
+                </div>
+                <div class="metadata-value listing-pub-journal">
+                        <i>Journal of Physical Chemistry Letters</i>, <b>10</b>, 1394-1401 (2019)<br>
+                </div>
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                <div class="listing-category" onclick="window.quartoListingCategory('photothermal_spectroscopy_and_microscopy'); return false;">photothermal_spectroscopy_and_microscopy</div>
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+            <div class="listing-pub-url">
+                    <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.9b00079">
+                    <p>journal URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+        </div>
+    </div>
+    </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -440,7 +408,7 @@ No matching items
 
 </section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

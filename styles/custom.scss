@@ -7,19 +7,17 @@ $sand: #F6F5F3;
 $gold: #e8e3d3;
 
 // Fonts
-@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Bebas+Neue&family=Economica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&family=Bebas+Neue&family=Economica&family=Lato:ital,wght@0,300;0,400;1,300&family=Nixie+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;1,6..12,200;1,6..12,300&display=swap');
 
 /*-- scss:rules --*/
 /* -- fonts * --*/
-// h1, .h1 {
-//   font-family: 'Bebas Neue', sans-serif;
-// }
+h1, .h1 {
+   font-family: 'Economica', sans-serif;
+ }
 
 // h2, .h2 {
-//   font-family: 'Bebas Neue', sans-serif;
-
-// }
-
+//   font-family: 'Economica', sans-serif;
+//  }
 
 
 
@@ -132,7 +130,7 @@ $gold: #e8e3d3;
 
 .cmm-background {
   background-image: url(/images/cmm5.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 

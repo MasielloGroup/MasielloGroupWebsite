@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "Meet the Group"
 listing:
   - id: pi
     template: ../_ejs/people-box.ejs

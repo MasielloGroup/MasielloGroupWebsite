@@ -8,8 +8,6 @@ about:
 ---
 
 
-<hr>
-
 
 :::{#contact}
 
@@ -22,6 +20,7 @@ about:
 
 :::
 
+
 ```{r}
 #| echo: false
 library(leaflet)
@@ -30,3 +29,4 @@ leaflet() %>%
   addMarkers(lng=-122.30830, lat=47.65297)
 ```
 
+<br>
