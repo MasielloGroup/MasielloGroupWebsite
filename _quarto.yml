@@ -43,6 +43,8 @@ format:
     toc: true
     link-external-newwindow: true
     date-format: "MMM YYYY"
+    resources:
+      - images
 
 
 
