@@ -1,12 +1,14 @@
 ---
-title: &TITLE Michael Hilyard
-first: Michael
-last: Hilyard
-people_group: gradstudent
-education: B.S. Chemistry | University of Toledo
-email: "mhilyar2@uw.edu"
-subtitle: Graduate Student, Materials Science and Engineering
-image: avatar.png
+title: &TITLE Caleb Walton
+last: Walton
+first: Caleb
+people_group: "gradstudent"
+email: &EMAIL calebcw@uw.edu
+education:
+  - B.S. Chemistry | UC Davis
+subtitle: "Graduate Student, Chemistry "
+description: ""
+image: avatar.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs 
@@ -22,11 +24,11 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpg
   links:
     - icon: envelope
       text: Email
-      href: mailto:mhilyar2@uw.edu
+      href: mailto:*EMAIL
 ---
 
 <hr>
@@ -47,5 +49,3 @@ about:
 
 :::{#pubs}
 :::
-
-
