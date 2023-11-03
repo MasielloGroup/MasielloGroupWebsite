@@ -8,7 +8,7 @@ listing:
   contents: ../../publications/**/*.qmd
   sort: date desc
   # sort-ui: true
-  # filter-ui: true
+  filter-ui: true
   include:
     categories: *ALIAS
   fields: [publication, title, categories, image, date, author]
