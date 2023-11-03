@@ -28,7 +28,7 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:*EMAIL
+      href: mailto:calebcw@uw.edu
 ---
 
 <hr>
