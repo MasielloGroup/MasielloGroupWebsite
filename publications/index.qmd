@@ -6,15 +6,15 @@ listing:
     contents: ../publications/**/*.qmd
     sort: "pub_number desc"
     page-size: 30
-    # filter-ui: [title]
+    filter-ui: true
     fields: [image, pub_number, title, publication, author,url_source]
   # - id: pubs
-    # type: default
-    # categories: false
-    # contents: ../publications/**/*.qmd
-    # sort: "pub_number desc"
-    # filter-ui: false
-    # fields: [image, pub_number, title, publication, author]
+  #   type: default
+  #   categories: false
+  #   contents: ../publications/**/*.qmd
+  #   sort: "pub_number desc"
+  #   filter-ui: true
+  #   fields: [image, pub_number, title, publication, author]
 page-layout: full
 ---
 

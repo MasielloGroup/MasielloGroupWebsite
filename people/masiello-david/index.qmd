@@ -15,7 +15,7 @@ listing:
   contents: ../../../publications/**/*.qmd
   sort: "pub_number desc"
   # sort-ui: true
-  # filter-ui: true
+  filter-ui: true
   include:
     author: *TITLE
   fields: [publication, title, categories, image, date, author]
