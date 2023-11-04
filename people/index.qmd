@@ -25,6 +25,13 @@ listing:
       people_group: "gradstudent"
     type: grid
     fields: [title, subtitle, image, education]
+  - id: post-bac
+    template: ../_ejs/people-box.ejs
+    sort: last
+    include: 
+      people_group: "post-bac"
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: alumni
     template: ../_ejs/people-box.ejs
     sort: last
@@ -59,6 +66,10 @@ page-layout: full
 ::: {#gradstudent}
 :::
 
+## Post Baccalaureate Researchers
+
+::: {#post-bac}
+:::
 
 ## Alumni
 ::: {#alumni}
