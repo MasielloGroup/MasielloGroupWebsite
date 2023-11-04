@@ -3,7 +3,7 @@ title: &TITLE Matthieu Chalifour
 first: Matthieu
 last: Chalifour
 people_group: gradstudent
-education: B.S. Physics | Swarthmore College | 2020
+education: B.S. Physics | Swarthmore College
 email: "mchalif@uw.edu"
 subtitle: Graduate Student, Physics
 image: avatar.jpg

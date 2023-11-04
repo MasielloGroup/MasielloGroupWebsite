@@ -6,7 +6,7 @@ people_group: "gradstudent"
 email: &EMAIL calebcw@uw.edu
 education:
   - B.S. Chemistry | UC Davis
-subtitle: "Graduate Student, Chemistry "
+subtitle: "Graduate Student, Chemistry"
 description: ""
 image: avatar.jpg
 listing:

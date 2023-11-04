@@ -5,7 +5,7 @@ first: Michael
 people_group: "post-bac"
 email: mmars@uw.edu
 education:
-  - B.S. Physics | University of Washington | 2022 <br> 
+  - B.S. Physics | University of Washington  
 subtitle: "Post Baccalaureate Researcher "
 description: ""
 image: &IMAGE avatar.png

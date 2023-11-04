@@ -5,7 +5,7 @@ first:
 people_group: "postdoc | gradstudent | alumni"
 email: 
 education:
-  - deg | inst | year <br> 
+  - deg | inst  <br> 
 subtitle: "Postdoctoral Fellow | Graduate Student, dept "
 description: ""
 image: avatar.jpg

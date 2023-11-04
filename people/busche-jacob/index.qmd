@@ -3,7 +3,7 @@ title: &TITLE Jacob A. Busche
 first: Jacob
 last: Busche
 people_group: alumni
-education: Ph.D. Chemistry | University of Washington | 2021 <br> B.S. Physics | Oregon State University
+education: Ph.D. Chemistry | University of Washington <br> B.S. Physics | Oregon State University
 subtitle: Graduate Student, Chemistry
 image: avatar.jpg
 listing:

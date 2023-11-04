@@ -3,7 +3,7 @@ title: &TITLE Kevin C. Smith
 first: Kevin
 last: Smith
 people_group: alumni
-education: Ph.D. Physics | University of Washington | 2021 <br> B.S. Physics and Mathematics | UMass Amherst
+education: Ph.D. Physics | University of Washington  <br> B.S. Physics and Mathematics | UMass Amherst
 subtitle: Graduate Student, Physics
 image: avatar.jpg
 listing:

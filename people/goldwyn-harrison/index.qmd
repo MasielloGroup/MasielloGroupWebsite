@@ -3,7 +3,7 @@ title: &TITLE Harrison J. Goldwyn
 first: Harrison
 last: Goldwyn
 people_group: alumni
-education: Ph.D. Chemistry | University of Washington | 2020 <br> B.S. Physics| UC Santa Barbara
+education: Ph.D. Chemistry | University of Washington <br> B.S. Physics| UC Santa Barbara
 subtitle: Graduate Student, Chemistry
 image: avatar.jpg
 listing:
