@@ -14,7 +14,10 @@ website:
   page-footer: 
     background: "#F6F5F3"
     center: © 2023  &middot; Made with {{< fa brands r-project >}} and 
-      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
+      [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/) 
+    right:
+      - icon: github
+        href: https://github.com/MasielloGroup/MasielloGroupWebsite
   
   navbar:
     search: true
