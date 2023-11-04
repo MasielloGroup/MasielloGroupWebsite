@@ -2,7 +2,7 @@
 title: "Dispersion analysis of FTIR reflection measurements in silicate glasses"
 date: 2000-01-01
 author: ["Steven A. MacDonald", "Craig R. Schardt", "David J. Masiello", "Joseph H. Simmons"]
-publication: "Journal of Non-Crystalline Solids, **275**, _pp. 72-82_ (2000)."
+publication: "Journal of Non-Crystalline Solids, **275**, _72-82_ (2000)."
 categories: []
 url_source: https://www.sciencedirect.com/science/article/abs/pii/S0022309300001216
 url_preprint: 

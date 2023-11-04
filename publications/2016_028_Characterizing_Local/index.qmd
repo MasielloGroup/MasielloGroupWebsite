@@ -2,7 +2,7 @@
 title: "Characterizing Localized Surface Plasmons Using Electron Energy-Loss Spectroscopy"
 date: 2016-01-01
 author: ["Charles Cherqui", "Niket Thakkar", "Guoliang Li", "Jon P. Camden", "David J. Masiello"]
-publication: "Annual Review of Physical Chemistry, **67**, _pp. 331-357_ (2016)."
+publication: "Annual Review of Physical Chemistry, **67**, _331-357_ (2016)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://www.annualreviews.org/doi/abs/10.1146/annurev-physchem-040214-121612
 url_preprint: 

@@ -1,0 +1,15 @@
+---
+title: "Exact $k$-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light"
+date: 2021-03-01
+author: ["Kevin C. Smith", "Aniruddha Bhattacharya", "David J. Masiello"]
+publication: "Physical Review A, **104**, *pp. 013707* (2021)."
+categories: ["nanophotonics-quantum_optics"]
+url_source: https://link.aps.org/doi/10.1103/PhysRevA.104.013707
+url_preprint: https://arxiv.org/abs/2103.07571
+journ: "Physical Review A"
+issue: 104
+page: 013707
+year: 2021
+image: featured.png
+pub_number: 66
+---

@@ -2,7 +2,7 @@
 title: "Infrared plasmonics: STEM-EELS characterization of Fabry-Pérot resonance damping in gold nanowires"
 date: 2020-04-01
 author: ["Yueying Wu", "Zhongwei Hu", "Xiang-Tian Kong", "Juan Carlos Idrobo", "Austin G. Nixon", "Philip D. Rack", "David J. Masiello", "Jon P. Camden"]
-publication: "Physical Review B, **101**, _pp. 085409_ (2020)."
+publication: "Physical Review B, **101**, _085409_ (2020)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://link.aps.org/doi/10.1103/PhysRevB.101.085409
 url_preprint: 

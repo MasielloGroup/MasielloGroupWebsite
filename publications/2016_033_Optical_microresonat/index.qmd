@@ -2,7 +2,7 @@
 title: "Optical microresonators as single-particle absorption spectrometers"
 date: 2016-01-01
 author: ["Kevin D. Heylman", "Niket Thakkar", "Erik H. Horak", "Steven C. Quillin", "Charles Cherqui", "Kassandra A. Knapper", "David J. Masiello", "Randall H. Goldsmith"]
-publication: "Nature Photonics, **10**, _pp. 788--796_ (2016)."
+publication: "Nature Photonics, **10**, _788--796_ (2016)."
 categories: ["nanophotonics-quantum_optics"]
 url_source: https://www.nature.com/articles/nphoton.2016.217
 url_preprint: 

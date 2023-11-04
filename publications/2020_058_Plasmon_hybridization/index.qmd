@@ -2,7 +2,7 @@
 title: "Plasmon Hybridization in Nanorhombus Assemblies"
 date: 2020-08-01
 author: ["Claire A. West", "Agust Olafsson", "Grace Pakeltis", "David Garfinkel", "Philip D. Rack", "David J. Masiello", "Jon P. Camden", "Juan Carlos Idrobo"]
-publication: "Journal of Physical Chemistry C, **124**, _pp. 27009-27016_ (2020)."
+publication: "Journal of Physical Chemistry C, **124**, _27009-27016_ (2020)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://doi.org/10.1021/acs.jpcc.0c08098
 url_preprint: 

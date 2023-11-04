@@ -1,0 +1,15 @@
+---
+title: "Spectroscopy in Nanoscopic Cavities – Models and Recent Experiments"
+author: ["Marc R. Bourgeois", "Feng Pan", "Austin G. Nixon", "C. Praise Anyanwu", "Jennifer A. Dionne", "Randall H. Goldsmith", "David J. Masiello"]
+publication: "Annual Review of Physical Chemistry, **accepted**, (2023)"
+categories:
+  - "fast_electron_nano-spectroscopy"
+  - "nanophotonics-quantum_optics"
+url_source: 
+url_preprint: 
+journ: "Annual Review of Physical Chemistry"
+issue: accepted
+page: 
+year: 2023
+pub_number: 83
+---

@@ -2,7 +2,7 @@
 title: "Nanoscale probing of resonant photonic modes in dielectric nanoparticles with focused electron beams"
 date: 2019-01-01
 author: ["Qianlang Liu", "Steven C. Quillin", "David J. Masiello", "Peter A. Crozier"]
-publication: "Physical Review B, **99**, _pp. 165102_ (2019)."
+publication: "Physical Review B, **99**, _165102_ (2019)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://link.aps.org/doi/10.1103/PhysRevB.99.165102
 url_preprint: 

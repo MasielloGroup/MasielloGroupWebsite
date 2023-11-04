@@ -2,7 +2,7 @@
 title: "Direct Observation of Infrared Plasmonic Fano Antiresonances by a Nanoscale Electron Probe"
 date: 2019-06-01
 author: ["Kevin C. Smith", "Agust Olafsson", "Xuan Hu", "Steven C. Quillin", "Juan Carlos Idrobo", "Robyn Collette", "Philip D. Rack", "Jon P. Camden", "David J. Masiello"]
-publication: "Physical Review Letters, **123**, _pp. 177401_ (2019)."
+publication: "Physical Review Letters, **123**, _177401_ (2019)."
 categories: ["fast_electron_nano-spectroscopy"]
 url_source: https://link.aps.org/doi/10.1103/PhysRevLett.123.177401
 url_preprint: 

@@ -2,7 +2,7 @@
 title: "Quantum Beats from Entangled Localized Surface Plasmons"
 date: 2015-01-01
 author: ["Niket Thakkar", "Charles Cherqui", "David J. Masiello"]
-publication: "ACS Photonics, **2**, _pp. 157-164_ (2015)."
+publication: "ACS Photonics, **2**, _157-164_ (2015)."
 categories: ["nanophotonics-quantum_optics"]
 url_source: https://pubs.acs.org/doi/10.1021/ph500387c
 url_preprint: 

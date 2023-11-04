@@ -2,7 +2,7 @@
 title: "Active Tuning of Hybridized Modes in a Heterogeneous Photonic Molecule"
 date: 2020-05-01
 author: ["Kevin C. Smith", "Yueyang Chen", "Arka Majumdar", "David J. Masiello"]
-publication: "Physical Review Applied, **13**, _pp. 044041_ (2020)."
+publication: "Physical Review Applied, **13**, _044041_ (2020)."
 categories: ["nanophotonics-quantum_optics"]
 url_source: https://link.aps.org/doi/10.1103/PhysRevApplied.13.044041
 url_preprint: 

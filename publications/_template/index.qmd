@@ -1,0 +1,17 @@
+---
+title: ""
+author: ["Names in quotes", "Separate by commas"]
+publication: "Journal, **issue**, _page_ (2023)"
+# categories: 
+#   - "fast_electron_nano-spectroscopy"
+#   - "nanophotonics-quantum_optics"
+#   - "photothermal_spectroscopy_and_microscopy"
+url_source: 
+url_preprint: 
+journ: "Journal"
+issue: issue
+page: page
+year: 2023
+image: ""
+pub_number: 
+---
