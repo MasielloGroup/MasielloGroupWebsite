@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Masiello Group: light-matter theory at the nanoscale"
+title: 'Welcome to the Masiello Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
 # subtitle: "light-matter theory at the nanoscale"
 page-layout: full
 ---
@@ -22,5 +22,4 @@ We are a group of theoreticians with diverse backgrounds in chemistry, physics, 
 :::
 :::
 ::::
-
 
