@@ -10,5 +10,6 @@ journ: "Journal of Physical Chemistry C"
 issue: 126
 page: 20470–20479
 year: 2022
+image: featured.jpg
 pub_number: 77
 ---

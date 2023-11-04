@@ -10,5 +10,6 @@ journ: "Scientific Reports"
 issue: 10
 page: 12537
 year: 2020
+image: featured.jpg
 pub_number: 56
 ---
