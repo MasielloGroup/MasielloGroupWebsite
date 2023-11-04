@@ -10,5 +10,6 @@ journ: "Nano Letters"
 issue: 22
 page: 7158–7165
 year: 2022
+image: featured.jpg
 pub_number: 76
 ---

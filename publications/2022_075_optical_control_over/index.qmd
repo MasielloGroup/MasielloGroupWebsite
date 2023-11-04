@@ -10,5 +10,6 @@ journ: "ACS Photonics"
 issue: 9
 page: 3656–3667
 year: 2022
+image: featured.jpg
 pub_number: 75
 ---

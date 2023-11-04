@@ -10,5 +10,6 @@ journ: "Journal of Chemical Physics"
 issue: 158
 page: 024202
 year: 2023
+image: featured.jpg
 pub_number: 80
 ---

@@ -10,5 +10,6 @@ journ: "Advanced Optical Materials"
 issue: 10
 page: 2101968
 year: 2022
+image: featured.jpg
 pub_number: 73
 ---

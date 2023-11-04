@@ -42,7 +42,7 @@ format:
     theme: 
       - styles/custom.scss
       - yeti
-    mainfont: Source Sans Pro
+    mainfont: Nunito Sans
     toc: true
     link-external-newwindow: true
     date-format: "MMM YYYY"

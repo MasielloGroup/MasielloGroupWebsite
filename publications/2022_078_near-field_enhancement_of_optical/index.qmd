@@ -9,5 +9,6 @@ journ: "Light: Science & Applications"
 issue: 12
 page: 99
 year: 2023
+image: featured.jpg
 pub_number: 78
 ---
