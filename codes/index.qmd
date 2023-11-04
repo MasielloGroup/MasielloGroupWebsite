@@ -1,5 +1,6 @@
 ---
 title: Masiello Group Codes
+page-layout: full
 ---
 
 See our Github site for relevant group codes:

@@ -1,5 +1,5 @@
 ---
-title: Research
+title: Research Areas
 listing:
   id: research
   type: grid

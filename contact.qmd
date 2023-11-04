@@ -5,6 +5,7 @@ about:
   template: solana
   image-shape: round
   image: people/masiello-david/avatar.png
+# page-layout: full
 ---
 
 

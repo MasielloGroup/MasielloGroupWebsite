@@ -45,9 +45,6 @@ listing:
 page-layout: full
 ---
 
-<hr>
-
-<br>
 
 ## Principal Investigator
 

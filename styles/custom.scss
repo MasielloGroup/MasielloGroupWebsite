@@ -17,11 +17,56 @@ $gold: #e8e3d3;
 h1, .h1 {
    font-family: 'Economica', sans-serif;
    font-weight: normal;
+   text-transform: uppercase;
  }
 
 // h2, .h2 {
 //   font-family: 'Economica', sans-serif;
 //  }
+
+/* -- Experimental --*/
+
+div.gradient-text {
+  background: linear-gradient(
+    45deg,
+    #e8e3d3,
+    #4b2e83,
+    #4b2e83,
+    #757883,
+    #202020,
+    #007bc2,
+    #4b2e83,
+    #007bc2,
+    #757883,
+    #757883,
+    #202020,
+    #e8e3d3
+
+  );
+  background-size: 800%;
+  //font-weight: 900;
+//  font-size: 4.1rem;
+//  letter-spacing: -3px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animated_text 30s ease-in-out infinite;
+  -moz-animation: animated_text 30s ease-in-out infinite;
+  -webkit-animation: animated_text 30s ease-in-out infinite;
+}
+
+@keyframes animated_text {
+  0% {
+    background-position: 0px 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0px 50%;
+  }
+}
 
 
 
@@ -33,8 +78,9 @@ h1, .h1 {
   padding-bottom: 0;
   font-size: 1em;
   // font-family: 'Arsenal', sans-serif;
-  font-family: 'Bebas Neue', sans-serif;
-  // font-family: 'Economica', sans-serif;
+  //font-family: 'Bebas Neue', sans-serif;
+   font-family: 'Economica', sans-serif;
+   text-transform: uppercase;
   }
 
 /*quarto-header {
