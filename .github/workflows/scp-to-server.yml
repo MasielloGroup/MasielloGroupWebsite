@@ -1,0 +1,22 @@
+name: scp-to-server
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy-to-ssh:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Copy _site directory to remote server
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        port: ${{ secrets.PORT }}
+        source: "_site/"
+        target: "~/public_html/REPO"
+        overwrite: true
