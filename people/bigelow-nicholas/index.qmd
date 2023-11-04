@@ -1,5 +1,6 @@
 ---
-subtitle: Graduate Student, Chemistry
+subtitle: Graduate Student
+education: Ph.D. Chemistry | University of Washington
 title: &TITLE Nicholas W. Bigelow
 first: Nicholas
 last: Bigelow

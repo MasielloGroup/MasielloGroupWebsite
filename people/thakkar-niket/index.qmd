@@ -2,7 +2,8 @@
 title: &TITLE Niket Thakkar
 first: Niket
 last: Thakkar
-subtitle: Graduate Student, Applied Mathematics
+subtitle: Graduate Student
+education: Ph.D. Applied Mathematics | University of Washington
 people_group: alumni
 image: avatar.jpeg
 listing:

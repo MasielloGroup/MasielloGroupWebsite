@@ -1,5 +1,6 @@
 ---
 subtitle: Post-Doctoral Fellow
+education: Ph.D. Chemistry | Pennsylvania State University
 title: &TITLE Zhongwei Hu
 first: Zhongwei
 last: Hu

@@ -2,9 +2,9 @@
 
 <div class="quarto-listing quarto-listing-container-grid">
   
-  <div class="list grid quarto-listing-cols-3"> 
+  <div class="list grid quarto-listing-cols-4"> 
 
-    <% for (const item of items) { ;%> 
+    <% for (const item of items) { console.log(item);%> 
     
     <div class="g-col-1 listing-box">
       
@@ -25,17 +25,25 @@
             </div>
                
             <div class="listing-box-subtitle">
-              <%= item.subtitle %><br>
+
+              <% if (item.altsubtitle) { %>
+                <%= item.altsubtitle %><br>
+                <%} else { %>
+                  <%= item.subtitle %><br>
+                  <% } %>
+
+
+
             </div>
                 
             
               
               <div class="listing-box-education">
                 
-                <% if (item.education) { %>
-                  <%= item.education %><br>
+                <% if (item.alteducation) { %>
+                  <%= item.alteducation %><br>
                   <%} else { %>
-                    <p>  </p>
+                    <%= item.education %><br>
                     <% } %>
                     
               </div>  

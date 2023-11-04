@@ -2,7 +2,8 @@
 title: &TITLE Steven C. Quillin
 first: Steven
 last: Quillin 
-subtitle: Graduate Student, Chemistry
+subtitle: Graduate Student
+education: Ph.D. Chemistry | University of Washington
 people_group: alumni
 image: avatar.jpeg
 listing:

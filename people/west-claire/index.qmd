@@ -3,8 +3,8 @@ title: &TITLE Claire A. West
 last: West
 first: Claire
 people_group: alumni
-education: Ph.D. Chemistry | University of Washington <br> B.S. Physics | UC Santa Barbara
-subtitle: Graduate Student, Chemistry
+education: Ph.D. Chemistry | University of Washington 
+subtitle: Graduate Student
 image: avatar.jpg
 listing:
   id: pubs

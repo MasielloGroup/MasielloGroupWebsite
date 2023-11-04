@@ -2,43 +2,46 @@
 title: "Meet the Group"
 listing:
   - id: pi
-    template: ../_ejs/people-box.ejs
     include: 
       people_group: "Principal Investigator"
-    # type: grid
+    template: ../_ejs/people-box.ejs
+    type: grid
     fields: [title, subtitle, image, education]
   - id: researcher
-    template: ../_ejs/people-box.ejs
-    sort: last
     include: 
       people_group: "researcher"
-  - id: postdoc
     template: ../_ejs/people-box.ejs
     sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: postdoc
     include: 
       people_group: "postdoc"
+    template: ../_ejs/people-box.ejs
+    sort: last    
+    type: grid
     fields: [title, subtitle, image, education]
   - id: gradstudent
-    template: ../_ejs/people-box.ejs
-    sort: last
     include: 
       people_group: "gradstudent"
+    template: ../_ejs/people-box.ejs
+    sort: last
     type: grid
     fields: [title, subtitle, image, education]
   - id: post-bac
-    template: ../_ejs/people-box.ejs
-    sort: last
     include: 
       people_group: "post-bac"
+    template: ../_ejs/people-box.ejs
+    sort: last
     type: grid
     fields: [title, subtitle, image, education]
   - id: alumni
-    template: ../_ejs/people-box.ejs
-    sort: last
     include: 
       people_group: "alumni"
+    template: ../_ejs/alumni-box.ejs
+    sort: last
     type: grid
-    fields: [title, subtitle, image]
+    fields: [title, subtitle, image, education, altsubtitle, alteducation]
 page-layout: full
 ---
 
@@ -48,12 +51,19 @@ page-layout: full
 
 ## Principal Investigator
 
+
 ::: {#pi}
 :::
 
+
+:::{.sand-background}
 ## Research Scientists
 
+
+
 ::: {#researcher}
+:::
+
 :::
 
 ## Postdoctoral Fellows
@@ -61,9 +71,14 @@ page-layout: full
 ::: {#postdoc}
 :::
 
+:::{.sand-background}
 ## Graduate Students
 
+
+
 ::: {#gradstudent}
+:::
+
 :::
 
 ## Post Baccalaureate Researchers
@@ -71,6 +86,12 @@ page-layout: full
 ::: {#post-bac}
 :::
 
+:::{.sand-background}
 ## Alumni
+
+
+
 ::: {#alumni}
+:::
+
 :::

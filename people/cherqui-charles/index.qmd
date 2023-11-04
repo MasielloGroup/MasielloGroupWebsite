@@ -4,7 +4,7 @@ last: Cherqui
 first: Charles
 people_group: "alumni"
 email: 
-education: "Ph.D. Physics | University of New Mexico & Los Alamos National Laboratory <br>B.S. Physics | Loyola University Chicago <br> B.S. Mathematics | Loyola University Chicago"
+education: "Ph.D. Physics | University of New Mexico & Los Alamos National Laboratory"
 subtitle: "Postdoctoral Fellow"
 description: ""
 image: avatar.jpg

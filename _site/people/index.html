@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-last','listing-first','listing-subtitle','listing-people_group','listing-email','listing-education','listing-description','listing-image','listing-page-layout','listing-listing','listing-about','listing-path','listing-outputHref','listing-author','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
       searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-subtitle","listing-people_group","listing-email","listing-education","listing-description","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
@@ -138,7 +138,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-altsubtitle","listing-alteducation","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -220,9 +220,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education','listing-altsubtitle','listing-alteducation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-education","listing-subtitle","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-email"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-education","listing-subtitle","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-email","listing-altsubtitle","listing-alteducation"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -382,7 +382,6 @@ ga('send', {
               Professor of Chemistry <br> Adjunct Professor of Materials Science and Engineering <br> Adjunct Professor of Applied Mathematics<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -393,7 +392,8 @@ ga('send', {
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -411,7 +411,7 @@ No matching items
 </div>
 </div>
 </section>
-<section id="research-scientists" class="level2">
+<section id="research-scientists" class="level2 sand-background">
 <h2 class="anchored" data-anchor-id="research-scientists">Research Scientists</h2>
 <div id="listing-researcher" class="quarto-listing quarto-listing-container-custom">
 
@@ -443,7 +443,6 @@ No matching items
               Research Scientist<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -454,7 +453,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -504,7 +504,6 @@ No matching items
               Postdoctoral Fellow<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -515,7 +514,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -533,7 +533,7 @@ No matching items
 </div>
 </div>
 </section>
-<section id="graduate-students" class="level2">
+<section id="graduate-students" class="level2 sand-background">
 <h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
 <div id="listing-gradstudent" class="quarto-listing quarto-listing-container-custom">
 
@@ -565,7 +565,6 @@ No matching items
               Graduate Student, Chemistry<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -576,7 +575,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -608,7 +608,6 @@ No matching items
               Graduate Student, Physics<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -619,7 +618,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -651,7 +651,6 @@ No matching items
               Graduate Student, Chemistry<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -662,7 +661,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -694,7 +694,6 @@ No matching items
               Graduate Student, Materials Science &amp; Engineering<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -705,7 +704,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -737,7 +737,6 @@ No matching items
               Graduate Student, Chemistry<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -748,7 +747,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -780,7 +780,6 @@ No matching items
               Graduate Student, Chemistry<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -791,7 +790,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -823,7 +823,6 @@ No matching items
               Graduate Student, Chemistry<br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -834,7 +833,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -884,7 +884,6 @@ No matching items
               Post Baccalaureate Researcher <br>
             </div>
                 
-             
             
               
               <div class="listing-box-education">
@@ -895,7 +894,8 @@ No matching items
                     
               </div>  
                   
-             
+
+            
             
           </div>  
         </div>  
@@ -913,14 +913,61 @@ No matching items
 </div>
 </div>
 </section>
-<section id="alumni" class="level2">
+<section id="alumni" class="level2 sand-background">
 <h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
 <div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
-  <div class="list grid quarto-listing-cols-3"> 
+  <div class="list grid quarto-listing-cols-4"> 
 
+     
+    
+    <div class="g-col-1 listing-box">
+      
+      
+      
+      <a href="../people/beutler-elliot/index.html" role="button" class="quarto-grid-link">
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Elliot K. Beutler" src="../people/beutler-elliot/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              Elliot K. Beutler<br> 
+            </div>
+               
+            <div class="listing-box-subtitle">
+
+              
+                Graduate Student<br>
+                
+
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+                
+                
+                  Ph.D. Chemistry | University of Washington<br>
+                  
+                    
+              </div>  
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
      
     
     <div class="g-col-1 listing-box">
@@ -942,10 +989,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Postdoctoral Fellow<br>
+
+              
+                  Postdoctoral Fellow<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Electrical Engineering | University of Michigan<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -974,10 +1036,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1006,10 +1083,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1038,10 +1130,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Postdoctoral Fellow<br>
+
+              
+                  Postdoctoral Fellow<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Physics | University of New Mexico &amp; Los Alamos National Laboratory<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1070,10 +1177,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1102,10 +1224,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Post-Doctoral Fellow<br>
+
+              
+                  Post-Doctoral Fellow<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | Pennsylvania State University<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1134,10 +1271,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Post-Doctoral Fellow<br>
+
+              
+                  Post-Doctoral Fellow<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Physics | Nankai University<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1166,10 +1318,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1198,10 +1365,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Post-Doctoral Fellow<br>
+
+              
+                  Post-Doctoral Fellow<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Pennsylvania<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1230,10 +1412,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1262,10 +1459,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Physics<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Physics | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1294,10 +1506,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Applied Mathematics<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Applied Mathematics | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1326,10 +1553,25 @@ No matching items
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+
+              
+                  Graduate Student<br>
+                  
+
             </div>
                 
-             
+            
+              
+              <div class="listing-box-education">
+                
+                
+                    Ph.D. Chemistry | University of Washington<br>
+                    
+                    
+              </div>  
+                  
+
+            
             
           </div>  
         </div>  
@@ -1346,10 +1588,10 @@ No matching items
 No matching items
 </div>
 </div>
-
-
-
 </section>
+
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

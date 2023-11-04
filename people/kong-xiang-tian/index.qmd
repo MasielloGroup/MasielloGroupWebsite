@@ -3,6 +3,7 @@ subtitle: Post-Doctoral Fellow
 first: Xiang-Tian
 last: Kong
 title: &TITLE Xiang-Tian Kong
+education: Ph.D. Physics | Nankai University
 people_group: alumni
 image: avatar.png
 listing:

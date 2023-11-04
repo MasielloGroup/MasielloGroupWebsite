@@ -5,7 +5,7 @@ first: Aniruddha
 people_group: alumni
 subtitle: Postdoctoral Fellow
 education:
-  - Ph.D. Electrical Engineering | University of Michigan <br> B.E. Electrical Engineering | Indian Institute of Engineering Science and Technology
+  - Ph.D. Electrical Engineering | University of Michigan 
 image: avatar.jpg
 listing:
   id: pubs
