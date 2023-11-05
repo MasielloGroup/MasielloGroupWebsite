@@ -3,7 +3,7 @@ project:
 
 
 website:
-  title: ""
+  title: "Masiello Group"
   site-url: "https://faculty.washington.edu/masiello/"
   repo-url: "https://github.com/MasielloGroup/MasielloGroupWebsite"
   favicon: images/favicon.drawio.png
@@ -21,6 +21,7 @@ website:
   
   navbar:
     search: true
+    title: false
     logo: images/logo.drawio.png
     background: "#F6F5F3"
     logo-alt: "Masiello Research Group"
