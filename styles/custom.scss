@@ -184,6 +184,17 @@ div.gradient-text {
   background-repeat: no-repeat;
 }
 
+.flare-background {
+  background-image: url("images/flare-dk.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 10px;
+}
+
+
+
+
 /* -- people --*/
 
 .listing-box:hover {

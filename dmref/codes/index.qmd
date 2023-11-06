@@ -1,0 +1,13 @@
+---
+# title: Computer Codes
+---
+<img src="../../images/dmref-logo.png" style="float: left; width: 130px; margin-top: 25px;"><h1>Computer Codes</h1>
+<h2> Relevant GitHub repositories:</h2>
+
+* **<a href=https://github.com/MasielloGroup/t-dda>T-DDA: Thermal Discrete Dipole Approximation</a>**  
+This code calculates the steady-state temperature distribution of nanoparticles on a semi-infinite substrate, embedded in a semi-infinite background medium by solving the discretized steady-state heat diffusion equation.  
+
+  
+* **<a href=https://github.com/MasielloGroup/confocal_photothermal_pipeline>Confocal Photothermal Image Pipeline</a>**  
+This set of files creates confocal photothermal images by calculating the light scattered by metallic nanoparticle assemblies.
+  

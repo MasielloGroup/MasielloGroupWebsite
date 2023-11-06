@@ -8,6 +8,7 @@ website:
   repo-url: "https://github.com/MasielloGroup/MasielloGroupWebsite"
   favicon: images/favicon.drawio.png
   google-analytics: "UA-177339812-1"
+  twitter-card: true
   #back-to-top-navigation: true
   page-navigation: false
   search: true
@@ -30,13 +31,34 @@ website:
         text: people
       - href: research/index.qmd
       - href: publications/index.qmd
-      # - text: NSF DMREF
-      #   href: dmref
+      - text: "NSF DMREF"
+        href: dmref/index.qmd
       - href: codes/index.qmd
         text: Codes
       - href: news/index.qmd
       - href: contact.qmd
         text: Contact
+
+  sidebar:
+#  link each group of sidebar entries with a navbar entry by matching their titles and listing the page linked from the navbar as the first content in the sidebar
+    - id: dmref
+      title: "NSF DMREF"
+      # logo: "images/dmref-logo.png"
+      logo-href: dmref/index.qmd #avail quarto v 1.5
+      contents: 
+        - href: dmref/index.qmd
+          text: Welcome to DMREF
+        - href: dmref/people/index.qmd
+          text: The DMREF Team
+        - href: dmref/publications/index.qmd
+          text: DMREF-Related Publications
+        - href: dmref/codes/index.qmd
+          text: Computer Codes
+        - href: dmref/data/index.qmd
+          text: Team Data
+
+    - id: empty-to-suppress-sidebars-on-other-pages
+
 
 format:
   html:

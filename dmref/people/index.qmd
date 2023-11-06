@@ -1,0 +1,51 @@
+---
+# title: "The NSF DMREF Team"
+listing:
+  - id: pi
+    contents: ../../people/**/*.qmd
+    include: 
+      people_group: "pi"
+      project: "dmref"
+    template: ../../_ejs/dmref-people-box.ejs
+    type: grid
+    fields: [title, affiliation, image]
+  - id: postdoc
+    contents: ../../people/**/*.qmd
+    include: 
+      people_group: "postdoc"
+      project: "dmref"
+    template: ../../_ejs/dmref-people-box.ejs
+    sort: last    
+    type: grid
+    fields: [title, affiliation, image]
+  - id: gradstudent
+    contents: ../../people/**/*.qmd
+    include: 
+      people_group: "gradstudent"
+      project: dmref
+    template: ../../_ejs/dmref-people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, affiliation, image]
+---
+<img src="../../images/dmref-logo.png" style="float: left; width: 130px; margin-top: 25px;"><h1>The NSF DMREF Team</h1>
+
+## Principal Investigators
+
+
+::: {#pi}
+:::
+
+
+
+## Postdoctoral Fellows
+
+::: {#postdoc}
+:::
+
+## Graduate Students
+
+::: {#gradstudent}
+:::
+
+
