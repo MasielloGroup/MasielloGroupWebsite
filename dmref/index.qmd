@@ -1,0 +1,23 @@
+---
+# title: NSF DMREF
+# subtitle: A National Science Foundation-funded collaboration between
+page-layout: full
+---
+
+<img src="../images/dmref-logo.png" style="float: left; width: 130px; margin-top: 25px;"><h1>NSF DMREF</h1>
+<h4>A National Science Foundation-funded collaboration between</h4><br>
+
+<a href="https://www.washington.edu/"><img src="../images/washington.png" alt ="University of Washington" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"></a><a href="https://www.rice.edu/"><img src="../images/rice.png" alt ="Rice University" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"></a><a href="https://www.temple.edu/"><img src="../images/temple.png" alt ="Temple University" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;"></a>
+<p style="clear: both;">
+
+
+
+
+
+:::{.flare-background}
+<h2> Welcome</h2>
+Thermal energy, or heat, flows naturally from hot to cold, making it difficult to create localized thermal “hot spots” even when heat is applied to a single spot. Touching a hot pan’s lid provides a simple and all too familiar example of such thermal conduction. As a material’s size is reduced to 10-100s of nanometers, or about 1,000 times smaller than a human hair, depositing and maintaining thermal energy within a small region of space becomes even more challenging. Yet the ability to control heat flow and thus temperature at nanoscopic dimensions has important implications for applications ranging from data storage and local chemical reaction control to photothermal therapies for disease treatment and pain management through ion channel stimulation.
+
+With support from the National Science Foundation Designing Materials to Revolutionize and Engineer our Future (DMREF) Program, Professor David J. Masiello from the University of Washington, Professor Katherine A. Willets from Temple University, and Professor Stephan Link from Rice University are developing methods to theoretically design and experimentally realize a new class of materials capable of controllably directing temperature increases to nanoscale regions of space using light. Beyond impacting a wide variety of applications, the project is also facilitating the interdisciplinary training of students and postdoctoral researchers through student exchange between the three research groups.
+
+:::

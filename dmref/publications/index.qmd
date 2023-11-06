@@ -1,0 +1,13 @@
+---
+# title: NSF DMREF Publications
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: ../../../publications/**/*.qmd
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    categories: "dmref"
+  fields: [publication, title, categories, image, date, author]
+---
+<img src="../../images/dmref-logo.png" style="float: left; width: 130px; margin-top: 25px;"><h1>NSF DMREF Publications</h1>

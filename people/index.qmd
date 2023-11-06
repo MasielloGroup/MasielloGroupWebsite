@@ -3,13 +3,17 @@ title: "Meet the Group"
 listing:
   - id: pi
     include: 
-      people_group: "Principal Investigator"
+      people_group: "pi"
+    exclude:
+      external: true
     template: ../_ejs/people-box.ejs
     type: grid
     fields: [title, subtitle, image, education]
   - id: researcher
     include: 
       people_group: "researcher"
+    exclude:
+      external: true
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
@@ -17,6 +21,8 @@ listing:
   - id: postdoc
     include: 
       people_group: "postdoc"
+    exclude:
+      external: true
     template: ../_ejs/people-box.ejs
     sort: last    
     type: grid
@@ -24,6 +30,8 @@ listing:
   - id: gradstudent
     include: 
       people_group: "gradstudent"
+    exclude:
+      external: true
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
@@ -31,6 +39,8 @@ listing:
   - id: post-bac
     include: 
       people_group: "post-bac"
+    exclude:
+      external: true
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
@@ -38,6 +48,8 @@ listing:
   - id: alumni
     include: 
       people_group: "alumni"
+    exclude:
+      external: true
     template: ../_ejs/alumni-box.ejs
     sort: last
     type: grid

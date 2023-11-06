@@ -3,7 +3,7 @@ title: "Far-field midinfrared superresolution imaging and spectroscopy of single
 date: 2020-02-01
 author: ["Kyle Aleshire", "Ilia M. Pavlovetc", "Robyn Collette", "Xiang-Tian Kong", "Philip D. Rack", "Shubin Zhang", "David J. Masiello", "Jon P. Camden", "Gregory V. Hartland", "Masaru Kuno"]
 publication: "Proceedings of the National Academy of Sciences, **117**, _2288--2293_ (2020)."
-categories: ["photothermal_spectroscopy_and_microscopy"]
+categories: ["photothermal_spectroscopy_and_microscopy", "dmref"]
 url_source: https://www.pnas.org/content/117/5/2288
 url_preprint: 
 journ: "Proceedings of the National Academy of Sciences"

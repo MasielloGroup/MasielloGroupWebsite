@@ -3,6 +3,8 @@ title: &TITLE Xiaofei Guo
 first: Xiaofei (Betty)
 last: Guo
 people_group: gradstudent
+project: dmref
+affiliation: University of Washington
 education: B.S. Chemistry | Bard College
 email: "xfguo93@uw.edu"
 subtitle: Graduate Student, Chemistry

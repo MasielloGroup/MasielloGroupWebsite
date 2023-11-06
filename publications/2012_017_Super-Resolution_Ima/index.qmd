@@ -3,7 +3,7 @@ title: "Super-Resolution Imaging Reveals a Difference Between SERS and Luminesce
 date: 2012-01-01
 author: ["Maggie L. Weber", "Jonathan P. Litz", "David J. Masiello", "Katherine A. Willets"]
 publication: "ACS Nano, **6**, _1839_ (2012)."
-categories: ["photothermal_spectroscopy_and_microscopy"]
+categories: ["photothermal_spectroscopy_and_microscopy", "dmref"]
 url_source: https://pubs.acs.org/doi/abs/10.1021/nn205080q
 url_preprint: 
 journ: "ACS Nano"

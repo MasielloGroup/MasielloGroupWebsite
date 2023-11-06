@@ -1,0 +1,10 @@
+sidebar: dmref
+# sidebar:
+#   - id: dmref
+#     logo: "images/dmref-logo.png"
+#     contents: 
+#       - href: dmref/index.qmd
+#       - href: dmref/people/index.qmd
+#       - href: dmref/publications/index.qmd
+#       - href: dmref/codes/index.qmd
+#       - href: dmref/data/index.qmd

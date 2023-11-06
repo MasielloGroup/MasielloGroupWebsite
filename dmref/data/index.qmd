@@ -1,0 +1,44 @@
+---
+# title: 'DMREF Team Data'
+execute:
+  echo: false
+---
+<img src="../../images/dmref-logo.png" style="float: left; width: 130px; margin-top: 25px;"><h1>DMREF Team Data</h1>
+
+```{r}
+library(gt)
+# library(htmltools)
+# suppressPackageStartupMessages(library(tidyverse))
+```
+
+```{r}
+temperature <- 0:100
+filename <- paste0("au_",temperature,"K.txt")
+link <- paste0('<a href=',filename,'>',filename,"</a>")
+```
+
+```{r}
+df <- data.frame(temperature, link)
+
+df |> gt() |> 
+  
+  tab_header(
+    title = md("**Temperature dependent <br>refractive index data for gold**")
+  ) |>
+  cols_label(
+    temperature = md("Temperature <br>(in ΔT above 298 K)"),
+    link = "Download File"
+  ) |> 
+  fmt_url(columns = link) |> 
+  opt_row_striping() |> 
+  tab_options( 
+              row.striping.background_color = "#F6F5F3",
+              container.width = px(400)) |> 
+   opt_interactive(use_filters = TRUE,
+                   page_size_default = 15) 
+  
+
+
+```
+ 
+
