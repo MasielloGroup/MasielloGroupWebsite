@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.471">
+<meta name="generator" content="quarto-1.4.504">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -236,7 +236,68 @@ ga('send', {
 <div class="list quarto-listing-default">
     
     
-    <div class="quarto-post image-right" data-index="0" data-categories="fast_electron_nano-spectroscopy,nanophotonics-quantum_optics" data-listing-date-sort="1657868400000" data-listing-file-modified-sort="1699068774669" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="quarto-post image-right" data-index="0" data-categories="fast_electron_nano-spectroscopy" data-listing-file-modified-sort="1700198253361" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+        <div class="thumbnail">
+            <!-- <a href="/publications/2023_084_optical_polarization_analogs/index.qmd"> -->
+
+                <p>
+                    
+
+                </p>
+      
+
+            <!-- </a> -->
+        </div>
+        <div class="body">
+            <!-- <a href="/publications/2023_084_optical_polarization_analogs/index.qmd"> -->
+            <div class="no-anchor listing-pub-title listing-title">Optical Polarization Analogs in Inelastic Free Electron Scattering</div>
+            <!-- </a> -->
+            <!-- <a href="/publications/2023_084_optical_polarization_analogs/index.qmd"> -->
+                
+                <div class="listing-pub-author listing-author">
+                    Marc R. Bourgeois, Austin G. Nixon, Matthieu Chalifour, David J. Masiello<br> 
+                </div>
+                
+                <div class="metadata-value listing-pub-journal listing-publication">
+                    
+                        <i>Science Advances</i>, <b>accepted</b> (2023)<br>
+                        
+                        
+                        
+                        
+                        
+                        
+                </div>
+                    
+                    
+                    
+            <!-- </a> -->
+ <!--               <div class="listing-categories">
+                
+                <div class="listing-category" onclick="window.quartoListingCategory('fast_electron_nano-spectroscopy'); return false;">fast_electron_nano-spectroscopy</div>
+                
+                </div>
+                -->
+        </div>
+        <div class="metadata">
+
+            
+  
+              
+            <div class="listing-pub-url">
+
+                    <a href="https://arxiv.org/abs/2305.17776">
+                    <p>preprint URL <i class="bi bi-box-arrow-up-right"></i></p>
+                    </a>
+                </div>
+                    
+
+        </div>
+    </div>
+    
+    
+    
+    <div class="quarto-post image-right" data-index="1" data-categories="fast_electron_nano-spectroscopy,nanophotonics-quantum_optics" data-listing-date-sort="1657868400000" data-listing-file-modified-sort="1699068774669" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
         <div class="thumbnail">
             <!-- <a href="/publications/2022_076_polarization_resolved/index.qmd"> -->
 
@@ -293,13 +354,15 @@ ga('send', {
                     </a>
                 </div>
                     
+  
+              
 
         </div>
     </div>
     
     
     
-    <div class="quarto-post image-right" data-index="1" data-categories="nanophotonics-quantum_optics" data-listing-date-sort="1629356400000" data-listing-file-modified-sort="1699061404640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="quarto-post image-right" data-index="2" data-categories="nanophotonics-quantum_optics" data-listing-date-sort="1629356400000" data-listing-file-modified-sort="1699061404640" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
         <div class="thumbnail">
             <!-- <a href="/publications/2021_067_lattice_kerker/index.qmd"> -->
 
@@ -354,6 +417,8 @@ ga('send', {
                     </a>
                 </div>
                     
+  
+              
 
         </div>
     </div>
@@ -444,6 +509,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/faculty\.washington\.edu\/masiello\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -518,8 +601,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
         }
         typesetMath(container);
         return container.innerHTML
@@ -753,24 +843,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/faculty\.washington\.edu\/masiello\/");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
 });
 </script>
 </div> <!-- /content -->

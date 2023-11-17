@@ -1,0 +1,15 @@
+---
+title: "Optical Polarization Analogs in Inelastic Free Electron Scattering"
+author: ["Marc R. Bourgeois", "Austin G. Nixon", "Matthieu Chalifour", "David J. Masiello"]
+publication: "Science Advances, **accepted** (2023)"
+categories: 
+  - "fast_electron_nano-spectroscopy"
+url_source: 
+url_preprint: "https://arxiv.org/abs/2305.17776"
+journ: "Science Advances"
+issue: accepted
+page: ""
+year: 2023
+# image: ""
+pub_number: 84
+---
