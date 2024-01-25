@@ -1,7 +1,7 @@
 ---
 title: ""
 author: ["Names in quotes", "Separate by commas"]
-publication: "Journal, **issue**, _page_ (2023)"
+publication: "Journal, **issue**, _page_ (2024)"
 # categories: 
 #   - "fast_electron_nano-spectroscopy"
 #   - "nanophotonics-quantum_optics"
@@ -11,7 +11,7 @@ url_preprint:
 journ: "Journal"
 issue: issue
 page: page
-year: 2023
+year: 2024
 image: ""
 pub_number: 
 ---

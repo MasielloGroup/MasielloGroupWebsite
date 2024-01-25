@@ -1,0 +1,15 @@
+---
+title: "Localizing Low-Grade Heat Using Hybrid Photonic-Phononic Materials"
+author: ["Elliot K. Beutler", "Vishal Kumar", "Gordon H. K. Duddy", "Marc R. Bourgeois", "Bernadeta R. Srijanto", "Jordan A. Hachtel", "David J. Masiello", "Jon P. Camden"]
+publication: "ACS Energy Letter, **accepted**, (2024)"
+categories:
+  - "fast_electron_nano-spectroscopy"
+url_source: 
+url_preprint: 
+journ: "ACS Energy Letter"
+issue: "accepted"
+# page: page
+year: 2024
+# image: ""
+pub_number: 85
+---

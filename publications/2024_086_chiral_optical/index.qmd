@@ -1,0 +1,15 @@
+---
+title: "Chiral Optical Properties of Plasmonic Kagome Lattices"
+author: ["Xitlali G. Juarez", "Francisco Freire-Ferna ́ndez", "Siamak Khorasani", "Marc R. Bourgeois", "Yi Wang", "David J. Masiello", "George C. Schatz", "Teri W. Odom"]
+publication: "ACS Photonics, **accepted**, (2024)"
+categories:
+  - "nanophotonics-quantum_optics"
+url_source: 
+url_preprint: 
+journ: "ACS Photonics"
+issue: accepted
+page: ""
+year: 2024
+# image: ""
+pub_number: 86 
+---
