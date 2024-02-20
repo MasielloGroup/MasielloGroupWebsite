@@ -1,7 +1,9 @@
 [
   {
     "listing": "/people/walton-caleb/index.html",
-    "items": []
+    "items": [
+      "/publications/2024_088_probing_the_polarization/index.html"
+    ]
   },
   {
     "listing": "/people/ext-willets-katherine/index.html",
@@ -17,7 +19,7 @@
   {
     "listing": "/people/anyanwu-praise/index.html",
     "items": [
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
       "/publications/2023_079_Nanoscale_characterization/index.html",
       "/publications/2019_051_Focused_Electron_Bea/index.html"
     ]
@@ -25,8 +27,12 @@
   {
     "listing": "/people/bourgeois-marc/index.html",
     "items": [
-      "/publications/2023_084_optical_polarization_analogs/index.html",
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2024_088_probing_the_polarization/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2024_086_chiral_optical/index.html",
+      "/publications/2024_085_localizing_low-grade/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
       "/publications/2022_076_polarization_resolved/index.html",
       "/publications/2022_075_optical_control_over/index.html",
       "/publications/2022_074_visualizing_electric/index.html",
@@ -110,6 +116,7 @@
   {
     "listing": "/people/rossi-andrew/index.html",
     "items": [
+      "/publications/2024_088_probing_the_polarization/index.html",
       "/publications/2023_081_infrared_near-field/index.html",
       "/publications/2022_075_optical_control_over/index.html",
       "/publications/2022_074_visualizing_electric/index.html",
@@ -197,7 +204,10 @@
   {
     "listing": "/research/nanophotonics-quantum_optics/index.html",
     "items": [
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2024_088_probing_the_polarization/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2024_086_chiral_optical/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
       "/publications/2023_082_a_composite_electrodynamic/index.html",
       "/publications/2023_079_Nanoscale_characterization/index.html",
       "/publications/2022_078_near-field_enhancement_of_optical/index.html",
@@ -216,8 +226,11 @@
   {
     "listing": "/research/fast_electron_nano-spectroscopy/index.html",
     "items": [
-      "/publications/2023_084_optical_polarization_analogs/index.html",
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2024_088_probing_the_polarization/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2024_085_localizing_low-grade/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
       "/publications/2023_081_infrared_near-field/index.html",
       "/publications/2023_079_Nanoscale_characterization/index.html",
       "/publications/2022_076_polarization_resolved/index.html",
@@ -315,8 +328,12 @@
   {
     "listing": "/publications/index.html",
     "items": [
-      "/publications/2023_084_optical_polarization_analogs/index.html",
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2024_088_probing_the_polarization/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2024_086_chiral_optical/index.html",
+      "/publications/2024_085_localizing_low-grade/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
       "/publications/2023_082_a_composite_electrodynamic/index.html",
       "/publications/2023_081_infrared_near-field/index.html",
       "/publications/2023_080_Nonlinear_effects/index.html",
@@ -404,7 +421,8 @@
   {
     "listing": "/people/chalifour-matthieu/index.html",
     "items": [
-      "/publications/2023_084_optical_polarization_analogs/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
       "/publications/2022_076_polarization_resolved/index.html",
       "/publications/2021_067_lattice_kerker/index.html"
     ]
@@ -424,7 +442,9 @@
   },
   {
     "listing": "/people/sanchez-michael/index.html",
-    "items": []
+    "items": [
+      "/publications/2024_087_inelastic_scattering/index.html"
+    ]
   },
   {
     "listing": "/people/cherqui-charles/index.html",
@@ -462,6 +482,7 @@
   {
     "listing": "/people/beutler-elliot/index.html",
     "items": [
+      "/publications/2024_085_localizing_low-grade/index.html",
       "/publications/2022_076_polarization_resolved/index.html",
       "/publications/2022_072_nanometer-scale/index.html",
       "/publications/2021_063_infrared-surface-phonon-nanospectroscopy/index.html",
@@ -494,6 +515,7 @@
   {
     "listing": "/people/khorasani-siamak/index.html",
     "items": [
+      "/publications/2024_086_chiral_optical/index.html",
       "/publications/2023_082_a_composite_electrodynamic/index.html",
       "/publications/2022_075_optical_control_over/index.html",
       "/publications/2022_072_nanometer-scale/index.html",
@@ -503,8 +525,9 @@
   {
     "listing": "/people/nixon-austin/index.html",
     "items": [
-      "/publications/2023_084_optical_polarization_analogs/index.html",
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
       "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
       "/publications/2022_076_polarization_resolved/index.html",
       "/publications/2022_073_nanoscale_mapping/index.html",
@@ -544,8 +567,12 @@
   {
     "listing": "/people/masiello-david/index.html",
     "items": [
-      "/publications/2023_084_optical_polarization_analogs/index.html",
-      "/publications/2023_083_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2024_088_probing_the_polarization/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2024_086_chiral_optical/index.html",
+      "/publications/2024_085_localizing_low-grade/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
       "/publications/2023_082_a_composite_electrodynamic/index.html",
       "/publications/2023_081_infrared_near-field/index.html",
       "/publications/2023_080_Nonlinear_effects/index.html",
