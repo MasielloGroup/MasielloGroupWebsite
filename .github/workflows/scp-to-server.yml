@@ -17,6 +17,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
+        use_insecure_cipher: true
         source: "_site/"
-        target: "~/public_html/REPO"
+        target: "~/public_html/REPOSITORY"
         overwrite: true
