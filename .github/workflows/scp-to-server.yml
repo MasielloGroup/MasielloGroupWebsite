@@ -15,8 +15,8 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
-        key: ${{ secrets.KEY }}
-        port: ${{ secrets.PORT }}
+        key: ${{ secrets.PASSWORD }}
         source: "_site/"
         target: "~/public_html/REPOSITORY"
         overwrite: true
+        
