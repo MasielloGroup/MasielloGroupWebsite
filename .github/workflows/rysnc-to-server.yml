@@ -22,7 +22,7 @@ jobs:
     - name: Create SSH key
       run: |
         mkdir -p ~/.ssh/
-        pwd
+        echo $(pwd)
         echo "$KEY" > ../private.key
         sudo chmod 600 ../private.key
         echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
