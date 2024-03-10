@@ -26,7 +26,15 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        source: "_site/*"
+        source: "_site"
         target: "~/REPOSITORY"
         overwrite: true
-        
+
+    - name: move contents of _site directory up one level
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        script: |
+          mv REPOSITORY/_site/* REPOSITORY/ && rm -r REPOSITORY/_site
