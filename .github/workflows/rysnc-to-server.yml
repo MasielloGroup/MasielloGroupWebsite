@@ -20,6 +20,6 @@ jobs:
           zip -r backup/backup.zip public_html/
 
     - name: deploy with rsync
-      run: run: rsync -avz "ssh -i ${{ secrets.KEY }}" _site ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/REPOSITORY
+      run: rsync -avz "ssh -i ${{ secrets.KEY }}" _site ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/REPOSITORY
 
 
