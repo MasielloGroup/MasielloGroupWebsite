@@ -26,7 +26,7 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        source: "_site/."
+        source: "_site/*"
         target: "~/REPOSITORY"
         overwrite: true
         
