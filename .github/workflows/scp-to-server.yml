@@ -10,13 +10,23 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: zip and backup current deployment on remote server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        script: |
+          zip -r backup/backup.zip public_html/
+
+
     - name: Copy _site directory to remote server
       uses: appleboy/scp-action@v0.1.4
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
-        source: "_site/"
+        source: "_site"
         target: "~/public_html/REPOSITORY"
         overwrite: true
         
