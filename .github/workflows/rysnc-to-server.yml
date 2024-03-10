@@ -1,0 +1,25 @@
+name: rsync-to-server
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  rsync-to-remote-server:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: zip and backup current deployment on remote server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.KEY }}
+        script: |
+          zip -r backup/backup.zip public_html/
+
+    - name: deploy with rsync
+      run: run: rsync -avz "ssh -i ${{ secrets.KEY }}" _site ${{ secrets.SSH_USERNAME }}@${{ secrets.HOST }}:/REPOSITORY
+
+
