@@ -19,23 +19,23 @@ jobs:
         script: |
           zip -r backup/backup.zip public_html/
 
-    # - name: deploy with rsync
-    #   run: rsync -avz "ssh -i ${{ secrets.KEY }}" _site ${{ secrets.USERNAME }}@${{ secrets.HOST }}:/REPOSITORY
+    - name: deploy with rsync
+      run: rsync -avz "ssh -i ${{ secrets.KEY }}" _site ${{ secrets.USERNAME }}@${{ secrets.HOST }}:REPOSITORY
 
-    - name: Deploy to server
-      uses: easingthemes/ssh-deploy@main
-      with:
-        SSH_PRIVATE_KEY: ${{ secrets.KEY }}
-        ARGS: "-avzs"
-        SOURCE: "_site"
-        REMOTE_HOST: ${{ secrets.HOST }}
-        REMOTE_USER: ${{ secrets.USERNAME }}
-        TARGET: "/REPOSITORY"
-        # EXCLUDE: "/dist/, /node_modules/"
-        SCRIPT_BEFORE: |
-          whoami
-          ls -al
-        SCRIPT_AFTER: |
-          whoami
-          ls -al
-          echo $RSYNC_STDOUT
+    # - name: Deploy to server
+    #   uses: easingthemes/ssh-deploy@main
+    #   with:
+    #     SSH_PRIVATE_KEY: ${{ secrets.KEY }}
+    #     ARGS: "-avzs"
+    #     SOURCE: "_site"
+    #     REMOTE_HOST: ${{ secrets.HOST }}
+    #     REMOTE_USER: ${{ secrets.USERNAME }}
+    #     TARGET: "/REPOSITORY"
+    #     # EXCLUDE: "/dist/, /node_modules/"
+    #     SCRIPT_BEFORE: |
+    #       whoami
+    #       ls -al
+    #     SCRIPT_AFTER: |
+    #       whoami
+    #       ls -al
+    #       echo $RSYNC_STDOUT
