@@ -19,23 +19,17 @@ jobs:
         script: |
           zip -r backup/backup.zip public_html/
 
-    # - name: deploy with rsync
-    #   run: rsync -avz "ssh -i ${{ secrets.KEY }}" _site ${{ secrets.USERNAME }}@${{ secrets.HOST }}:REPOSITORY
+    - name: Create SSH key
+            run: |
+              mkdir -p ~/.ssh/
+              echo "$KEY" > ../private.key
+              sudo chmod 600 ../private.key
+              echo "$SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+            shell: bash
+            env:
+              SSH_PRIVATE_KEY: ${{secrets.KEY}}
+              SSH_KNOWN_HOSTS: ${{secrets.SSH_KNOWN_HOSTS}}
+              SSH_KEY_PATH: ${{ github.workspace }}/../private.key
 
-    - name: Deploy to server
-      uses: easingthemes/ssh-deploy@main
-      with:
-        SSH_PRIVATE_KEY: ${{ secrets.KEY }}
-        ARGS: "-avzs"
-        SOURCE: "_site"
-        REMOTE_HOST: ${{ secrets.HOST }}
-        REMOTE_USER: ${{ secrets.USERNAME }}
-        TARGET: "REPOSITORY"
-        # EXCLUDE: "/dist/, /node_modules/"
-        SCRIPT_BEFORE: |
-          whoami
-          ls -al
-        SCRIPT_AFTER: |
-          whoami
-          ls -al
-          echo $RSYNC_STDOUT
+    - name: deploy with rsync
+      run: rsync -avz "ssh -i $SSH_KEY_PATH" _site ${{ secrets.USERNAME }}@${{ secrets.HOST }}:REPOSITORY
