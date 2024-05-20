@@ -11,6 +11,6 @@ journ: "under review"
 # issue: issue
 page: ""
 year: 2024
-#image: ""
+image: "featured.png"
 pub_number: 88
 ---

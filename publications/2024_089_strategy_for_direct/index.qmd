@@ -1,0 +1,17 @@
+---
+title: "Strategy for Direct Detection of Chiral Phonons with Phase-Structured Free Electrons"
+author: ["Marc R. Bourgeois", "Andrew W. Rossi", "David J. Masiello"]
+# publication: "Journal, **issue**, _page_ (2024)"
+categories:
+#   - "fast_electron_nano-spectroscopy"
+  - "nanophotonics-quantum_optics"
+  - "photothermal_spectroscopy_and_microscopy"
+url_source: 
+url_preprint: "https://arxiv.org/abs/2405.01826"
+# journ: "Journal"
+# issue: issue
+# page: page
+year: 2024
+image: "featured.png"
+pub_number: 89
+---
