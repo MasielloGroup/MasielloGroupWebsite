@@ -1,5 +1,5 @@
 ---
-title: "Nanoscale Characterization of Individual 3D Split Ring Resonator Dimers and Trimers"
+title: "Nanoscale Characterization of Individual Three-Dimensional Split Ring Resonator Systems"
 date: 2023-01-09
 author: [ "C. Praise Anyanwu", "Grace Pakeltis", "Philip D. Rack", "David J. Masiello"]
 publication: "ACS Applied Optical Materials, **1**, _607-614_ (2023)"
