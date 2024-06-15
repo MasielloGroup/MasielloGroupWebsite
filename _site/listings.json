@@ -247,7 +247,6 @@
   {
     "listing": "/research/photothermal_spectroscopy_and_microscopy/index.html",
     "items": [
-      "/publications/2024_089_strategy_for_direct/index.html",
       "/publications/2023_080_Nonlinear_effects/index.html",
       "/publications/2022_075_optical_control_over/index.html",
       "/publications/2021_071_model-based_insight/index.html",
@@ -268,6 +267,7 @@
   {
     "listing": "/research/fast_electron_nano-spectroscopy/index.html",
     "items": [
+      "/publications/2024_089_strategy_for_direct/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
       "/publications/2024_085_localizing_low-grade/index.html",
