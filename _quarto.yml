@@ -1,5 +1,9 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!publications/_template/"
+    - "!people/_template/"
 
 
 website:

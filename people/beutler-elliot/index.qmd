@@ -16,7 +16,9 @@ image: avatar.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs 
-  contents: ../../../publications/**/*.qmd
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
   sort: "pub_number desc"
   # sort-ui: true
   filter-ui: true

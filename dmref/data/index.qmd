@@ -6,18 +6,16 @@ execute:
 <img src="../../images/dmref-logo.png" style="float: left; width: 130px; margin-top: 25px;"><h1>DMREF Team Data</h1>
 
 ```{r}
+#| label: create gt table 
+
 library(gt)
 # library(htmltools)
 # suppressPackageStartupMessages(library(tidyverse))
-```
 
-```{r}
 temperature <- 0:100
 filename <- paste0("au_",temperature,"K.txt")
 link <- paste0('<a href=',filename,'>',filename,"</a>")
-```
 
-```{r}
 df <- data.frame(temperature, link)
 
 df |> gt() |> 
