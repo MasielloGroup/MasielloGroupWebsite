@@ -208,60 +208,27 @@
     ]
   },
   {
-    "listing": "/dmref/people/index.html",
+    "listing": "/research/nanophotonics-quantum_optics/index.html",
     "items": [
-      "/people/masiello-david/index.html",
-      "/people/ext-willets-katherine/index.html",
-      "/people/ext-link-stephan/index.html",
-      "/people/ext-lee-stephen/index.html",
-      "/people/guo-xiaofei/index.html",
-      "/people/ext-reinhardt-phil/index.html"
-    ]
-  },
-  {
-    "listing": "/dmref/publications/index.html",
-    "items": [
-      "/publications/2021_071_model-based_insight/index.html",
-      "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
-      "/publications/2021_064_wavelength-dependent-photothermal/index.html",
-      "/publications/2021_062_coupled-dipole-modeling/index.html",
-      "/publications/2020_059_Intermolecular_hydrogen/index.html",
-      "/publications/2020_053_Far-field_midinfrare/index.html",
-      "/publications/2019_048_Rotation_of_Single-M/index.html",
-      "/publications/2019_047_Active_Far-Field_Con/index.html",
-      "/publications/2019_046_Plasmon_Heating_Prom/index.html",
-      "/publications/2018_039_Mislocalization_in_P/index.html",
-      "/publications/2018_038_Introduction_Plasmon/index.html",
-      "/publications/2014_024_Thermal_Signatures_o/index.html",
-      "/publications/2012_017_Super-Resolution_Ima/index.html"
-    ]
-  },
-  {
-    "listing": "/research/index.html",
-    "items": [
-      "/research/fast_electron_nano-spectroscopy/index.html",
-      "/research/nanophotonics-quantum_optics/index.html",
-      "/research/photothermal_spectroscopy_and_microscopy/index.html"
-    ]
-  },
-  {
-    "listing": "/research/photothermal_spectroscopy_and_microscopy/index.html",
-    "items": [
-      "/publications/2023_080_Nonlinear_effects/index.html",
+      "/publications/2024_090_resonance_energy_transfer/index.html",
+      "/publications/2024_089_strategy_for_direct/index.html",
+      "/publications/2024_088_probing_the_polarization/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2024_086_chiral_optical/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_082_a_composite_electrodynamic/index.html",
+      "/publications/2023_079_Nanoscale_characterization/index.html",
+      "/publications/2022_078_near-field_enhancement_of_optical/index.html",
+      "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
+      "/publications/2022_076_polarization_resolved/index.html",
       "/publications/2022_075_optical_control_over/index.html",
-      "/publications/2021_071_model-based_insight/index.html",
-      "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
-      "/publications/2021_064_wavelength-dependent-photothermal/index.html",
-      "/publications/2021_062_coupled-dipole-modeling/index.html",
-      "/publications/2020_059_Intermolecular_hydrogen/index.html",
-      "/publications/2020_053_Far-field_midinfrare/index.html",
-      "/publications/2019_048_Rotation_of_Single-M/index.html",
-      "/publications/2019_047_Active_Far-Field_Con/index.html",
-      "/publications/2019_046_Plasmon_Heating_Prom/index.html",
-      "/publications/2018_039_Mislocalization_in_P/index.html",
-      "/publications/2018_038_Introduction_Plasmon/index.html",
-      "/publications/2014_024_Thermal_Signatures_o/index.html",
-      "/publications/2012_017_Super-Resolution_Ima/index.html"
+      "/publications/2021_067_lattice_kerker/index.html",
+      "/publications/2021_066_Exact_k-body_represe/index.html",
+      "/publications/2020_055_Active_Tuning_of_Hyb/index.html",
+      "/publications/2020_052_Elucidating_Energy_P/index.html",
+      "/publications/2017_037_Sculpting_Fano_Reson/index.html",
+      "/publications/2016_033_Optical_microresonat/index.html",
+      "/publications/2015_026_Quantum_Beats_from_E/index.html"
     ]
   },
   {
@@ -311,31 +278,66 @@
     ]
   },
   {
-    "listing": "/research/nanophotonics-quantum_optics/index.html",
+    "listing": "/research/photothermal_spectroscopy_and_microscopy/index.html",
     "items": [
-      "/publications/2024_089_strategy_for_direct/index.html",
-      "/publications/2024_088_probing_the_polarization/index.html",
-      "/publications/2024_087_inelastic_scattering/index.html",
-      "/publications/2024_086_chiral_optical/index.html",
-      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
-      "/publications/2023_082_a_composite_electrodynamic/index.html",
-      "/publications/2023_079_Nanoscale_characterization/index.html",
-      "/publications/2022_078_near-field_enhancement_of_optical/index.html",
-      "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
-      "/publications/2022_076_polarization_resolved/index.html",
+      "/publications/2023_080_Nonlinear_effects/index.html",
       "/publications/2022_075_optical_control_over/index.html",
-      "/publications/2021_067_lattice_kerker/index.html",
-      "/publications/2021_066_Exact_k-body_represe/index.html",
-      "/publications/2020_055_Active_Tuning_of_Hyb/index.html",
-      "/publications/2020_052_Elucidating_Energy_P/index.html",
-      "/publications/2017_037_Sculpting_Fano_Reson/index.html",
-      "/publications/2016_033_Optical_microresonat/index.html",
-      "/publications/2015_026_Quantum_Beats_from_E/index.html"
+      "/publications/2021_071_model-based_insight/index.html",
+      "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
+      "/publications/2021_064_wavelength-dependent-photothermal/index.html",
+      "/publications/2021_062_coupled-dipole-modeling/index.html",
+      "/publications/2020_059_Intermolecular_hydrogen/index.html",
+      "/publications/2020_053_Far-field_midinfrare/index.html",
+      "/publications/2019_048_Rotation_of_Single-M/index.html",
+      "/publications/2019_047_Active_Far-Field_Con/index.html",
+      "/publications/2019_046_Plasmon_Heating_Prom/index.html",
+      "/publications/2018_039_Mislocalization_in_P/index.html",
+      "/publications/2018_038_Introduction_Plasmon/index.html",
+      "/publications/2014_024_Thermal_Signatures_o/index.html",
+      "/publications/2012_017_Super-Resolution_Ima/index.html"
+    ]
+  },
+  {
+    "listing": "/research/index.html",
+    "items": [
+      "/research/fast_electron_nano-spectroscopy/index.html",
+      "/research/nanophotonics-quantum_optics/index.html",
+      "/research/photothermal_spectroscopy_and_microscopy/index.html"
+    ]
+  },
+  {
+    "listing": "/dmref/publications/index.html",
+    "items": [
+      "/publications/2021_071_model-based_insight/index.html",
+      "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
+      "/publications/2021_064_wavelength-dependent-photothermal/index.html",
+      "/publications/2021_062_coupled-dipole-modeling/index.html",
+      "/publications/2020_059_Intermolecular_hydrogen/index.html",
+      "/publications/2020_053_Far-field_midinfrare/index.html",
+      "/publications/2019_048_Rotation_of_Single-M/index.html",
+      "/publications/2019_047_Active_Far-Field_Con/index.html",
+      "/publications/2019_046_Plasmon_Heating_Prom/index.html",
+      "/publications/2018_039_Mislocalization_in_P/index.html",
+      "/publications/2018_038_Introduction_Plasmon/index.html",
+      "/publications/2014_024_Thermal_Signatures_o/index.html",
+      "/publications/2012_017_Super-Resolution_Ima/index.html"
+    ]
+  },
+  {
+    "listing": "/dmref/people/index.html",
+    "items": [
+      "/people/masiello-david/index.html",
+      "/people/ext-willets-katherine/index.html",
+      "/people/ext-link-stephan/index.html",
+      "/people/ext-lee-stephen/index.html",
+      "/people/guo-xiaofei/index.html",
+      "/people/ext-reinhardt-phil/index.html"
     ]
   },
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/2024_090_resonance_energy_transfer/index.html",
       "/publications/2024_089_strategy_for_direct/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
@@ -491,6 +493,7 @@
   {
     "listing": "/people/beutler-elliot/index.html",
     "items": [
+      "/publications/2024_090_resonance_energy_transfer/index.html",
       "/publications/2024_085_localizing_low-grade/index.html",
       "/publications/2022_076_polarization_resolved/index.html",
       "/publications/2022_072_nanometer-scale/index.html",
@@ -570,6 +573,7 @@
   {
     "listing": "/people/masiello-david/index.html",
     "items": [
+      "/publications/2024_090_resonance_energy_transfer/index.html",
       "/publications/2024_089_strategy_for_direct/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
