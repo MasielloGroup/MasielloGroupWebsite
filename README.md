@@ -8,7 +8,10 @@ Note: the `_utils` directory contains helper scripts used when migrating from Wo
 ## Notes to self
 
 ### Adding publications
-use `just newpub` for creation of new directory and prompts for entry
+use `just newpub` for creation of new directory and input prompts for new record.
+
+### Adding new people
+use `just newperson` for creation of new directory and input prompts for new record.
 
 ### Deployment 
 
