@@ -24,6 +24,7 @@ about:
 
 ```{r}
 #| echo: false
+#| label: make map
 library(leaflet)
 leaflet() %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles

@@ -2,7 +2,9 @@
 # title: "The NSF DMREF Team"
 listing:
   - id: pi
-    contents: ../../people/**/*.qmd
+    contents: 
+      - "../../people/**/*.qmd"
+      - "!../../people/_template.qmd"
     include: 
       people_group: "pi"
       project: "dmref"
@@ -10,7 +12,9 @@ listing:
     type: grid
     fields: [title, affiliation, image]
   - id: postdoc
-    contents: ../../people/**/*.qmd
+    contents: 
+      - "../../people/**/*.qmd"
+      - "!../../people/_template.qmd"
     include: 
       people_group: "postdoc"
       project: "dmref"
@@ -19,7 +23,9 @@ listing:
     type: grid
     fields: [title, affiliation, image]
   - id: gradstudent
-    contents: ../../people/**/*.qmd
+    contents: 
+      - "../../people/**/*.qmd"
+      - "!../../people/_template.qmd"
     include: 
       people_group: "gradstudent"
       project: dmref
