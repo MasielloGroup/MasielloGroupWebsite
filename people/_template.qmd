@@ -1,18 +1,18 @@
 ---
 title: &TITLE Name
-last: 
-first: 
-people_group: "postdoc | gradstudent | alumni"
-email: 
+last:
+first:
+people_group: "stellenbosch | para | amazonas | ceara | bahia"
+email:
 education:
-  - deg | inst  <br> 
+  - deg | inst  <br>
 subtitle: "Postdoctoral Fellow | Graduate Student, dept "
 description: ""
 image: avatar.jpg
 listing:
   id: pubs
-  template: ../../_ejs/publications-people.ejs 
-  contents: 
+  template: ../../_ejs/publications-people.ejs
+  contents:
     - "../../../publications/**/*.qmd"
     - "!../../../publications/_template/"
   sort: "pub_number desc"
@@ -22,11 +22,11 @@ listing:
     author: *TITLE
   fields: [publication, title, categories, image, date, author]
 page-layout: full
-about: 
+about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: avatar.png
   links:
     - icon: envelope
       text: Email

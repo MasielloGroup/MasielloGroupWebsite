@@ -1,106 +1,73 @@
 ---
-title: "Meet the Group"
+title: "Quem somos? - Conheça o nosso valioso time!"
 listing:
-  - id: pi
-    include: 
-      people_group: "pi"
+  - id: para
+    include:
+      group: "para"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
     type: grid
-    fields: [title, subtitle, image, education]
-  - id: researcher
-    include: 
-      people_group: "researcher"
-    exclude:
-      external: true
-    template: ../_ejs/people-box.ejs
-    sort: last
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: postdoc
-    include: 
-      people_group: "postdoc"
-    exclude:
-      external: true
-    template: ../_ejs/people-box.ejs
-    sort: last    
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: gradstudent
-    include: 
-      people_group: "gradstudent"
+    fields: [title, subtitle, image, education ]
+  - id: amazonas
+    include:
+      group: "amazonas"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-  - id: post-bac
-    include: 
-      people_group: "post-bac"
+  - id: ceara
+    include:
+      group: "ceara"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
-  - id: alumni
-    include: 
-      people_group: "alumni"
+  - id: bahia
+    include:
+      group: "bahia"
     exclude:
       external: true
-    template: ../_ejs/alumni-box.ejs
+    template: ../_ejs/people-box.ejs
     sort: last
     type: grid
-    fields: [title, subtitle, image, education, altsubtitle, alteducation]
-page-layout: full
+    fields: [title, subtitle, image, education]
+  - id: stellenbosch
+    include:
+      group: "stellenbosch"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
 ---
 
 
-## Principal Investigator
-
-
-::: {#pi}
+## Para 🇧🇷
+::: {#para}
 :::
 
 
-:::{.sand-background}
-## Research Scientists
 
-
-
-::: {#researcher}
+## Amazonas 🇧🇷
+::: {#amazonas}
 :::
 
-:::
 
-## Postdoctoral Fellows
+## Ceara 🇧🇷
 
 ::: {#postdoc}
 :::
 
-:::{.sand-background}
-## Graduate Students
-
-
-
-::: {#gradstudent}
+## Bahia 🇧🇷
+::: {#bahia}
 :::
 
-:::
-
-## Post Baccalaureate Researchers
-
-::: {#post-bac}
-:::
-
-:::{.sand-background}
-## Alumni
-
-
-
-::: {#alumni}
-:::
-
+## Stellenbosch University 🇿🇦
+::: {#stellenbosch}
 :::

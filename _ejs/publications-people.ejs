@@ -1,7 +1,7 @@
 ```{=html}
 <div class="list quarto-listing-default">
     <% for (const item of items) { %>
-    
+
     <div class="quarto-post image-right" <%= metadataAttrs(item) %> >
         <div class="thumbnail">
             <!-- <a href="<%- item.path %>"> -->
@@ -12,7 +12,7 @@
                     <% } %>
 
                 </p>
-      
+
 
             <!-- </a> -->
         </div>
@@ -21,24 +21,24 @@
             <div class="no-anchor listing-pub-title listing-title"><%= item.title %></div>
             <!-- </a> -->
             <!-- <a href="<%- item.path %>"> -->
-                
+
                 <div class="listing-pub-author listing-author">
-                    <%= item.author %><br> 
+                    <%= item.author %><br>
                 </div>
-                
+
                 <div class="metadata-value listing-pub-journal listing-publication">
                     <% if (item.journ) { %>
                         <i><%= item.journ %></i><% if (item.issue) { %>, <b><%= item.issue %></b><% } %><% if (item.page) { %>, <%= item.page %><% } %><% if (item.year) { %> (<%= item.year %>)<% } %><br>
-                        
+
                         <% } %>
-                        
-                        
-                        
-                        
+
+
+
+
                 </div>
-                    
-                    
-                    
+
+
+
             <!-- </a> -->
  <!--               <div class="listing-categories">
                 <% for (const category of item.categories) { %>
@@ -57,7 +57,7 @@
                     </a>
                 </div>
                     <% } %>
-  
+
               <% if (item.url_preprint) { %>
             <div class="listing-pub-url">
 
@@ -72,7 +72,7 @@
 
         </div>
     </div>
-    
+
     <% } %>
     </div>
 

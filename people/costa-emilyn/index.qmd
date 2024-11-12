@@ -1,0 +1,68 @@
+---
+title: &TITLE Emilyn Costa Conceição
+last: Costa Conceição
+first: Emilyn
+people_group: postdoc
+group: stellenbosch
+email: "emilyncosta@sun.ac.za"
+subtitle: "Capacitadora em WGS e Análise de Dados."
+affiliation: Stellenbosch University
+education:
+  - Doutorado em Microbiologia | Universidade Federal do Rio de Janeiro e Universidade Paris-Sud <br> Mestrado em Doenças Infecciosas | Universidade Estadual do Pará) <br> Graduada em Bióloga | Universidade Federal do Pará
+
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:emilyncosta@sun.ac.za
+    - text: Lattes
+      icon: mortarboard
+      href: http://lattes.cnpq.br/4561326931035190
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/emilyncosta/
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-7445-6620
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.linkedin.com/in/emilyncosta/
+
+---
+
+<hr>
+
+
+:::{#about}
+
+Emilyn é bióloga (Universidade Federal do Pará), com mestrado em Doenças Infecciosas (Universidade Estadual do Pará) e doutorado em Microbiologia (Universidade Federal do Rio de Janeiro/Universidade Paris-Sud). Emilyn tem experiência em ensaios clínicos e diagnósticos de rotina com foco em biologia molecular aplicada a MTBC, NTM e Mycobacterium leprae. Ela se interessa por epidemiologia, genômica, resistência a medicamentos, bioinformática e educação científica. Atualmente é pesquisadora de pós-doutorado no TB Genomics, na Universidade de Stellenbosch, Cidade do Cabo, África do Sul, desde 2021. Sua pesquisa atual se concentra em medicina personalizada por meio do WGS como parte do “Sequencing Mycobacteria and Algorithm-Determined Resistant Tuberculosis Treatment (Smartt) Trial” e “Precision Action for Rifampicin Resistant Tuberculosis (PARR-TB).
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

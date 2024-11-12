@@ -1,15 +1,15 @@
 ---
-# title: 'Welcome to the Masiello Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
-# subtitle: "light-matter theory at the nanoscale"
+# title: 'Welcome to the REVIGET Consortium website.: <span style="color:#757883">Genomic surveillance for Tuberculosis</span>'
+# subtitle: "Genomic surveillance for Tuberculosis"
 page-layout: full
 ---
 <div class="gradient-text">
 
 <div class="welcome-headline">
-Welcome to the Masiello Research Group<br>
+Welcome to the REVIGET Consortium website.<br>
 </div>
 <div class="welcome-subheadline">
-Light-matter theory at the nanoscale
+REDE DA VIGILÂNCIA GENÔMICA DA TUBERCULOSE N/NE
 </div>
 </div>
 
@@ -21,7 +21,7 @@ Light-matter theory at the nanoscale
 ::: grid
 ::: {.g-col-12 .g-col-lg-4 .welcome-text .sand-background style="padding: 15px;"}
 
-We are a group of theoreticians with diverse backgrounds in chemistry, physics, electrical engineering, materials science, and applied mathematics working at the interface of **electron microscopy** with **nanophotonics, quantum materials, and quantum optics**. Our research provides insight and understanding in the discovery of quantum, optical, magnetic, and thermal materials phenomena spanning the frontiers of high space, momentum, polarization, and energy resolution. Deep connection to experiment influences everything we do.
+We are a group of researchers with diverse backgrounds in microbiology, bioinformatics, and data science working at the interface of **genomics** with **precision public health** in North and Northeast of Brazil.
 :::
 
 :::
@@ -32,3 +32,8 @@ We are a group of theoreticians with diverse backgrounds in chemistry, physics, 
 :::
 ::::
 
+
+<div class="welcome-subheadline">
+REVIGET is a Project for Genomic Surveillance Network of Tuberculosis for N/NE of Brazil funded by CNPQ.
+</div>
+</div>

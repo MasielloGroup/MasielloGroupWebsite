@@ -1,0 +1,64 @@
+---
+title: &TITLE Karla Valéria Batista Lima
+last: Batista Lima
+first: Karla
+people_group: "pi"
+group: "para"
+email: "karlalima@iec.gov.br"
+education:
+  -  Doutora em Genética e Biologia Molecular (UFPA) <br> Mestre em Farmacologia de Produtos Naturais (UFPA) <br> Graduada em Farmácia (UFPA) | 1994.
+description: "Pesquisadora em Saúde Pública, coordenadora do Laboratório de Micobactérias (IEC/SVSA/MS), Profa Adjunta IV (UEPA), Bolsista de Produtividade em Pesquisa nível 2 (CNPq)"
+subtitle: "Coordenadora Geral do REVIGET."
+# project: "dmref"
+affiliation: Instituto Evandro Chagas
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:karlalima@iec.gov.br
+    - text: Lattes
+      icon: mortarboard
+      href: http://lattes.cnpq.br/9795461154139260
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/karla-lima-b20506223/
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0001-5807-0392
+---
+
+<hr>
+
+
+:::{#about}
+
+Orientadora de iniciação científica, mestrado, doutorado e pós-doutorado. Possue experiencia em diagnóstico molecular de infecções bacterianas relacionados a assitência à saúde, infecões comunitárias, genotipagem e genômica aplicadas a transmissão e esclarecimento de surtos. Se interessa por práticas integrativas em saúde (medicina Ayurvedica, yoga, meditação), farmacologia, epidemiologia, genômica, resistência a medicamentos e educação científica. Sua pesquisa atual se concentra em medicina personalizada para tratamento de infecções por micobactérias, com apoio do Sequenciamento Genômico (WGS).
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::
