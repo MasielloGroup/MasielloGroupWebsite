@@ -1,5 +1,0 @@
----
-title: "Our NSF DMREF funded research on nanoscale thermometry is covered by Rice University News"
-date: '2019-08-16'
-description: "See [http://news.rice.edu/2019/08/09/one-linked-particles-hot-the-other-keeps-its-cool-2/](http://news.rice.edu/2019/08/09/one-linked-particles-hot-the-other-keeps-its-cool-2/)"
----

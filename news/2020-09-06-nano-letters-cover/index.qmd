@@ -1,6 +1,0 @@
----
-title: "Nano Letters Cover (Again!)"
-date: '2020-09-06'
-image: featured.jpg
-description: Lightning has struck again. For the second time this year, we've made the cover of _Nano Letters_! This time Jake's work on EELS-based nano-ellipsometry of individual ITO nanocrystals was selected. This work was collaborative with the Camden group at Notre Dame and Gamelin group at UW.
----

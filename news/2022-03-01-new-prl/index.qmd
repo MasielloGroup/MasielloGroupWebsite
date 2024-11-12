@@ -1,5 +1,0 @@
----
-title: New PRL on mapping exciton polaritons in structured optical cavities using focused electron beams
-date: '2022-03-01'
-description: Congratulations to Marc, Elliot, Siamak, and Nicole for their development of a new STEM electron beam probe capable of spectrally and spatially mapping a new class of quantum materials at their native energy, length, and momentum scales.
----

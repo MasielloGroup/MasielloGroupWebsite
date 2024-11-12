@@ -1,7 +1,0 @@
----
-title: "Kevin Smith's work on elucidating energy pathways in coupled plasmonic–photonic cavities makes the cover of Nano Letters!"
-date: '2020-01-01'
-image: featured.jpg
-description: "See [https://pubs.acs.org/toc/nalefd/20/1](https://pubs.acs.org/toc/nalefd/20/1)"
----
-

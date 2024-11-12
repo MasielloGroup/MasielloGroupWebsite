@@ -1,5 +1,0 @@
----
-title: "Kevin's paper on elucidating energy pathways in coupled plasmonic-photonic cavities in collaboration with the Goldsmith group at the University of Wisconsin is accepted for publication in Nano Letters"
-date: '2019-08-16'
-description: "See [https://pubs.acs.org/doi/10.1021/acs.nanolett.9b02796](https://pubs.acs.org/doi/10.1021/acs.nanolett.9b02796)"
----

@@ -1,6 +1,0 @@
----
-title: 'Collaborative work with Notre Dame, University of Tennessee, and ORNL on the first observation of Fano antiresonances in a plasmonic system using electron energy-loss spectroscopy is accepted for publication in Physical Review Letters!'
-date: '2019-09-16'
----
-
-Seee [https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.177401](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.123.177401)

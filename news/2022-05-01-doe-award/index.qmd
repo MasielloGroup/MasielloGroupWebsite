@@ -1,5 +1,0 @@
----
-title: New DOE BES Electron and Scanning Probe Microscopy (ESPM) Award
-date: '2022-05-01'
-description: DOE BES ESPM will fund the next generation of our work in the theoretical development of vortex-polarized free electron beam probes of polaritonic quantum materials.
----

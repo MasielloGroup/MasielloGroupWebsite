@@ -1,4 +1,0 @@
----
-title: "David's paper on symmetry-broken many-body excited states of the double-well Bose-Einstein condensate was accepted for publication in Journal of Physical Chemstry A as part of the William P. Reinhardt Festschrift"
-date: '2019-02-16'
----

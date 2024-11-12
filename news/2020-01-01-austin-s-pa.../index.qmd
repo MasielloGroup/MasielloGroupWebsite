@@ -1,6 +1,0 @@
----
-title: "Austin's paper on IR Fabry-Perot resonance damping in gold nanowires is published in Physical Review B!!"
-date: '2020-01-01'
-description: "See [https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.085409](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.085409)"
----
-

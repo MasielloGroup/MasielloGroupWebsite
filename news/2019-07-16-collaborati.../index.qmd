@@ -1,6 +1,0 @@
----
-title: "Collaborative NSF DMREF funded research with Stephan Link (Rice) and Kallie Willets (Temple) on active far-field control of the thermal near-field is accepted for publication in ACS Nano"
-date: '2019-07-16'
-link: 'https://pubs.acs.org/doi/10.1021/acsnano.9b04968'
-description: "See [https://pubs.acs.org/doi/10.1021/acsnano.9b04968](https://pubs.acs.org/doi/10.1021/acsnano.9b04968)"
----

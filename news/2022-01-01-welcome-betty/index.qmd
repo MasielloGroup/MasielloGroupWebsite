@@ -1,5 +1,0 @@
----
-title: Welcome Betty!
-date: '2022-01-01'
-description: First year Chemistry graduate student, Betty Guo, joins the group and our DMREF team.  Welcome Betty!
----

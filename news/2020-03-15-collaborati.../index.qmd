@@ -1,6 +1,0 @@
----
-title: "Collaborative work with the Majumdar group on actively controlling mode mixing in a photonic molecule is published in Physical Review Applied"
-date: '2020-03-01'
-description: "See [https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.13.044041](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.13.044041)"
----
-

@@ -1,6 +1,0 @@
----
-title: "Collaborative work with the Kuno and Hartland groups at Notre Dame on the mid-IR super-resolution imaging and spectroscopy of individual gold nanowires is published in PNAS"
-date: '2020-01-16'
-description: "See [https://www.pnas.org/content/early/2020/01/17/1916433117](https://www.pnas.org/content/early/2020/01/17/1916433117)"
----
-

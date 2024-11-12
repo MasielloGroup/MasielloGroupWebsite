@@ -1,5 +1,0 @@
----
-title: "Congratulations to Marc, Andrew, and Matthieu for their first paper published in the group!"
-date: '2021-08-21'
-description: Their work, published in JPCC, demonstrates a new route to beaming electromagnetic radiation via the lattice Kerker effect.
----

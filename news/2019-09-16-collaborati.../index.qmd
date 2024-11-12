@@ -1,6 +1,0 @@
----
-title: "Collaborative work with the University of Tennessee on continuous-wave stimulated electron energy-loss and -gain spectroscopy of individual plasmonic nanoparticles was accepted for publication at ACS Photonics"
-date: '2019-09-16'
-description: "See [https://pubs.acs.org/doi/10.1021/acsphotonics.9b00830](https://pubs.acs.org/doi/10.1021/acsphotonics.9b00830)"
----
-

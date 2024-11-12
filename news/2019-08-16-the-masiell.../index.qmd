@@ -1,5 +1,0 @@
----
-title: "The Masiello group in collaboration with the Cossairt and Majumdar groups at UW and the Yau group at UC Berkeley has been awarded $2M to study quantum many-body simulation in coupled cavity arrays."
-description: We are thankful to the NSF Quantum Leap QII-TAQS program for continued support of our research.
-date: '2019-08-16'
----

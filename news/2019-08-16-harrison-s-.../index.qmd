@@ -1,6 +1,0 @@
----
-title: "Harrison's collaborative paper with the Biteen group at the University of Michigan on the plasmon-induced rotation of single molecule fluorescence polarization is accepted for publication in JPC Letters!"
-date: '2019-08-16'
-description: "See [https://pubs.acs.org/doi/10.1021/acs.jpclett.9b02270](https://pubs.acs.org/doi/10.1021/acs.jpclett.9b02270)"
----
-
