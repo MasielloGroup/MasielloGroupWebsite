@@ -3,6 +3,7 @@ title: &TITLE Carlos Augusto Abreu Alberio
 last: Alberio
 first: Carlos Augusto Abreu
 people_group: "para"
+group: "para"
 email: alberio@ufpa.br
 education:
   - Doutor em Doenças Tropicais (UFPA) <br> Especialista em Pneumologia e Tisiologia (UNIFESP) <br> Médico (UFPA)

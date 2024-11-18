@@ -3,12 +3,13 @@ title: &TITLE Valnete das Graças Dantas Andrade
 last: Andrade
 first: Valnete
 people_group: "para"
+group: "para"
 email: FIXME
 education:
   - Farmácia (UFPA) <br> MBA em Gestão de Negócios-Saúde (FGV) <br> Especialista em Biossegurança para Laboratório de Saúde Pública (ENSP-FIOCRUZ) <br> Especialista em Gestão Pública (Centro Universitário Toledo)
 description: "Consultora do estado do Pará sobre testes laboratoriais do LACEN-PA."
 subtitle: "Consultora do LACEN-PA no projeto REVIGET"
-image: avatar.png
+image: avatar.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
