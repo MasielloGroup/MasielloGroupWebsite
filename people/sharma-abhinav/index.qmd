@@ -2,13 +2,14 @@
 title: &TITLE Abhinav Sharma
 last: Sharma
 first: Abhinav
-people_group: "riodejaneiro"
+people_group: "stellenbosch"
+group: "stellenbosch"
 email: abhinavsharma@sun.ac.za
 education:
   - PhD Candidate | Bioinformática, Stellenbosch University
 subtitle: "Capacitador em WGS (Bioinformática) e Análise de Dados"
 description: "Capacitador e Analista de dados do projeto REVIGET"
-image: avatar.png
+image: avatar.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -25,7 +26,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.png
+  image: avatar.jpg
   links:
     - icon: envelope
       text: Email
@@ -55,7 +56,7 @@ Abhinav Sharma é um Bioinformático e candidato a PhD na Stellenbosch Universit
 
 <br>
 
-::: 
+:::
 
 ## Abhinav Sharma's Group Publications
 

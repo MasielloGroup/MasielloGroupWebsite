@@ -2,15 +2,14 @@
 title: &TITLE Cristiane Cunha Frota
 last: Frota
 first: Cristiane Cunha
-people_group: "ceara"
-email: cristianefrota@ufc.br
+people_group: "piregional"
+group: "piregional"
+email: "cristianefrota@ufc.br"
 education:
-  - Graduação | Farmácia e Análises Clínicas, Universidade Federal do Ceará (UFC)
-  - Mestrado | Patologia, Universidade Federal do Ceará (UFC)
-  - Doutorado | Micobactérias, University College London - National Institute for Medical Research
+  - Graduação | Farmácia e Análises Clínicas, Universidade Federal do Ceará (UFC) <br> Mestrado | Patologia, Universidade Federal do Ceará (UFC) <br> Doutorado | Micobactérias, University College London - National Institute for Medical Research
 subtitle: "Professora Titular | Universidade Federal do Ceará"
 description: "Coordenadora no projeto REVIGET no Ceará"
-image: avatar.jpg
+image: avatar.png
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -28,7 +27,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: avatar.png
   links:
     - icon: envelope
       text: Email

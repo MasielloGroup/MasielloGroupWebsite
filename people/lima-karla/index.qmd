@@ -11,7 +11,7 @@ description: "Pesquisadora em Saúde Pública, coordenadora do Laboratório de M
 subtitle: "Coordenadora Geral do REVIGET."
 # project: "dmref"
 affiliation: Instituto Evandro Chagas
-image: avatar.png
+image: avatar.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs

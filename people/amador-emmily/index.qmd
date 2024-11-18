@@ -2,13 +2,12 @@
 title: &TITLE Emmily Oliveira Amador
 last: Amador
 first: Emmily
-people_group: "para"
+people_group: "graduate"
+group: "para"
 email: emmily.oamador@gmail.com
 education:
-  - Graduação | Farmácia, Universidade da Amazônia
-  - Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
-  - Doutorado (em andamento) | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
-subtitle: "Doutoranda em Biologia Parasitária na Amazônia | Docente"
+  - Graduação | Farmácia, Universidade da Amazônia <br> Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
+subtitle: "Doutoranda em Biologia Parasitária na Amazônia, UEPA | Docente"
 description: "Doutoranda"
 image: avatar.jpg
 listing:

@@ -5,8 +5,7 @@ first: Philip Noel
 people_group: "riodejaneiro"
 email: psuffys@gmail.com
 education:
-  - Graduação | Biologia, Rijksuniversiteit te Gent (1985)
-  - Doutorado | Biologia Molecular, Rijksuniversiteit te Gent (1989)
+  - Graduação | Biologia, Rijksuniversiteit te Gent (1985) <br> Doutorado | Biologia Molecular, Rijksuniversiteit te Gent (1989)
 subtitle: "Chefe do Laboratório de Biologia Molecular Aplicada em Micobactérias (LABMAM) do Instituto Oswaldo Cruz da Fiocruz"
 description: "Consultor para Análise e Interpretação de Dados"
 image: avatar.png
@@ -56,7 +55,7 @@ Dr. Philip Noel Suffys possui graduação em Biologia pela Rijksuniversiteit te 
 
 <br>
 
-::: 
+:::
 
 ## Philip Suffys' Group Publications
 

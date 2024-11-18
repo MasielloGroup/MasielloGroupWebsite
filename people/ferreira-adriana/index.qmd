@@ -1,14 +1,15 @@
 title: &TITLE Adriana Ayden Ferreira
 last: Ferreira
 first: Adriana Ayden
-people_group: "amazonas"
+group: "amazonas"
+#people_group: "piregional"
 email: adrianayden@hotmail.com
 education:
   - Farmácia com habilitação em Bioquímica (Universidade Federal do Amazonas) <br> Especialista em Epidemiologia Aplicada aos Serviços do SUS (Fiocruz)
 description: "Farmacêutica Bioquímica no Laboratório Central de Saúde Pública do Amazonas"
-subtitle: "Levantamento e processamento de amostras, obtenção de dados e liberação de diagnósticos"
+- subtitle: "Levantamento e processamento de amostras, obtenção de dados e liberação de diagnósticos"
 image: avatar.png
-listing:
+- listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
   contents:

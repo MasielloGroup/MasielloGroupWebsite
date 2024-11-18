@@ -2,12 +2,11 @@
 title: &TITLE Theolis Costa Barbosa Bessa
 last: Barbosa Bessa
 first: Theolis Costa
-people_group: "bahia"
+people_group: "piregional"
+group: "piregional"
 email: theolis.bessa@fiocruz.br
 education:
-  - Bióloga (Universidade Federal da Bahia)
-  - Mestrado em Imunologia (Universidade Federal da Bahia)
-  - Doutorado em Patologia Humana (Universidade Federal da Bahia)
+  - Bióloga (Universidade Federal da Bahia) <br> Mestrado em Imunologia (Universidade Federal da Bahia) <br> Doutorado em Patologia Humana (Universidade Federal da Bahia)
 subtitle: "Tecnologista em Saúde Pública | Instituto Gonçalo Moniz - Fiocruz"
 description: "Coordenadora no projeto REVIGET na Bahia"
 image: avatar.jpg
@@ -58,7 +57,7 @@ Theolis é bióloga pela Universidade Federal da Bahia, com mestrado em Imunolog
 
 <br>
 
-::: 
+:::
 
 ## Theolis's Group Publications
 

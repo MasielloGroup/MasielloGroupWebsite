@@ -1,19 +1,39 @@
 ---
 title: "Quem somos? - Conheça o nosso valioso time!"
 listing:
+  - id: pi
+    include:
+      people_group: "pi"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
+  - id: piregional
+    include:
+      people_group: "piregional"
+      group: "piregional"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: para
     include:
       group: "para"
     exclude:
       external: true
+      people_group: "pi"
     template: ../_ejs/people-box.ejs
     type: grid
-    fields: [title, subtitle, image, education ]
+    fields: [title, subtitle, image, education]
   - id: amazonas
     include:
       group: "amazonas"
     exclude:
       external: true
+      people_group: "piregional"
+      group: "piregional"
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
@@ -23,6 +43,8 @@ listing:
       group: "ceara"
     exclude:
       external: true
+      people_group: "piregional"
+      group: "piregional"
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
@@ -32,15 +54,19 @@ listing:
       group: "bahia"
     exclude:
       external: true
+      people_group: "piregional"
+      group: "piregional"
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
- - id: riodejaneiro
+  - id: riodejaneiro
     include:
       group: "riodejaneiro"
     exclude:
       external: true
+      people_group: "piregional"
+      group: "piregional"
     template: ../_ejs/people-box.ejs
     sort: last
     type: grid
@@ -57,8 +83,17 @@ listing:
 ---
 
 
-## Para 🇧🇷
-::: {#para}
+## Coordenação Geral 🇧🇷
+::: {#pi}
+:::
+
+## Coordenação Regional 🇧🇷
+::: {#piregional}
+:::
+
+
+## Capacitadores 🇿🇦 🇧🇷 🇮🇳
+::: {#stellenbosch}
 :::
 
 
@@ -66,6 +101,12 @@ listing:
 ## Amazonas 🇧🇷
 ::: {#amazonas}
 :::
+
+
+## Para 🇧🇷
+::: {#para}
+:::
+
 
 
 ## Ceara 🇧🇷
@@ -77,11 +118,6 @@ listing:
 ::: {#bahia}
 :::
 
-
 ## Rio de Janeiro 🇧🇷
 ::: {#riodejaneiro}
-:::
-
-## Stellenbosch University 🇿🇦
-::: {#stellenbosch}
 :::
