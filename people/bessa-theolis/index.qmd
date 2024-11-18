@@ -1,0 +1,66 @@
+---
+title: &TITLE Theolis Costa Barbosa Bessa
+last: Barbosa Bessa
+first: Theolis Costa
+people_group: "bahia"
+email: theolis.bessa@fiocruz.br
+education:
+  - Bióloga (Universidade Federal da Bahia)
+  - Mestrado em Imunologia (Universidade Federal da Bahia)
+  - Doutorado em Patologia Humana (Universidade Federal da Bahia)
+subtitle: "Tecnologista em Saúde Pública | Instituto Gonçalo Moniz - Fiocruz"
+description: "Coordenadora no projeto REVIGET na Bahia"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:theolis.bessa@fiocruz.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/6405727299134249
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-1928-0404
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Theolis-Barbosa
+    - icon: linkedin
+      text: LinkedIn
+      href: linkedin.com/in/theolisbessa
+---
+
+<hr>
+
+:::{#about}
+
+Theolis é bióloga pela Universidade Federal da Bahia, com mestrado em Imunologia e doutorado em Patologia Humana pela mesma instituição. Atualmente, é Tecnologista em Saúde Pública no Instituto Gonçalo Moniz - Fiocruz e vice-líder do Grupo de Pesquisa Clínica Fiocruz em Tuberculose, que integra a Rede Brasileira de Pesquisa em Tuberculose (REDE-TB). Sua pesquisa foca na caracterização genética das cepas de micobactérias, com ênfase em epidemiologia molecular e interação patógeno-hospedeiro.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Theolis's Group Publications
+
+:::{#pubs}
+:::

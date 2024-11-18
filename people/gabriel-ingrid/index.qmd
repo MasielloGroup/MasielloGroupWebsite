@@ -1,0 +1,58 @@
+---
+title: &TITLE Ingrid Pimentel Silva Gabriel
+last: Gabriel
+first: Ingrid Pimentel Silva
+people_group: "bahia"
+email: ingridpsgabriel@gmail.com
+education:
+  - Graduação em Biomedicina, União Metropolitana de Educação e Cultura (UNIME)
+subtitle: "Biomédica | Grupo de Pesquisa Clínica Fiocruz em Tuberculose"
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ingridpsgabriel@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/1773878621583013
+    - icon: linkedin
+      text: LinkedIn
+      href: linkedin.com/in/ingrid-gabriel-914706217
+---
+
+<hr>
+
+:::{#about}
+
+Ingrid é biomédica graduada pela União Metropolitana de Educação e Cultura (UNIME), com interesse em epidemiologia genômica. Atua na identificação de genes de resistência a antibióticos utilizando ferramentas de bioinformática, e realiza estudos com foco em M. tuberculosis na cidade de Salvador (Bahia).
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Ingrid's Group Publications
+
+:::{#pubs}
+:::

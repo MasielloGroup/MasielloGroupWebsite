@@ -1,0 +1,66 @@
+---
+title: &TITLE Cristiane Cunha Frota
+last: Frota
+first: Cristiane Cunha
+people_group: "ceara"
+email: cristianefrota@ufc.br
+education:
+  - Graduação | Farmácia e Análises Clínicas, Universidade Federal do Ceará (UFC)
+  - Mestrado | Patologia, Universidade Federal do Ceará (UFC)
+  - Doutorado | Micobactérias, University College London - National Institute for Medical Research
+subtitle: "Professora Titular | Universidade Federal do Ceará"
+description: "Coordenadora no projeto REVIGET no Ceará"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:cristianefrota@ufc.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/4772150054192317
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-0018-7736
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Cristiane-Frota
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/cristiane-frota-093128213/
+---
+
+<hr>
+
+:::{#about}
+
+Cristiane é professora titular da Faculdade de Medicina da Universidade Federal do Ceará (UFC), com experiência na área de Microbiologia, com ênfase em Microbiologia Médica e Biologia Molecular de Microrganismos. Ela atua principalmente nos temas Mycobacterium tuberculosis, M. leprae, biologia molecular de micobactérias, comparação genômica e epidemiologia molecular. Cristiane é coordenadora do Programa de Pós-graduação em Patologia (PPGPATO), coordenadora do Laboratório de Bioagentes Patogênicos de Nível de Biossegurança 3 (NB3-NBA3) e do Laboratório de Micobactérias da UFC. Ela tem orientado 16 mestrados e 3 doutorados, além de publicar 49 artigos.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Cristiane Cunha Frota's Group Publications
+
+:::{#pubs}
+:::

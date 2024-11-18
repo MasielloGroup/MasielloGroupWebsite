@@ -1,0 +1,61 @@
+---
+title: &TITLE Walter André Junior
+last: Junior
+first: Walter André
+people_group: "amazonas"
+email: lacenam.biomol@gmail.com
+education:
+  - Farmácia e Bioquímica (Universidade XYZ) <br> Especializações em Docência no Ensino Superior, Análises Clínicas, Sexologia, Citologia Clínica e Farmácia Hospitalar
+subtitle: "Farmacêutico-Bioquímico | Laboratório Central de Saúde Pública do Amazonas"
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lacenam.biomol@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/0329445924061133
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0004-9239-8358
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/marcoliveira85/
+---  
+
+<hr>
+
+:::{#about}
+
+Walter André é graduado em Farmácia e Bioquímica, com especializações em Docência no Ensino Superior, Análises Clínicas, Sexologia, Citologia Clínica e Farmácia Hospitalar. Atualmente, realiza atividades no LACEN-AM, com foco no preparo das bibliotecas para sequenciamento genômico e liberação dos resultados.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Walter André's Group Publications
+
+:::{#pubs}
+:::

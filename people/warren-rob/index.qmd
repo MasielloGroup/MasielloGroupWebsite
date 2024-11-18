@@ -1,0 +1,63 @@
+---
+title: &TITLE Rob Warren
+last: Warren
+first: Rob
+people_group: "stellenbosch"
+email: rw1@sun.ac.za
+education:
+  - Doutorado | Bioquímica, Universidade de Cape Town (1995)
+subtitle: "Consultor para Análise e Interpretação de Dados"
+description: "Pesquisador colaborador"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rw1@sun.ac.za
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.co.za/citations?user=FBRUh0sAAAAJ&hl=en
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0001-5741-7358
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Robin_Warren
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/rob-warren-2739041a/
+---
+
+<hr>
+
+:::{#about}
+
+O Prof. Rob Warren obteve seu doutorado em Bioquímica pela Universidade de Cape Town em 1995. Em 2015, foi nomeado Professor Distinto na Universidade de Stellenbosch e, em 2017, diretor da Unidade do Centro de Pesquisa de Tuberculose. Seus projetos de pesquisa envolvem o estudo das dinâmicas da tuberculose, resistência a medicamentos, desenvolvimento de novos diagnósticos e epigenética micobacteriana. Seu trabalho na África do Sul é amplamente reconhecido e considerado um patrimônio nacional.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Rob Warren's Group Publications
+
+:::{#pubs}
+:::

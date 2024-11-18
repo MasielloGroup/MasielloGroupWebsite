@@ -1,0 +1,65 @@
+---
+title: &TITLE Maria Isabel Montoril Gouveia
+last: Gouveia
+first: Maria Isabel Montoril
+people_group: "para"
+email: isabelmontoril13@gmail.com
+education:
+  - Graduação | Ciências Biológicas, Universidade do Estado do Pará (UEPA)
+  - Mestrado (em andamento) | Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas (IEC)
+subtitle: "Mestranda em Epidemiologia e Vigilância em Saúde | Instituto Evandro Chagas"
+description: "Bolsista FIOTEC"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:isabelmontoril13@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/1005403468741553
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0005-3253-8061
+    - icon: mortarboard
+      text: ResearchGate
+      href: ""
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+Isabel é Graduada em Ciências Biológicas pela Universidade do Estado do Pará (UEPA) e mestranda pelo Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde (PPGEVS) no Instituto Evandro Chagas (IEC). Possui experiência no fluxo de diagnóstico de micobactérias (realização de exames de Baciloscopia, Cultura e Teste de Sensibilidade) e em técnicas de biologia molecular voltadas para identificação e tipagem de patógenos bacterianos.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Maria Isabel's Group Publications
+
+:::{#pubs}
+:::

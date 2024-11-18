@@ -1,0 +1,55 @@
+---
+title: &TITLE Tonya Azevedo Duarte
+last: Duarte
+first: Tonya Azevedo
+people_group: "bahia"
+email: tonduart@ufba.br
+education:
+  - Graduação em Medicina Veterinária, Universidade Federal da Bahia (UFBA)
+  - Mestrado em Patologia Experimental, Universidade Federal da Bahia (UFBA)
+  - Doutorado em Ciências, Universidade Federal do Rio de Janeiro (UFRJ)
+subtitle: "Professora Associada | UFBA"
+description: "Pesquisadora colaboradora na FIOCRUZ-Bahia"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:tonduart@ufba.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/3343688711026590
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-0420-7784
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Tonya-Duarte
+    - icon: linkedin
+      text: LinkedIn
+      href: linkedin.com/in/tonya-duarte-050a4826
+---
+
+<hr>
+
+:::{#about}
+
+Tonya é Professora Associada na Universidade Federal da Bahia (UFBA) e Pesquisadora Colaboradora no Instituto Gonçalo Moniz (FIOCRUZ-Bahia). Com formação em Medicina Veterinária, Mestrado em Patologia Experimental e Doutorado em Ciências pela Universidade Federal do Rio de Janeiro, com estágio sanduíche no Instituto Gulbenkian de Ciências (IGC-Portugal). Sua trajetória científica é focada em microbiologia, epidemiologia, imunologia e biologia celular e molecular, com ênfase em M. tuberculosis, resistência bacteriana, biomarcadores de progressão 
+:::

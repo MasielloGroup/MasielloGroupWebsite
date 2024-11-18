@@ -1,0 +1,52 @@
+---
+title: &TITLE Lúcia Helena Martins Tavares Monteiro
+last: Monteiro
+first: Lúcia Helena Martins Tavares
+people_group: "para"
+email: tuberculose.para@gmail.com
+education:
+  - Graduação em Medicina
+  - Pós-graduação em Saúde Pública
+  - Mestrado em Epidemiologia
+description: "Consultora de Dados Epidemiológicos"
+subtitle: "Consultora do estado do Pará no projeto REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:tuberculose.para@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/8011901658880254
+    - icon: linkedin
+      text: Linkedin
+      href: linkedin.com/in/lucia-helena-50859742
+---
+
+<hr>
+:::{#about}
+
+Lúcia Helena é consultora do estado do Pará no projeto REVIGET, com foco em dados epidemiológicos. Ela é responsável por promover e disseminar as normas e tecnologias do Sistema Único de Saúde (SUS), formular políticas públicas de saúde e organizar serviços e ações para aprimorar o atendimento à saúde. Atua também no desenvolvimento de protocolos de saúde, educação permanente em saúde e no controle de indicadores epidemiológicos, visando subsidiar o estabelecimento de prioridades para alocação de recursos no setor de saúde. Ela desenvolve ações de vigilância e controle médico de saúde ocupacional, coordena programas de saúde e está envolvida na implementação de pesquisas em âmbito estadual, municipal e nacional.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

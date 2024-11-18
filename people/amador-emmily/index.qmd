@@ -1,0 +1,66 @@
+---
+title: &TITLE Emmily Oliveira Amador
+last: Amador
+first: Emmily
+people_group: "para"
+email: emmily.oamador@gmail.com
+education:
+  - Graduação | Farmácia, Universidade da Amazônia
+  - Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
+  - Doutorado (em andamento) | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
+subtitle: "Doutoranda em Biologia Parasitária na Amazônia | Docente"
+description: "Doutoranda"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:emmily.oamador@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: https://lattes.cnpq.br/4125868835116442
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-2764-2498
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/emmily-amador-299813238/
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Emmily-Amador
+---
+
+<hr>
+
+:::{#about}
+
+Emmily é farmacêutica (Universidade da Amazônia), mestre em Biologia Parasitária na Amazônia (Universidade do Estado do Pará) e doutoranda pelo mesmo programa, e atua como docente. Atua em áreas relacionadas a farmácia clínica, farmacoeconomia e epidemiologia. Atualmente, dentro do presente projeto, trabalha com análise de custos.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Emmily's Group Publications
+
+:::{#pubs}
+:::

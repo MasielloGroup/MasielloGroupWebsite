@@ -1,0 +1,52 @@
+title: &TITLE Adriana Ayden Ferreira
+last: Ferreira
+first: Adriana Ayden
+people_group: "amazonas"
+email: adrianayden@hotmail.com
+education:
+  - Farmácia com habilitação em Bioquímica (Universidade Federal do Amazonas) <br> Especialista em Epidemiologia Aplicada aos Serviços do SUS (Fiocruz)
+description: "Farmacêutica Bioquímica no Laboratório Central de Saúde Pública do Amazonas"
+subtitle: "Levantamento e processamento de amostras, obtenção de dados e liberação de diagnósticos"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:adrianayden@hotmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/3231094021861954
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0004-1568-6217
+
+---
+
+<hr>
+
+:::{#about}
+
+Possui graduação em Farmácia com habilitação em Bioquímica pela Universidade Federal do Amazonas. É especialista em Epidemiologia Aplicada aos Serviços do SUS pela Fundação Oswaldo Cruz (Fiocruz), campus Brasília. Atualmente, atua como Farmacêutica Bioquímica no Laboratório Central de Saúde Pública do Amazonas.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

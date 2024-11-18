@@ -1,0 +1,65 @@
+---
+title: &TITLE Davi Josué Marcon
+last: Marcon
+first: Davi Josué
+people_group: "para"
+email: davijosuemarcon@gmail.com
+education:
+  - Graduação | Biotecnologia, Universidade Federal do Pará
+  - Mestrado (em andamento) | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
+subtitle: "Mestrando em Biologia Parasitária na Amazônia | Universidade do Estado do Pará"
+description: "Bioinformata do Projeto REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:davijosuemarcon@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/1196401125333340
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-1014-422X
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Davi-Marcon
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+Davi é Biotecnologista graduado pela Universidade Federal do Pará (UFPA) e atualmente é mestrando no Programa de Pós-Graduação em Biologia Parasitária na Amazônia pela Universidade do Estado do Pará (UEPA). Com foco em epidemiologia genômica, seus principais interesses incluem a busca por variantes de resistência, especialmente para novas drogas anti-TB, simulação computacional de proteínas e computação de alto desempenho utilizando pipelines desenvolvidos em Nextflow. Davi possui experiência em projetos de metagenômica e genômica, voltados para a análise de perfis de resistência, mineração de compostos de interesse biotecnológico e estudos de transmissão e perfis epidemiológicos.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Davi's Group Publications
+
+:::{#pubs}
+:::

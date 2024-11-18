@@ -1,0 +1,59 @@
+---
+title: &TITLE Ismari Perini Furlaneto
+last: Furlaneto
+first: Ismari Perini
+people_group: "para"
+email: ismaripf@hotmail.com
+education:
+  - Doutorado em Biologia Parasitária na Amazônia (Universidade do Estado do Pará/Instituto Evandro Chagas)
+  - Mestrado em Doenças Tropicais (Universidade Federal do Pará)
+  - Especialização em Educação em Saúde (Faculdade de Medicina da Universidade de São Paulo)
+  - Bacharelado em Farmácia (Centro Universitário do Estado do Pará)
+description: "Analista de estatística no projeto REVIGET"
+subtitle: "Docente do curso de medicina do Centro Universitário do Estado do Pará"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ismaripf@hotmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/9542085122721945
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0001-9941-0162
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Ismari-Furlaneto
+    - icon: linkedin
+      text: Linkedin
+      href: https://br.linkedin.com/in/ismari-perini-furlaneto-a6978b248
+---
+
+<hr>
+:::{#about}
+
+Ismari é Doutora em Biologia Parasitária na Amazônia pelo Programa de Pós-Graduação em Biologia Parasitária na Amazônia/Universidade do Estado do Pará/Instituto Evandro Chagas, Mestre em Doenças Tropicais pelo Programa de Pós-Graduação em Doenças Tropicais/Núcleo de Medicina Tropical/Universidade Federal do Pará, Especialista em Educação em Saúde pelo Centro de Desenvolvimento de Educação Médica/Faculdade de Medicina da Universidade de São Paulo e Bacharel em Farmácia pelo Centro Universitário do Estado do Pará. Atualmente, é coordenadora de avaliação do curso de Medicina do Centro Universitário Metropolitano da Amazônia (UNIFAMAZ), docente do curso de Medicina do Centro Universitário do Estado do Pará (CESUPA), coordenadora de Trabalho de Conclusão de Curso do curso de Medicina do CESUPA e docente permanente do Mestrado Profissional em Ensino em Saúde - Educação Médica (ESEM) do CESUPA. Além disso, é revisora da Revista Brasileira de Educação Médica (RBEM). Suas linhas de pesquisa incluem Educação Médica, Genética Molecular e de Microorganismos e Imunologia.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

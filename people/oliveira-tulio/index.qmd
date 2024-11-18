@@ -1,0 +1,65 @@
+---
+title: &TITLE Tulio de Oliveira
+last: de Oliveira
+first: Tulio
+people_group: "stellenbosch"
+email: tulio@sun.ac.za
+education:
+  - Graduação | Ciências Biológicas, Universidade Federal do Rio Grande do Sul (UFRGS)
+  - Mestrado | Nelson R Mandela School of Medicine, África do Sul
+  - Doutorado | Nelson R Mandela School of Medicine, África do Sul
+subtitle: "Consultor para Análise e Interpretação de Dados"
+description: "Pesquisador colaborador"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:tulio@sun.ac.za
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/4814283666929578
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-3027-5254
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Tulio-De-Oliveira
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/tulio-de-oliveira/
+---
+
+<hr>
+
+:::{#about}
+
+O Prof. Tulio de Oliveira é diretor do Centre for Epidemic Response and Innovation (CERI) e da KwaZulu-Natal Research Innovation and Sequencing Platform (KRISP). Ele é professor de Bioinformática na Universidade de Stellenbosch e atua no College of Health Sciences da Universidade de KwaZulu-Natal (UKZN). Com uma carreira acadêmica destacada, foi bolsista Marie Curie na Universidade de Oxford e Newton Advanced Fellow no Wellcome Trust Sanger Institute. Seu trabalho se concentra no uso da bioinformática para entender e combater vírus e epidemias globais.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Tulio de Oliveira's Group Publications
+
+:::{#pubs}
+:::

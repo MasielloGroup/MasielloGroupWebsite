@@ -1,0 +1,58 @@
+---
+title: &TITLE Leonardo Bruno Paz Ferreira Barreto
+last: Barreto
+first: Leonardo Bruno Paz Ferreira
+people_group: "riodejaneiro"
+email: leonardo.barreto@ini.fiocruz.br
+education:
+  - Graduação | Farmácia com Habilitação em Bioquímica: Análises Clínicas, Universidade Federal do Rio de Janeiro (UFRJ)
+  - Mestrado | Pesquisa Clínica em Doenças Infecciosas, Instituto Nacional de Infectologia Evandro Chagas (INI) - FIOCRUZ
+subtitle: "Tecnologista em Saúde Pública e Especialista em Micobactérias"
+description: ""
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:leonardo.barreto@ini.fiocruz.br
+    - icon: mortarboard
+      text: Lattes
+      href: https://lattes.cnpq.br/8911209230276312
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-7504-0133
+---
+
+<hr>
+
+:::{#about}
+
+Leonardo Bruno Paz Ferreira Barreto é graduado em Farmácia com Habilitação em Bioquímica pela Universidade Federal do Rio de Janeiro (UFRJ), com mestrado em Pesquisa Clínica em Doenças Infecciosas pelo Instituto Nacional de Infectologia Evandro Chagas (INI) - FIOCRUZ. Ele tem experiência na área de Microbiologia Clínica com ênfase em Micobactérias e também atua na área de Gestão da Qualidade em laboratórios de análises clínicas. Atualmente, é Tecnologista em Saúde Pública no Laboratório de Bacteriologia e Bioensaios do INI - FIOCRUZ, realizando atividades de diagnóstico laboratorial e pesquisas clínicas, com ênfase em bioensaios para atividade antimicrobiana.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Leonardo Bruno's Group Publications
+
+:::{#pubs}
+:::

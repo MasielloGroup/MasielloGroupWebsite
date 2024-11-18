@@ -1,0 +1,64 @@
+Philip---
+title: &TITLE Philip Noel Suffys
+last: Suffys
+first: Philip Noel
+people_group: "riodejaneiro"
+email: psuffys@gmail.com
+education:
+  - Graduação | Biologia, Rijksuniversiteit te Gent (1985)
+  - Doutorado | Biologia Molecular, Rijksuniversiteit te Gent (1989)
+subtitle: "Chefe do Laboratório de Biologia Molecular Aplicada em Micobactérias (LABMAM) do Instituto Oswaldo Cruz da Fiocruz"
+description: "Consultor para Análise e Interpretação de Dados"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:psuffys@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/3568607645909585
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0001-8527-9300
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Philip-Suffys
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/philip-1-suffys-14798a62/
+---
+
+<hr>
+
+:::{#about}
+
+Dr. Philip Noel Suffys possui graduação em Biologia pela Rijksuniversiteit te Gent (1985) e doutorado em Biologia Molecular pela mesma instituição (1989). Atualmente é chefe do Laboratório de Biologia Molecular Aplicada em Micobactérias (LABMAM) do Instituto Oswaldo Cruz da Fiocruz. Ele tem vasta experiência nas áreas de Biologia Celular, Genética, Microbiologia e Biotecnologia, com foco em doenças micobacterianas, estudando tanto os patógenos quanto os hospedeiros. Entre 2015-2016, fez pós-doutorado no Instituto de Medicina Tropical em Antuerpia e colaborou em diversos projetos de pesquisa em tuberculose, microbacteriose e hanseníase no Brasil e outros países.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Philip Suffys' Group Publications
+
+:::{#pubs}
+:::

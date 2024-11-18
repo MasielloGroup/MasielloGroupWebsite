@@ -1,0 +1,49 @@
+---
+title: &TITLE Rafaella Bonfim Barros
+last: Barros
+first: Rafaella Bonfim
+people_group: "para"
+email: rbbfarma@gmail.com
+education:
+  - Farmácia com Habilitação em Bioquímica (Centro Universitário do Estado do Pará)
+  - Especialização em Toxicologia (Universidade Federal do Pará)
+  - Especialização em Atenção Farmacêutica (Centro Universitário do Estado do Pará)
+description: "Responsável pelo levantamento e processamento de amostras e liberação de diagnósticos"
+subtitle: "Responsável pelo setor de Micobactérias no Laboratório Central do Estado do Pará (LACEN-PA)"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:rbbfarma@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: https://lattes.cnpq.br/3350103585313435
+---
+
+<hr>
+:::{#about}
+
+Rafaella é graduada em farmácia com habilitação em Bioquímica pelo Centro Universitário do Estado do Pará. Ela é especialista em Toxicologia pela Universidade Federal do Pará e em Atenção Farmacêutica pelo Centro Universitário do Estado do Pará. Atualmente, é servidora pública estadual na Secretaria de Estado de Saúde (SESPA), atuando na Seção de Bacteriologia e Micologia do Laboratório Central do Estado do Pará (LACEN-PA), onde é responsável pelo setor de Micobactérias. Desenvolve atividades de monitoramento das redes laboratoriais, como TRM-TB, Cultura Ogawa, Baciloscopia e IGRA, e realiza exames de cultura, teste de sensibilidade e técnicas de biologia molecular.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

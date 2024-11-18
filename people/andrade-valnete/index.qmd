@@ -1,0 +1,51 @@
+---
+title: &TITLE Valnete das Graças Dantas Andrade
+last: Andrade
+first: Valnete
+people_group: "para"
+email: 
+education:
+  - Farmácia (UFPA) <br> MBA em Gestão de Negócios-Saúde (FGV) <br> Especialista em Biossegurança para Laboratório de Saúde Pública (ENSP-FIOCRUZ) <br> Especialista em Gestão Pública (Centro Universitário Toledo)
+description: "Consultora do estado do Pará sobre testes laboratoriais do LACEN-PA."
+subtitle: "Consultora do LACEN-PA no projeto REVIGET"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/9601521261005314
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0009-0156-4418
+---
+
+<hr>
+:::{#about}
+
+Graduação em Farmácia pela Universidade Federal do Pará (1995) com habilitação em Bioquímica. MBA em Gestão de Negócios-Saúde pela Fundação Getúlio Vargas (2017). Especialista em Biossegurança para Laboratório de Saúde Pública pela ENSP-FIOCRUZ (2014). Especialista em Gestão Pública pelo Centro Universitário Toledo (2013). Servidora pública municipal e estadual. Diretora técnica do Laboratório Central do Estado do Pará (LACEN-PA). Tem experiência na área de Gestão Pública, Gestão da Qualidade e Biossegurança e Vigilância Laboratorial, com ênfase em Saúde Pública.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

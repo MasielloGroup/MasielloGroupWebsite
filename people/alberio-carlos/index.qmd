@@ -1,0 +1,64 @@
+---
+title: &TITLE Carlos Augusto Abreu Alberio
+last: Alberio
+first: Carlos Augusto Abreu
+people_group: "para"
+email: alberio@ufpa.br
+education:
+  - Doutor em Doenças Tropicais (UFPA) <br> Especialista em Pneumologia e Tisiologia (UNIFESP) <br> Médico (UFPA)
+subtitle: "Consultor e Médico Pneumologista | Universidade Federal do Pará"
+description: "Consultor de Análise de Dados Clínicos."
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:alberio@ufpa.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/2335187399740995
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-9364-3990
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Carlos-Alberio
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+Carlos é Médico Pneumologista e Tisiologista, Professor Adjunto I na UFPA e Consultor em Análise de Dados Clínicos. Também é preceptor de internato médico e das Residências Médicas em Pneumologia, Clínica Médica e Infectologia no Hospital Universitário João de Barros Barreto (UFPA/EBSERH).
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Carlos Augusto's Group Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,65 @@
+---
+title: &TITLE Felicidade Mota Pereira
+last: Pereira
+first: Felicidade Mota
+people_group: "bahia"
+email: felicidade.pereira@saude.ba.gov.br
+education:
+  - Graduação em Farmácia e Bioquímica
+  - Doutorado em Ciências com ênfase em Biotecnologia em Saúde e Medicina Investigativa (Fiocruz-Bahia)
+subtitle: "Farmacêutica Bioquímica | LACEN-BA"
+description: "Consultora sobre testes laboratoriais do LACEN-BA"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:felicidade.pereira@saude.ba.gov.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/3992554543434684
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-6938-161X
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Felicidade-Pereira
+    - icon: linkedin
+      text: LinkedIn
+      href: linkedin.com/in/felicidade-pereira-0b663135
+---
+
+<hr>
+
+:::{#about}
+
+Felicidade é Farmacêutica Bioquímica e doutora em Ciências com ênfase em Biotecnologia em Saúde e Medicina Investigativa pela Fiocruz-Bahia. Atualmente, é servidora do LACEN-BA, coordenadora dos Laboratórios de Vigilância Epidemiológica e presidente da Comissão de Ensino e Pesquisa do LACEN-BA. Também é consultora da tecnologia de gestão Análise e Melhoria de Processos da Secretaria de Administração do Estado da Bahia.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Felicidade's Group Publications
+
+:::{#pubs}
+:::

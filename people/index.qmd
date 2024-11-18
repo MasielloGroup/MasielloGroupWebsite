@@ -36,6 +36,15 @@ listing:
     sort: last
     type: grid
     fields: [title, subtitle, image, education]
+ - id: riodejaneiro
+    include:
+      group: "riodejaneiro"
+    exclude:
+      external: true
+    template: ../_ejs/people-box.ejs
+    sort: last
+    type: grid
+    fields: [title, subtitle, image, education]
   - id: stellenbosch
     include:
       group: "stellenbosch"
@@ -61,11 +70,16 @@ listing:
 
 ## Ceara 🇧🇷
 
-::: {#postdoc}
+::: {#ceara}
 :::
 
 ## Bahia 🇧🇷
 ::: {#bahia}
+:::
+
+
+## Rio de Janeiro 🇧🇷
+::: {#riodejaneiro}
 :::
 
 ## Stellenbosch University 🇿🇦

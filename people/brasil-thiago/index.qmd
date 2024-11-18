@@ -1,0 +1,66 @@
+---
+title: &TITLE Thiago Pinto Brasil
+last: Brasil
+first: Thiago Pinto
+people_group: "ceara"
+email: theutlys@gmail.com
+education:
+  - Bacharelado | Biomedicina, Centro Universitário Christus (Unichristus)
+  - Especialização | Microbiologia Clínica, Centro Universitário Christus (Unichristus)
+  - Mestrado | Patologia, Faculdade de Medicina, Universidade Federal do Ceará (UFC)
+subtitle: "Mestre em Patologia | Universidade Federal do Ceará"
+description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:theutlys@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/1255512860171219
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0007-4878-3592
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Thiago-Brasil-2
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/thiago-brasil-731611143/
+---
+
+<hr>
+
+:::{#about}
+
+Thiago é mestre em Patologia com ênfase em Doenças Infecto-parasitárias pela Faculdade de Medicina da Universidade Federal do Ceará (UFC). Ele possui graduação em Biomedicina e especialização em Microbiologia Clínica, com experiência em microbiologia molecular e biotecnologia. No REVIGET, ele é responsável pelo gerenciamento das amostras clínicas, apoio na capacitação para Sequenciamento Genômico e Bioinformática, além de atuar em cultivos, extração e preparo de bibliotecas e análise dos dados.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Thiago Pinto Brasil's Group Publications
+
+:::{#pubs}
+:::

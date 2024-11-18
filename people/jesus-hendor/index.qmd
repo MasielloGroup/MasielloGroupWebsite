@@ -1,0 +1,66 @@
+---
+title: &TITLE Hendor Neves Ribeiro de Jesus
+last: Ribeiro de Jesus
+first: Hendor Neves
+people_group: "bahia"
+email: hendor.jesus@fiocruz.br
+education:
+  - Bacharel em Biotecnologia (Universidade Federal da Bahia)
+  - Mestrado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia)
+  - Doutorado em Bioquímica e Biologia Molecular (Universidade Federal da Bahia)
+subtitle: "Pesquisador em Genômica e Bioinformática | Fiocruz"
+description: "Bioinformata no projeto REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:hendor.jesus@fiocruz.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/2172144933025287
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-2209-6114
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Hendor-De-Jesus
+    - icon: linkedin
+      text: LinkedIn
+      href: linkedin.com/in/hendor-neves-016352105
+---
+
+<hr>
+
+:::{#about}
+
+Hendor é bacharel em Biotecnologia pela Universidade Federal da Bahia, com mestrado e doutorado pelo Programa Multicêntrico em Bioquímica e Biologia Molecular pela mesma instituição. Possui experiência em microbiologia e bioinformática, com estudos focados em genômica estrutural, genômica comparativa de patógenos humanos e predição de genes de resistência a antibióticos e fatores de virulência. Também realiza identificação de microrganismos através de análises filogenéticas e filogenômicas.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Hendor's Group Publications
+
+:::{#pubs}
+:::

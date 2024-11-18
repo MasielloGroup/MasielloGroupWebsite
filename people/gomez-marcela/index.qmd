@@ -1,0 +1,65 @@
+---
+title: &TITLE Marcela Kelly Astete Gómez
+last: Astete Gómez
+first: Marcela Kelly
+people_group: "bahia"
+email: marcelagomez@fesfsus.ba.gov.br
+education:
+  - Graduação | Biomedicina, Universidade Tiradentes (UNIT), Aracaju, Sergipe (2003)
+  - Especialização | Citogenética Humana, Universidade Católica do Salvador (UCSAL) (2007)
+  - Mestrado | Biotecnologia em Saúde e Medicina Investigativa (PgBSMI), Fundação Oswaldo Cruz (FIOCRUZ-BA) (2011)
+subtitle: "Especialista em Biologia Molecular e Sequenciamento de Nova Geração"
+description: "Marcela possui mais de 13 anos de experiência em Biologia Molecular, com expertise em sequenciamento de nova geração (NGS). Atuou no Chile, onde trabalhou com plataformas como PGM, Ion GeneStudio S5 (Ion Torrent), Miseq (Illumina) e MinION (Nanopore)."
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:marcelagomez@fesfsus.ba.gov.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/5396773197403235
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-4426-6989
+    - icon: mortarboard
+      text: ResearchGate
+      href: ""
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+Marcela Kelly Astete Gómez é graduada em Biomedicina pela Universidade Tiradentes (UNIT), com especialização em Citogenética Humana pela UCSAL e mestrado em Biotecnologia em Saúde e Medicina Investigativa pela Fiocruz-BA. Com mais de 13 anos de experiência, trabalhou em Santiago, Chile, com diversas plataformas de sequenciamento de nova geração, incluindo PGM, Ion GeneStudio S5, Miseq (Illumina) e MinION (Nanopore). Atuou como analista especialista em sequenciamento, gerente de laboratório e responsável pelo Global Client Service LATAM e Brasil.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Marcela Kelly's Group Publications
+
+:::{#pubs}
+:::

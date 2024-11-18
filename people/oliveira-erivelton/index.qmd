@@ -1,0 +1,61 @@
+---
+title: &TITLE Erivelton Oliveira
+last: Oliveira
+first: Erivelton
+people_group: "bahia"
+email: oliveira.lacenbahia@gmail.com
+education:
+  - Graduação em Farmácia e Bioquímica (Universidade Federal da Bahia)
+  - Especialização em Saúde Coletiva (ISC/UFBA)
+  - Sanitarista (ESPBA)
+  - Mestrado (Fiocruz/Bahia)
+subtitle: "Farmacêutico Bioquímico | LACEN-BA"
+description: ""
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:oliveira.lacenbahia@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/8596647714868274
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-1005-3283
+---
+
+<hr>
+
+:::{#about}
+
+Erivelton é farmacêutico Bioquímico pela Universidade Federal da Bahia (UFBA), com especialização em Saúde Coletiva (ISC/UFBA), sanitarista (ESPBA) e mestre pela Fiocruz/Bahia. Atua no Laboratório de Micobacteriologia do LACEN-BA e no Laboratório Central do Hospital das Clínicas da UFBA (HUPES/UFBA), com experiência no diagnóstico laboratorial de doenças de interesse da Saúde Pública.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Erivelton's Group Publications
+
+:::{#pubs}
+:::

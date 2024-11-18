@@ -1,0 +1,64 @@
+---
+title: &TITLE José Anderson Monteiro Pantoja
+last: Monteiro Pantoja
+first: José Anderson
+people_group: "para"
+email: monteiropantoja954@gmail.com
+education:
+  - Graduação (em andamento) | Ciências Biológicas, Universidade do Estado do Pará (UEPA)
+subtitle: "Graduando em Ciências Biológicas | Instituto Evandro Chagas"
+description: "Bolsista REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:monteiropantoja954@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/6324632809495436
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0003-5677-8823
+    - icon: mortarboard
+      text: ResearchGate
+      href: ""
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+José é graduando do sexto semestre de Ciências Biológicas pela Universidade do Estado do Pará (UEPA), foi bolsista de iniciação científica no Instituto Evandro Chagas (IEC). Possui experiência em análise de dados epidemiológicos com foco na epidemiologia da tuberculose.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## José Anderson's Group Publications
+
+:::{#pubs}
+:::

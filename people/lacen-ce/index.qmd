@@ -1,0 +1,56 @@
+---
+title: &TITLE Laboratório Central de Saúde Pública do Ceará (LACEN-CE)
+last: LACEN-CE
+first: Laboratório Central de Saúde Pública do Ceará
+people_group: "ceara"
+email: 
+  - acbarjud@gmail.com
+  - lacen@lacen.ce.gov.br
+subtitle: "LACEN-CE"
+description: "Instituição parceira do projeto REVIGET"
+image: avatar.png
+listing:
+  id: labs
+  template: ../../_ejs/publications-lab.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:acbarjud@gmail.com
+    - icon: envelope
+      text: Email
+      href: mailto:lacen@lacen.ce.gov.br
+---
+
+<hr>
+
+:::{#about}
+
+O Laboratório Central de Saúde Pública do Ceará (LACEN-CE) realiza diversos testes laboratoriais para diagnóstico e controle do tratamento da tuberculose, incluindo a pesquisa de tuberculose latente, a identificação de micobactérias tuberculosas e não tuberculosas, e a determinação molecular de genes de resistência aos medicamentos. No REVIGET, os colaboradores do LACEN-CE serão capacitados em Sequenciamento Genômico e Bioinformática, além de participar de atividades relacionadas ao cultivo e extração de DNA, preparo de bibliotecas genômicas e gerenciamento das amostras clínicas.
+
+## Participants
+- Ana Carolina Barjud Marques Máximo
+- Karene Ferreira Cavalcante
+- Rosiane Marcelino Lobo Fernandes
+- Larissa Leao Ferrer de Sousa
+- Shirlene Telmos Silva de Lima
+- Sidarta Lopes Viana
+- Vania Angelica Feitosa Viana
+
+## LACEN-CE Group Publications
+
+:::{#pubs}
+:::

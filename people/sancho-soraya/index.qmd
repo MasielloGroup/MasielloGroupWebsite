@@ -1,0 +1,70 @@
+---
+title: &TITLE Soraya de Oliveira Sancho
+last: Sancho
+first: Soraya de Oliveira
+people_group: "ceara"
+email: soraya.sancho@ufc.br
+education:
+  - Graduação | Engenharia de Alimentos, Universidade Federal do Ceará (UFC)
+  - Especialização | Vigilância Sanitária de Alimentos, Universidade Estadual do Ceará (UECE)
+  - Mestrado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
+  - Doutorado | Biotecnologia, Rede Nordeste de Biotecnologia (Renorbio) - UFC
+  - Pós-doutorado | Biotecnologia, Universidade Federal do Ceará (UFC)
+  - Pós-doutorado | Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
+  - Pós-doutorado | Ciência e Tecnologia de Alimentos, Universidade Federal do Ceará (UFC)
+subtitle: "Pós-doutora em Biotecnologia | Universidade Federal do Ceará"
+description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:soraya.sancho@ufc.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/9622400118638246
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-2797-8389
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Soraya-Sancho
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/soraya-sancho-b0722041/
+---
+
+<hr>
+
+:::{#about}
+
+Soraya é pós-doutora em Biotecnologia pela Universidade Federal do Ceará (UFC), com experiência em microbiologia, biologia molecular e processos biotecnológicos. Ela tem vasta experiência em Tecnologia de Alimentos, atuando como responsável técnica do Laboratório de Micobactérias da Faculdade de Medicina da UFC. No REVIGET, Soraya participa da capacitação para Sequenciamento Genômico e Bioinformática e no gerenciamento das amostras clínicas.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Soraya de Oliveira Sancho's Group Publications
+
+:::{#pubs}
+:::

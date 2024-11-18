@@ -1,0 +1,64 @@
+---
+title: &TITLE Danna Karen Corrêa dos Santos
+last: Corrêa dos Santos
+first: Danna Karen
+people_group: "para"
+email: dannakcsantos@gmail.com
+education:
+  - Graduação (em andamento) | Biomedicina, Universidade do Estado do Pará (UEPA)
+subtitle: "Graduanda em Biomedicina | Instituto Evandro Chagas"
+description: "Bolsista REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:dannakcsantos@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/3512612620247294
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-0221-2755
+    - icon: mortarboard
+      text: ResearchGate
+      href: ""
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+Danna é graduanda do oitavo semestre de Biomedicina pela Universidade do Estado do Pará (UEPA) e foi bolsista de iniciação científica no Instituto Evandro Chagas (IEC). Possui experiência em simulação computacional aplicada à resistência bacteriana, com foco em M. tuberculosis, apoio em bioinformática e em análises microbiológicas focadas na detecção e caracterização de bactérias patogênicas. Além disso, atuou em inquérito de representatividade nacional, contribuindo para estudo sócio epidemiológico avaliando o quadro clínico, os recursos diagnósticos e terapêuticos disponíveis para pacientes atendidos em Hospital Universitário (HU).
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Danna Karen's Group Publications
+
+:::{#pubs}
+:::

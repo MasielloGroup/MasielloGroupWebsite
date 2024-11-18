@@ -1,0 +1,54 @@
+---
+title: &TITLE Ana Judith Pires Garcia Quaresma
+last: Quaresma
+first: Ana Judith
+people_group: "para"
+email: ""
+education:
+  - Mestrado | Biologia Parasitária na Amazônia, Universidade do Estado do Pará
+  - Graduação | Farmácia, Centro Universitário do Estado do Pará
+  - Especialização | Análises Clínicas com Ênfase no Diagnóstico de Doenças Tropicais, Universidade Federal do Pará
+subtitle: "Mestre em Biologia Parasitária na Amazônia | Chefe da Seção de Bacteriologia e Micologia do Instituto Evandro Chagas"
+description: "Chefe da Seção de Bacteriologia e Micologia do Instituto Evandro Chagas. Experiência em diagnóstico microbiológico e molecular de doenças bacterianas."
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpeg
+  links:
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/7391683091277629
+---
+
+<hr>
+
+:::{#about}
+
+Mestre em Biologia Parasitária na Amazônia pela Universidade do Estado do Pará. Graduada em Farmácia pelo Centro Universitário do Estado do Pará, Especialista em Análises Clínicas com ênfase no Diagnóstico de Doenças Tropicais pela Universidade Federal do Pará. Chefe da Seção de Bacteriologia e Micologia do Instituto Evandro Chagas (IEC-PA). Tem experiência em Microbiologia, atuando principalmente no diagnóstico microbiológico e molecular de agravos de origem bacteriana, bem como na investigação fenotípica e molecular de mecanismos de resistência bacteriana.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Ana Judith's Group Publications
+
+:::{#pubs}
+:::

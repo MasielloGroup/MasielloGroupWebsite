@@ -1,0 +1,62 @@
+---
+title: &TITLE Alex Brito
+last: Brito
+first: Alex
+people_group: "para"
+email: alexbritosouza@yahoo.com.br
+education:
+  - Doutorado | PPG-BPA-IEC, em andamento
+  - Mestrado | PPG-BPA-IEC
+  - Graduação | Universidade Federal do Pará, 1998
+  - Especialização | Análises Clínicas com Ênfase no Diagnóstico Laboratorial de Doenças Tropicais, UFPA, 2005
+  - Especialização | Gestão de Assistência Farmacêutica, UFSC, 2012
+subtitle: "Técnico em sequenciamento e Doutorando"
+description: "Doutorando  e técnico responsável pelo sequenciamento Sanger e pela identificação de MNT na Seção de Bacteriologia do IEC"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:alexbritosouza@yahoo.com.br
+    - icon: lattes
+      text: Lattes
+      href: http://lattes.cnpq.br/9252588536352588
+    - icon: orcid
+      text: ORCID
+      href: https://orcid.org/0000-0002-1244-4026
+---
+
+<hr>
+
+:::{#about}
+
+Doutorando do Programa de Pós-Graduação em Biologia Parasitária na Amazônia (PPG-BPA-IEC) e Mestre em Biologia Parasitária na Amazônia (PPG-BPA-IEC). Graduado em Farmácia pela Universidade Federal do Pará (1998), com especializações em Análises Clínicas com Ênfase no Diagnóstico Laboratorial de Doenças Tropicais (UFPA, 2005) e em Gestão de Assistência Farmacêutica (UFSC, 2012). Possui experiência em gestão na área de Assistência Farmacêutica, Análises Clínicas e Microbiológicas, com ênfase em Bacteriologia e Micologia Clínica. Na área de Biologia Molecular, é o técnico responsável pelo sequenciamento Sanger e pela identificação de MNT na Seção de Bacteriologia do IEC, além de ministrar treinamentos em sequenciamento Sanger.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Alex's Group Publications
+
+:::{#pubs}
+:::

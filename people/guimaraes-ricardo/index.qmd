@@ -1,0 +1,52 @@
+---
+title: &TITLE Ricardo José de Paula Souza e Guimarães
+last: Souza e Guimarães
+first: Ricardo José de Paula
+people_group: "para"
+email: ricardoguimaraes@iec.gov.br
+education:
+  - Ciências Biológicas (Universidade de Taubaté) <br> Especialização em Informática na Saúde (UFRN) <br> Mestrado em Sensoriamento Remoto (INPE) <br> Doutorado em Biomedicina (Instituto de Ensino e Pesquisa da Santa Casa de Belo Horizonte) <br> Pós-doutorado em Ciências da Saúde (Instituto René Rachou/Fiocruz-MG)
+description: "Analista de Geoprocessamento"
+subtitle: "Tecnologista em Geoprocessamento no projeto REVIGET"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:ricardoguimaraes@iec.gov.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/4082971128842907
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-5767-4765
+
+---
+
+<hr>
+:::{#about}
+
+Possui graduação em Ciências Biológicas pela Universidade de Taubaté (1994), especialização em Informática na Saúde pela Universidade Federal do Rio Grande do Norte (2022), mestrado em Sensoriamento Remoto pelo Instituto Nacional de Pesquisas Espaciais (2000), doutorado em Biomedicina pelo Instituto de Ensino e Pesquisa da Santa Casa de Belo Horizonte (2010), pós-doutorando em Ciências da Saúde pelo Instituto René Rachou/Fiocruz-MG (atual). Atualmente é Tecnologista em geoprocessamento no Instituto Evandro Chagas/SVSA/MS; Tem experiência na área de Geociências, com ênfase em Geotecnologias, Sensoriamento Remoto, Sistemas de Informação Geográfica, Epidemiologia Espacial, Saúde Pública; atuando principalmente nos seguintes temas: geoprocessamento na saúde e no meio ambiente, geotecnologia móvel, análise espacial e geoestatística.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

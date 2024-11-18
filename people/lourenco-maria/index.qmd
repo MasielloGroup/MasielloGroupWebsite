@@ -1,0 +1,65 @@
+---
+title: &TITLE Maria Cristina da Silva Lourenço
+last: Lourenço
+first: Maria Cristina
+people_group: "riodejaneiro"
+email: cristina.lourenco@ini.fiocruz.br
+education:
+  - Graduação | Farmácia, Universidade Federal do Rio de Janeiro (UFRJ) (1977)
+  - Mestrado | Microbiologia, Universidade Federal do Rio de Janeiro (UFRJ) (1998)
+  - Especialização | Microbiologia Clínica, Universidade Federal do Rio de Janeiro (UFRJ)
+subtitle: "Pesquisadora em Saúde e Diretora do Laboratório de Bacteriologia e Bioensaios do INI"
+description: ""
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:cristina.lourenco@ini.fiocruz.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/4108927403982025
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-0382
+    - icon: mortarboard
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Maria-Lourenco-14
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/maria-lourenco-14
+---
+
+<hr>
+
+:::{#about}
+
+Maria Cristina da Silva Lourenço é graduada em Farmácia pela Universidade Federal do Rio de Janeiro (UFRJ), com mestrado em Microbiologia pela mesma instituição. É pesquisadora em saúde da Fiocruz e diretora do Laboratório de Bacteriologia e Bioensaios do INI, onde atua como referência regional para micobactérias. Sua experiência inclui microbiologia clínica, tuberculose, micobactérias e multirresistência, além de detecção de atividade antimicrobiana e bioensaios para sinergismo bactericida.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Maria Cristina's Group Publications
+
+:::{#pubs}
+:::

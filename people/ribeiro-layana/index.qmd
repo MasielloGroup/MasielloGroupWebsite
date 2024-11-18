@@ -1,0 +1,62 @@
+---
+title: &TITLE Layana Rufino Ribeiro
+last: Ribeiro
+first: Layana
+people_group: "para"
+email: layanarufinoribeiro@gmail.com
+education:
+  - Graduação | Ciências Biológicas, Universidade do Estado do Pará
+  - Mestrado (em andamento) | Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde, Instituto Evandro Chagas
+subtitle: "Mestranda em Epidemiologia e Vigilância em Saúde e bolsista REVIGET"
+description: "Bolsista REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:layanarufinoribeiro@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/6331399850875173
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-1281-6563
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/layana-rufino-71b24b320
+---
+
+<hr>
+
+:::{#about}
+
+Layana é graduada em Ciências Biológicas (UEPA) e mestranda pelo Programa de Pós-graduação em Epidemiologia e Vigilância em Saúde (PPGEVS) no Instituto Evandro Chagas (IEC). Layana possui experiência na prática e execução do sequenciamento do genoma completo de micobactérias, com ênfase em Mycobacterium tuberculosis. Atualmente, está envolvida em pesquisas e práticas laboratoriais em biologia molecular, aplicadas ao estudo de patógenos bacterianos, com especial interesse em doenças causadas por micobactérias, particularmente as relacionadas à tuberculose. Seu principal interesse reside nas áreas de resistência bacteriana, abordagens moleculares, epidemiológicas e genômicas para o estudo de patógenos.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## Layana's Group Publications
+
+:::{#pubs}
+:::

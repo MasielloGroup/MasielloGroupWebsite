@@ -1,0 +1,55 @@
+title: &TITLE Marco Aurélio Almeida de Oliveira
+last: Oliveira
+first: Marco Aurélio Almeida de
+people_group: "amazonas"
+email: lacen@fvs.am.gov.br
+education:
+  - Farmacêutico-Bioquímico (Universidade Paulista) <br> Mestre em Ciências Farmacêuticas (Universidade Federal do Amazonas) <br> MBA em Excelência Operacional em Saúde (Instituto Israelita Albert Einstein) <br> Black Belt Lean Healthcare (Masterlean Academy)
+description: "Gestor e consultor sobre testes laboratoriais do LACEN-AM"
+subtitle: "Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:lacen@fvs.am.gov.br
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/0631028623765995
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0009-0004-9239-8358
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/marcoliveira85/
+---
+
+<hr>
+
+
+:::{#about}
+
+Farmacêutico-Bioquímico pela Universidade Paulista. Mestre em Ciências Farmacêuticas pela Universidade Federal do Amazonas. MBA em Excelência Operacional em Saúde pelo Instituto Israelita Albert Einstein. Black Belt Lean Healthcare pela Masterlean Academy. Farmacêutico Bioquímico concursado da Secretaria de Estado da Saúde SES-AM. Diretor do Laboratório de Saúde Pública do Estado do Amazonas - LACEN-AM/FVS-RCP.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

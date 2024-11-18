@@ -1,0 +1,54 @@
+---
+title: &TITLE Emilly Gabriele Ribeiro Dias
+last: Dias
+first: Emilly Gabriele Ribeiro
+people_group: "para"
+email: emillygrdias@icloud.com
+education:
+  - Biomédica (Universidade da Amazônia)
+  - Mestrado e Doutorado (em andamento) em Biologia Parasitária na Amazônia (Universidade do Estado do Pará/IEC)
+description: "Analista de bigdata no projeto REVIGET"
+subtitle: "Pesquisadora em epidemiologia da tuberculose e analista de bigdata"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:emillygrdias@icloud.com
+    - icon: mortarboard
+      text: Lattes
+      href: https://lattes.cnpq.br/4844173634339106
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0001-9650-6329
+    - icon: linkedin
+      text: Linkedin
+      href: http://linkedin.com/in/emilly-dias-bb55b331b
+---
+
+<hr>
+:::{#about}
+
+Emilly é biomédica formada pela Universidade da Amazônia, com mestrado e doutorado em andamento em Biologia Parasitária na Amazônia pela Universidade do Estado do Pará (UEPA/IEC). Sua pesquisa se concentra na epidemiologia da tuberculose, com ênfase na análise de big data para entender os padrões de disseminação da doença. A integração de dados em larga escala visa o desenvolvimento de estratégias mais eficazes de controle e prevenção, levando em consideração as particularidades regionais da Amazônia. Emilly possui ampla experiência na interpretação de dados epidemiológicos e estatísticos, contribuindo para o avanço do conhecimento científico sobre doenças infecciosas, especialmente a tuberculose.
+
+:::
+## Group Publications
+
+:::{#pubs}
+:::

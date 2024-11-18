@@ -1,0 +1,63 @@
+---
+title: &TITLE Abhinav Sharma
+last: Sharma
+first: Abhinav
+people_group: "riodejaneiro"
+email: abhinavsharma@sun.ac.za
+education:
+  - PhD Candidate | Bioinformática, Stellenbosch University
+subtitle: "Capacitador em WGS (Bioinformática) e Análise de Dados"
+description: "Capacitador e Analista de dados do projeto REVIGET"
+image: avatar.png
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.png
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:abhinavsharma@sun.ac.za
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/3571867438832184
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0002-6402-6993
+    - icon: researchgate
+      text: ResearchGate
+      href: https://www.researchgate.net/profile/Abhinav-Sharma-4
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/abhi18av/
+---
+
+<hr>
+
+:::{#about}
+
+Abhinav Sharma é um Bioinformático e candidato a PhD na Stellenbosch University, com especialização no desenvolvimento de ferramentas para análise de dados de sequenciamento de *M. tuberculosis* por técnicas de Machine Learning. Ele também é membro ativo das comunidades Nextflow e nf-core, e dedica-se a programas de capacitação em países de baixa e média renda para aprimorar a pesquisa e o diagnóstico.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Abhinav Sharma's Group Publications
+
+:::{#pubs}
+:::

@@ -1,0 +1,65 @@
+---
+title: &TITLE Vanessa Brandão Nardy
+last: Nardy
+first: Vanessa Brandão
+people_group: "bahia"
+email: vanessanardy@gmail.com
+education:
+  - Graduação em Ciências Biológicas, Universidade Estadual do Sudoeste da Bahia
+  - Mestrado em Biotecnologia em Saúde e Medicina Investigativa, Fundação Oswaldo Cruz (FIOCRUZ)
+subtitle: "Analista Clínica | LACEN-BA"
+description: "Participante da capacitação para Sequenciamento Genômico e Bioinformática no projeto REVIGET"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  # sort-ui: true
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:vanessanardy@gmail.com
+    - icon: mortarboard
+      text: Lattes
+      href: http://lattes.cnpq.br/5263123650506790
+    - icon: mortarboard
+      text: ORCID
+      href: https://orcid.org/0000-0003-3792-818X
+    - icon: researchgate
+      text: ResearchGate
+      href: ""
+    - icon: linkedin
+      text: LinkedIn
+      href: ""
+---
+
+<hr>
+
+:::{#about}
+
+Vanessa é graduada em Ciências Biológicas pela Universidade Estadual do Sudoeste da Bahia e mestre em Biotecnologia em Saúde e Medicina Investigativa pela Fundação Oswaldo Cruz. Atualmente, é analista clínica no Laboratório Central de Saúde Pública da Bahia (LACEN-BA), com atuação no setor de Vigilância Genômica. Possui vasta experiência em diagnóstico molecular de microrganismos de relevância para a saúde pública.
+
+## Education
+{{< meta education >}}
+
+<br>
+
+::: 
+
+## Vanessa's Group Publications
+
+:::{#pubs}
+:::
