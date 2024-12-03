@@ -89,37 +89,8 @@ ga('send', {
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta name="twitter:title" content="Masiello Group - Exact \(k\)-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light">
+<meta name="twitter:title" content="Masiello Group - Exact k-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light">
 <meta name="twitter:image" content="https://faculty.washington.edu/masiello/publications/2021_066_Exact_k-body_represe/featured.png">
 <meta name="twitter:image-height" content="458">
 <meta name="twitter:image-width" content="500">
@@ -190,7 +161,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Exact <span class="math inline">\(k\)</span>-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light</h1>
+<h1 class="title">Exact <i>k</i>-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light</h1>
   <div class="quarto-categories">
     <div class="quarto-category">nanophotonics-quantum_optics</div>
   </div>

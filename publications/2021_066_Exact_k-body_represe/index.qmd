@@ -1,5 +1,5 @@
 ---
-title: "Exact $k$-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light"
+title: "Exact <i>k</i>-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light"
 date: 2021-03-01
 author: ["Kevin C. Smith", "Aniruddha Bhattacharya", "David J. Masiello"]
 publication: "Physical Review A, **104**, *pp. 013707* (2021)."
