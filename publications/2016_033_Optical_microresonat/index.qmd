@@ -10,5 +10,6 @@ journ: "Nature Photonics"
 issue: 10
 page: 788--796
 year: 2016
+image: featured.jpg
 pub_number: 33
 ---
