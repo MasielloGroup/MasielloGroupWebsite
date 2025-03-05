@@ -59,7 +59,7 @@ title: \"$title\"
 author: [$authors_formatted]
 categories: 
     - \"$category\"
-url: \"$url_source\"
+url_source: \"$url_source\"
 url_preprint: \"$url_preprint\"
 journ: \"$journal\"
 issue: $issue
