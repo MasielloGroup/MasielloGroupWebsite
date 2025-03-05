@@ -1,52 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://faculty.washington.edu/masiello/dmref/data/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/west-claire/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.757Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/sanchez-michael/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.756Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/nixon-austin/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/masiello-david/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/guo-xiaofei/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/cherqui-charles/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.752Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/busche-jacob/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.751Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/bhattacharya-aniruddha/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.750Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/anyanwu-praise/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.750Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/research/nanophotonics-quantum_optics/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/research/photothermal_spectroscopy_and_microscopy/index.html</loc>
     <lastmod>2024-10-26T21:32:56.758Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/research/fast_electron_nano-spectroscopy/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.758Z</lastmod>
+    <loc>https://faculty.washington.edu/masiello/research/index.html</loc>
+    <lastmod>2024-03-10T03:13:58.753Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/publications/index.html</loc>
+    <lastmod>2024-03-10T03:13:58.748Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/publications/2024_090_strategy_for_direct/index.html</loc>
@@ -229,20 +193,40 @@
     <lastmod>2024-12-11T18:09:41.199Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/people/thakkar-niket/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/people/west-claire/index.html</loc>
     <lastmod>2024-10-26T21:32:56.757Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/smith-kevin/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/rossi-andrew/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.756Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/people/qian-zhaoxia/index.html</loc>
     <lastmod>2024-10-26T21:32:56.755Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/people/kong-xiang-tian/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/people/moser-kevin/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/masiello-david/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/khorasani-siamak/index.html</loc>
     <lastmod>2024-10-26T21:32:56.754Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/people/hu-zhongwei/index.html</loc>
     <lastmod>2024-10-26T21:32:56.754Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/goldwyn-harrison/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.753Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/people/ext-reinhardt-phil/index.html</loc>
@@ -253,76 +237,92 @@
     <lastmod>2024-10-26T21:32:56.752Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/index.html</loc>
-    <lastmod>2024-03-10T03:13:58.685Z</lastmod>
+    <loc>https://faculty.washington.edu/masiello/people/chalifour-matthieu/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.751Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2022-06-01-grc-chair/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/people/bourgeois-marc/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/bhattacharya-aniruddha/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/anyanwu-praise/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.750Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/news/2022-08-24-new-pub/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2022-03-01-new-prl/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2022-05-01-doe-award/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2021-12-01-alumni-news/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2022-01-01-welcome-betty/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2021-08-21-welcome-new-students/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2021-08-24-nsf-dmref-renewed/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2021-08-21-congratulations-graduates/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2021-08-21-congratulations-to/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2020-04-01-Claire-west.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2020-09-06-nano-letters-cover/index.html</loc>
+    <lastmod>2024-03-10T03:13:58.683Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/news/2020-03-15-collaborati.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.681Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2020-01-16-collaborati.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2020-01-01-kevin-smith-s-work/index.html</loc>
     <lastmod>2024-03-10T03:13:58.681Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2020-01-01-austin-s-pa.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-09-16-published-c.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.680Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-09-16-collaborati.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-the-masiell.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.680Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-our-nsf-dmr.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-kevin-s-pap.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.680Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-jake-busche.../index.html</loc>
-    <lastmod>2024-03-10T03:13:58.680Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-07-16-collaborati.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-harrison-s-.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-04-16-david-is-pr.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-05-16-nick-monton.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-02-16-steve-s-pap.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-03-16-collaborati.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-02-16-david-s-pap.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-02-16-david-was-i.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/index.html</loc>
-    <lastmod>2024-10-25T20:30:19.410Z</lastmod>
+    <loc>https://faculty.washington.edu/masiello/news/2019-01-01-archive-pre.../index.html</loc>
+    <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/dmref/people/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/dmref/publications/index.html</loc>
     <lastmod>2024-10-26T21:32:56.749Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/dmref/index.html</loc>
+    <lastmod>2024-03-10T03:13:58.627Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/dmref/codes/index.html</loc>
@@ -333,80 +333,100 @@
     <lastmod>2024-03-10T03:13:58.613Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/dmref/index.html</loc>
-    <lastmod>2024-03-10T03:13:58.627Z</lastmod>
+    <loc>https://faculty.washington.edu/masiello/contact.html</loc>
+    <lastmod>2024-10-26T21:32:56.748Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/dmref/publications/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/dmref/data/index.html</loc>
     <lastmod>2024-10-26T21:32:56.749Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-01-01-archive-pre.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/dmref/people/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.749Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/index.html</loc>
+    <lastmod>2024-10-25T20:30:19.410Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/news/2019-02-16-david-s-pap.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-02-16-david-was-i.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-02-16-steve-s-pap.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-03-16-collaborati.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-04-16-david-is-pr.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-05-16-nick-monton.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-07-16-collaborati.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.679Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-harrison-s-.../index.html</loc>
-    <lastmod>2024-03-10T03:13:58.679Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-kevin-s-pap.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-jake-busche.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.680Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-the-masiell.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-08-16-our-nsf-dmr.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.680Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2019-09-16-published-c.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2019-09-16-collaborati.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.680Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2020-01-01-kevin-smith-s-work/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2020-01-01-austin-s-pa.../index.html</loc>
+    <lastmod>2024-03-10T03:13:58.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/news/2020-01-16-collaborati.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.681Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2020-03-15-collaborati.../index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2020-04-01-Claire-west.../index.html</loc>
     <lastmod>2024-03-10T03:13:58.681Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2020-09-06-nano-letters-cover/index.html</loc>
-    <lastmod>2024-03-10T03:13:58.683Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/news/2021-08-21-congratulations-to/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2021-08-21-congratulations-graduates/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2021-08-24-nsf-dmref-renewed/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2021-08-21-welcome-new-students/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2022-01-01-welcome-betty/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2021-12-01-alumni-news/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2022-05-01-doe-award/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2022-03-01-new-prl/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/news/2022-08-24-new-pub/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/news/2022-06-01-grc-chair/index.html</loc>
     <lastmod>2024-03-10T03:13:58.684Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/news/index.html</loc>
+    <lastmod>2024-03-10T03:13:58.685Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/beutler-elliot/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.750Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/people/bigelow-nicholas/index.html</loc>
     <lastmod>2024-10-26T21:32:56.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/busche-jacob/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/cherqui-charles/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.752Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/people/ext-link-stephan/index.html</loc>
@@ -417,16 +437,36 @@
     <lastmod>2024-10-26T21:32:56.753Z</lastmod>
   </url>
   <url>
+    <loc>https://faculty.washington.edu/masiello/people/guo-xiaofei/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.753Z</lastmod>
+  </url>
+  <url>
     <loc>https://faculty.washington.edu/masiello/people/index.html</loc>
     <lastmod>2024-10-26T23:02:42.571Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/kong-xiang-tian/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.754Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/people/montoni-nicholas/index.html</loc>
     <lastmod>2024-10-26T21:32:56.755Z</lastmod>
   </url>
   <url>
+    <loc>https://faculty.washington.edu/masiello/people/nixon-austin/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.755Z</lastmod>
+  </url>
+  <url>
     <loc>https://faculty.washington.edu/masiello/people/quillin-steven/index.html</loc>
     <lastmod>2024-10-26T21:32:56.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/sanchez-michael/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.756Z</lastmod>
+  </url>
+  <url>
+    <loc>https://faculty.washington.edu/masiello/people/thakkar-niket/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.757Z</lastmod>
   </url>
   <url>
     <loc>https://faculty.washington.edu/masiello/publications/2000_001_Dispersion_analysis_/index.html</loc>
@@ -609,51 +649,15 @@
     <lastmod>2024-10-25T21:11:03.878Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/publications/index.html</loc>
-    <lastmod>2024-03-10T03:13:58.748Z</lastmod>
+    <loc>https://faculty.washington.edu/masiello/publications/2025_091_chemical_interface_damping/index.html</loc>
+    <lastmod>2025-03-05T15:31:15.692Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/research/index.html</loc>
-    <lastmod>2024-03-10T03:13:58.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/research/photothermal_spectroscopy_and_microscopy/index.html</loc>
+    <loc>https://faculty.washington.edu/masiello/research/fast_electron_nano-spectroscopy/index.html</loc>
     <lastmod>2024-10-26T21:32:56.758Z</lastmod>
   </url>
   <url>
-    <loc>https://faculty.washington.edu/masiello/people/beutler-elliot/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.750Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/bourgeois-marc/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.751Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/chalifour-matthieu/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.751Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/goldwyn-harrison/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.753Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/khorasani-siamak/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.754Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/moser-kevin/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.755Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/rossi-andrew/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.756Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/people/smith-kevin/index.html</loc>
-    <lastmod>2024-10-26T21:32:56.756Z</lastmod>
-  </url>
-  <url>
-    <loc>https://faculty.washington.edu/masiello/contact.html</loc>
-    <lastmod>2024-10-26T21:32:56.748Z</lastmod>
+    <loc>https://faculty.washington.edu/masiello/research/nanophotonics-quantum_optics/index.html</loc>
+    <lastmod>2024-10-26T21:32:56.758Z</lastmod>
   </url>
 </urlset>

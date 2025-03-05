@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.40">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Masiello Group – Meet the Group</title>
+<title>Meet the Group – Masiello Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8071ac20917f5a989e7405b7e887e66d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-subtitle','listing-image','listing-education','listing-altsubtitle','listing-alteducation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-subtitle","listing-education","listing-title","listing-first","listing-last","listing-people_group","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-email","listing-altsubtitle","listing-alteducation"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-altsubtitle","listing-alteducation","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -286,8 +286,12 @@ window.Quarto = {
 };
 </script>
 
-<meta name="twitter:title" content="Masiello Group - Meet the Group">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Meet the Group – Masiello Group">
+<meta name="twitter:image" content="https://faculty.washington.edu/masiello/people/masiello-david/avatar.png">
+<meta name="twitter:image:alt" content="David J. Masiello">
+<meta name="twitter:image-height" content="1970">
+<meta name="twitter:image-width" content="1976">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -1708,8 +1712,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -1825,7 +1827,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
