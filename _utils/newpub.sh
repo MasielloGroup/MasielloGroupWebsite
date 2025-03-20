@@ -63,7 +63,7 @@ url_source: \"$url_source\"
 url_preprint: \"$url_preprint\"
 journ: \"$journal\"
 issue: $issue
-pages: $page
+page: $page
 year: $year
 pub_number: $pub_number
 image: \"\"
