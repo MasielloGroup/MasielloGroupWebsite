@@ -179,8 +179,8 @@
   {
     "listing": "/people/masiello-david/index.html",
     "items": [
-      "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2025_091_chemical_interface_damping/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
       "/publications/2024_089_resonance_energy_transfer/index.html",
@@ -357,6 +357,11 @@
   {
     "listing": "/dmref/publications/index.html",
     "items": [
+      "/publications/2025_092_scattering-vs-interference/index.html",
+      "/publications/2025_091_chemical_interface_damping/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_080_Nonlinear_effects/index.html",
+      "/publications/2022_075_optical_control_over/index.html",
       "/publications/2021_071_model-based_insight/index.html",
       "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
       "/publications/2021_064_wavelength-dependent-photothermal/index.html",
