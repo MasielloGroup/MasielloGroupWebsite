@@ -1,0 +1,15 @@
+---
+title: "Scattering vs Interference in Interferometric Scattering Spectroscopy of Plasmonic Nanoparticles"
+author: ["Sanjay Sridhar","Marie E. Nikolov","Elliot K. Beutler","Megan Knobeloch","Bianca Paranzino","Kelly L. Vernon","Yaxu Zhong","Xingchen Ye","Lane A. Baker","Sara E. Skrabalak","David J. Masiello","Katherine A. Willets"]
+categories: 
+    - "photothermal_spectroscopy_and_microscopy"
+    - "dmref"
+url_source: "https://pubs.acs.org/doi/10.1021/acs.jpclett.5c00261"
+url_preprint: ""
+journ: "Journal of Physical Chemistry Letters"
+issue: 16
+page: 4410-4418
+year: 2025
+pub_number: 092
+image: "featured.png"
+---
