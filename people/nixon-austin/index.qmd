@@ -2,7 +2,7 @@
 title: &TITLE Austin G. Nixon
 last: Nixon
 first: Austin
-people_group: gradstudent
+people_group: alumni
 email: "austinxn@uw.edu"
 education: B.S. Physics and Chemistry | University of Washington
 subtitle: Graduate Student, Chemistry

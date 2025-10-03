@@ -2,7 +2,7 @@
 title: &TITLE C. Praise Anyanwu
 last: Anyanwu
 first: Praise
-people_group: gradstudent
+people_group: alumni
 email: "anyanc@uw.edu"
 education:
   - B.S. Chemistry | Bard College 

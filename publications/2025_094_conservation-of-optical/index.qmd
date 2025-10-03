@@ -3,11 +3,11 @@ title: "Conservation of optical chirality in nanoscale light-matter interactions
 author: ["Kevin N. Moser","Marc R. Bourgeois","Elliot K. Beutler","David J. Masiello"]
 categories: 
     - "nanophotonics-quantum_optics"
-url_source: ""
-url_preprint: "https://arxiv.org/abs/2505.04814"
-journ: "Under Review"
-issue: 
-page: 
+url_source: "https://journals.aps.org/pra/abstract/10.1103/8f2s-rjgy"
+# url_preprint: "https://arxiv.org/abs/2505.04814"
+journ: "Physical Review A"
+issue: 112
+page: 033524
 year: 2025
 pub_number: 094
 #image: ""

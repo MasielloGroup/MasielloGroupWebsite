@@ -1,14 +1,14 @@
 ---
-title: &TITLE Michael Sanchez
-last: Sanchez
-first: Michael
-people_group: "alumni"
-email: mmars@uw.edu
+title: &TITLE Vishal Tiwari
+last: Tiwari
+first: Vishal
+people_group: postdoc
+email: viti@uw.edu
 education:
-  - B.S. Physics | University of Washington  
-subtitle: "Post Baccalaureate Researcher "
-description: ""
-image: &IMAGE avatar.png
+  - "Ph.D. Chemistry | University of Rochester"
+subtitle: "Postdoctoral Fellow"
+image: &IMAGE "avatar.png"
+page-layout: full
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs 
@@ -20,7 +20,6 @@ listing:
   include:
     author: *TITLE
   fields: [publication, title, categories, image, date, author]
-page-layout: full
 about: 
   id: about
   template: trestles
@@ -29,24 +28,25 @@ about:
   links:
     - icon: envelope
       text: Email
-      href: mailto:mmars@uw.edu
+      href: mailto:viti@uw.edu
 ---
-
 <hr>
 
 
 :::{#about}
 
-
-
 ## Education
 {{< meta education >}}
 
+:::
 <br>
 
-:::
 
 ## {{< meta first >}}'s Group Publications
 
 :::{#pubs}
 :::
+
+
+
+
