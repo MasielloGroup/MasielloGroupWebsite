@@ -32,9 +32,9 @@
   {
     "listing": "/publications/index.html",
     "items": [
-      "/publications/2025_095_substrate_matters/index.html",
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2025_091_chemical_interface_damping/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
@@ -181,7 +181,7 @@
   {
     "listing": "/people/nixon-austin/index.html",
     "items": [
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
       "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
       "/publications/2023_083_optical_polarization_analogs/index.html",
@@ -321,8 +321,8 @@
   {
     "listing": "/people/beutler-elliot/index.html",
     "items": [
-      "/publications/2025_095_substrate_matters/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2024_089_resonance_energy_transfer/index.html",
       "/publications/2024_085_localizing_low-grade/index.html",
@@ -492,9 +492,9 @@
   {
     "listing": "/people/masiello-david/index.html",
     "items": [
-      "/publications/2025_095_substrate_matters/index.html",
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2025_091_chemical_interface_damping/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
@@ -608,7 +608,7 @@
   {
     "listing": "/people/smith-kevin/index.html",
     "items": [
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
       "/publications/2021_066_Exact_k-body_represe/index.html",
       "/publications/2020_055_Active_Tuning_of_Hyb/index.html",
@@ -625,7 +625,7 @@
   {
     "listing": "/research/fast_electron_nano-spectroscopy/index.html",
     "items": [
-      "/publications/2025_095_substrate_matters/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
@@ -672,8 +672,8 @@
   {
     "listing": "/research/nanophotonics-quantum_optics/index.html",
     "items": [
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
       "/publications/2024_089_resonance_energy_transfer/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",
