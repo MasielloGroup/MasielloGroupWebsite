@@ -32,8 +32,9 @@
   {
     "listing": "/publications/index.html",
     "items": [
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2025_091_chemical_interface_damping/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
@@ -129,6 +130,21 @@
     ]
   },
   {
+    "listing": "/people/west-claire/index.html",
+    "items": [
+      "/publications/2023_080_Nonlinear_effects/index.html",
+      "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
+      "/publications/2021_064_wavelength-dependent-photothermal/index.html",
+      "/publications/2021_062_coupled-dipole-modeling/index.html",
+      "/publications/2021_060_High_Spatial_and_Energy/index.html",
+      "/publications/2020_058_Plasmon_hybridization/index.html",
+      "/publications/2019_051_Focused_Electron_Bea/index.html",
+      "/publications/2019_047_Active_Far-Field_Con/index.html",
+      "/publications/2019_046_Plasmon_Heating_Prom/index.html",
+      "/publications/2016_034_STEM_EELS_Imaging_of/index.html"
+    ]
+  },
+  {
     "listing": "/people/thakkar-niket/index.html",
     "items": [
       "/publications/2018_042_Plasmonic_Landau_dam/index.html",
@@ -165,7 +181,7 @@
   {
     "listing": "/people/nixon-austin/index.html",
     "items": [
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
       "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
       "/publications/2023_083_optical_polarization_analogs/index.html",
@@ -200,15 +216,14 @@
     "items": [
       "/people/masiello-david/index.html",
       "/people/bourgeois-marc/index.html",
-      "/people/beutler-elliot/index.html",
-      "/people/anyanwu-praise/index.html",
+      "/people/tiwari-vishal/index.html",
       "/people/chalifour-matthieu/index.html",
       "/people/guo-xiaofei/index.html",
       "/people/khorasani-siamak/index.html",
       "/people/moser-kevin/index.html",
-      "/people/nixon-austin/index.html",
       "/people/rossi-andrew/index.html",
-      "/people/sanchez-michael/index.html",
+      "/people/anyanwu-praise/index.html",
+      "/people/beutler-elliot/index.html",
       "/people/bhattacharya-aniruddha/index.html",
       "/people/bigelow-nicholas/index.html",
       "/people/busche-jacob/index.html",
@@ -217,8 +232,10 @@
       "/people/hu-zhongwei/index.html",
       "/people/kong-xiang-tian/index.html",
       "/people/montoni-nicholas/index.html",
+      "/people/nixon-austin/index.html",
       "/people/qian-zhaoxia/index.html",
       "/people/quillin-steven/index.html",
+      "/people/sanchez-michael/index.html",
       "/people/smith-kevin/index.html",
       "/people/thakkar-niket/index.html",
       "/people/west-claire/index.html"
@@ -305,6 +322,7 @@
     "listing": "/people/beutler-elliot/index.html",
     "items": [
       "/publications/2025_094_conservation-of-optical/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2024_089_resonance_energy_transfer/index.html",
       "/publications/2024_085_localizing_low-grade/index.html",
@@ -474,8 +492,9 @@
   {
     "listing": "/people/masiello-david/index.html",
     "items": [
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2025_092_scattering-vs-interference/index.html",
       "/publications/2025_091_chemical_interface_damping/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
@@ -589,7 +608,7 @@
   {
     "listing": "/people/smith-kevin/index.html",
     "items": [
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
       "/publications/2021_066_Exact_k-body_represe/index.html",
       "/publications/2020_055_Active_Tuning_of_Hyb/index.html",
@@ -600,23 +619,13 @@
     ]
   },
   {
-    "listing": "/people/west-claire/index.html",
-    "items": [
-      "/publications/2023_080_Nonlinear_effects/index.html",
-      "/publications/2021_070_toward_quantitative_nanothermometry/index.html",
-      "/publications/2021_064_wavelength-dependent-photothermal/index.html",
-      "/publications/2021_062_coupled-dipole-modeling/index.html",
-      "/publications/2021_060_High_Spatial_and_Energy/index.html",
-      "/publications/2020_058_Plasmon_hybridization/index.html",
-      "/publications/2019_051_Focused_Electron_Bea/index.html",
-      "/publications/2019_047_Active_Far-Field_Con/index.html",
-      "/publications/2019_046_Plasmon_Heating_Prom/index.html",
-      "/publications/2016_034_STEM_EELS_Imaging_of/index.html"
-    ]
+    "listing": "/people/tiwari-vishal/index.html",
+    "items": []
   },
   {
     "listing": "/research/fast_electron_nano-spectroscopy/index.html",
     "items": [
+      "/publications/2025_093_substrate_matters/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",
       "/publications/2024_087_inelastic_scattering/index.html",
@@ -663,8 +672,8 @@
   {
     "listing": "/research/nanophotonics-quantum_optics/index.html",
     "items": [
+      "/publications/2025_095_strongly_coupled_photonic/index.html",
       "/publications/2025_094_conservation-of-optical/index.html",
-      "/publications/2025_093_strongly_coupled_photonic/index.html",
       "/publications/2024_090_strategy_for_direct/index.html",
       "/publications/2024_089_resonance_energy_transfer/index.html",
       "/publications/2024_088_probing_the_polarization/index.html",

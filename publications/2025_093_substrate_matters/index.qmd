@@ -1,0 +1,14 @@
+---
+title: "Substrate matters: Coupled phonon modes of a spherical particle on a substrate probed with EELS"
+author: ["Ka Yin Lee","Elliot K. Beutler","Tifany Q. Crisolo","David J. Masiello","Maureen J. Lagos"]
+categories: 
+    - "fast_electron_nano-spectroscopy"
+url_source: "https://www.sciencedirect.com/science/article/abs/pii/S0304399125001275"
+url_preprint: ""
+journ: "Ultramicroscopy"
+issue: 278
+page: 114229
+year: 2025
+pub_number: 093
+# image: ""
+---
