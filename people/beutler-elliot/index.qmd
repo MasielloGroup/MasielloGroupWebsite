@@ -7,8 +7,8 @@ people_group:
 email: ekb123@uw.edu
 education:
   - Ph.D. Chemistry | University of Washington <br> B.S. Chemistry | University of Washington
-subtitle: "Postdoctoral Fellow"
-altsubtitle: "Graduate Student"
+subtitle: "Postdoctoral Fellow | Graduate Student"
+altsubtitle: "Postdoctoral Fellow | Graduate Student"
 alteducation: "Ph.D. Chemistry | University of Washington"
 description: ""
 image: avatar.jpg
