@@ -9,6 +9,6 @@ journ: "Under Review"
 issue: 
 page: 
 year: 2025
-pub_number: 095
-# image: ""
+pub_number: 096
+image: "featured.jpeg"
 ---

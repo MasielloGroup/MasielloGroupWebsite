@@ -1,5 +1,5 @@
 ---
-subtitle: Post-Doctoral Fellow
+subtitle: Postdoctoral Fellow
 first: Xiang-Tian
 last: Kong
 title: &TITLE Xiang-Tian Kong

@@ -10,5 +10,5 @@ issue: 112
 page: 033524
 year: 2025
 pub_number: 094
-#image: ""
+image: "featured.jpeg"
 ---

@@ -2,7 +2,7 @@
 title: &TITLE Zhaoxia Qian
 first: Zhaoxia
 last: Qian
-subtitle: Post-Doctoral Fellow
+subtitle: Postdoctoral Fellow
 education: Ph.D. Chemistry | University of Pennsylvania
 people_group: alumni
 image: avatar.png
