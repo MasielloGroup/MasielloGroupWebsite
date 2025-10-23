@@ -1,0 +1,14 @@
+---
+title: "Probing Plasmonic Near-Fields in Oxide-Modified Aluminum Nanocubes Using Photon-Induced Near-Field Electron Microscopy"
+author: ["Matthew Hershey","Haihua Liu","Xiaofei Guo","Andrew W. Rossi","Marc R. Bourgeois","Benjamin D. Clark","Thomas E. Gage","Ilke Arslan","David J. Masiello","Dayne F. Swearer"]
+categories: 
+    - "fast_electron_nano-spectroscopy"
+url_source: "https://pubs.acs.org/doi/10.1021/acsphotonics.5c01421"
+url_preprint: ""
+journ: "ACS Photonics"
+issue: 
+page: 
+year: 2025
+pub_number: 097
+image: "featured.jpeg"
+---
