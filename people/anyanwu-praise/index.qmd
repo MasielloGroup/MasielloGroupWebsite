@@ -5,7 +5,7 @@ first: Praise
 people_group: alumni
 email: "anyanc@uw.edu"
 education:
-  - B.S. Chemistry | Bard College 
+  - Ph.D. Chemistry | University of Washington 
 subtitle: Graduate Student, Chemistry
 description: ""
 image: avatar.jpg
