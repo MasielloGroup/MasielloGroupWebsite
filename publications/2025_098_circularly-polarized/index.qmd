@@ -1,0 +1,14 @@
+---
+title: "Circularly Polarized Polariton Lasing from Spin-Momentum Locking in Deformed Plasmonic Kagome Cavities"
+author: ["Zhaoyun Zheng","Chuchuan Hong","Siamak Khorasani","Shreya K. Patel","Marc R. Bourgeois","David J. Masiello", "Teri W. Odom"]
+categories: 
+    - "nanophotonics-quantum_optics"
+url_source: ""
+url_preprint: ""
+journ: "Advanced Materials"
+issue: Accepted
+page: 
+year: 2025
+pub_number: 098
+image: ""
+---

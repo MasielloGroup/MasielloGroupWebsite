@@ -3,10 +3,10 @@ title: "Strongly coupled photonic molecules as doubly-coupled oscillators"
 author: ["Kevin C. Smith","Austin G. Nixon","David J. Masiello"]
 categories: 
     - "nanophotonics-quantum_optics"
-url_source: ""
-url_preprint: "https://arxiv.org/abs/2503.23546"
-journ: "Under Review"
-issue: 
+url_source: "https://journals.aps.org/pra/accepted/10.1103/f3w4-hw71"
+url_preprint: ""
+journ: "Physical Review A"
+issue: "Accepted"
 page: 
 year: 2025
 pub_number: 096
