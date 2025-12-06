@@ -351,3 +351,13 @@ div.gradient-text {
   font-size: 13px;
 
 }
+
+.thumbnail img.thumbnail-image {
+  max-height: 300px !important;
+  max-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+  margin-left: auto !important;
+  display: block !important;
+}
