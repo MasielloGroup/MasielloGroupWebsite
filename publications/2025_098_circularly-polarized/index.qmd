@@ -10,5 +10,5 @@ issue: Accepted
 page: 
 year: 2025
 pub_number: 098
-image: ""
+image: "featured.png"
 ---
