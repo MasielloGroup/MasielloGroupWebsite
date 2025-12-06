@@ -6,7 +6,7 @@ people_group: alumni
 email: "anyanc@uw.edu"
 education:
   - Ph.D. Chemistry | University of Washington 
-subtitle: Graduate Student, Chemistry
+subtitle: Graduate Student
 description: ""
 image: avatar.jpg
 listing:

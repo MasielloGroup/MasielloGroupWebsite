@@ -1,0 +1,14 @@
+---
+title: "Spatial Distribution and Sensitivity of Localized Plasmon Modes in Individual Infrared SPP/ENZ Resonators Probed via EELSA"
+author: ["Caleb Whittier","Travis Casagrande","Matthieu Chalifour","Kyle P. Kelley","Maxwell J. Tolchin","Mingze He","J. Ryan Nolen","Jon-Paul Maria","Joshua D. Caldwell","David J. Masiello","Nabil D. Bassim","Maureen J. Lagos"]
+categories: 
+    - "fast_electron_nano-spectroscopy"
+url_source: "https://pubs.acs.org/doi/10.1021/acsphotonics.5c02382"
+url_preprint: ""
+journ: "ACS Photonics"
+issue: Accepted
+page: 
+year: 2025
+pub_number: 097
+image: "featured.png"
+---
