@@ -1,5 +1,5 @@
 ---
-title: "Spatial Distribution and Sensitivity of Localized Plasmon Modes in Individual Infrared SPP/ENZ Resonators Probed via EELSA"
+title: "Spatial Distribution and Sensitivity of Localized Plasmon Modes in Individual Infrared SPP/ENZ Resonators Probed via EELS"
 author: ["Caleb Whittier","Travis Casagrande","Matthieu Chalifour","Kyle P. Kelley","Maxwell J. Tolchin","Mingze He","J. Ryan Nolen","Jon-Paul Maria","Joshua D. Caldwell","David J. Masiello","Nabil D. Bassim","Maureen J. Lagos"]
 categories: 
     - "fast_electron_nano-spectroscopy"
