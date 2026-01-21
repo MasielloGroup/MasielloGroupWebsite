@@ -6,8 +6,8 @@ categories:
 url_source: "https://journals.aps.org/pra/accepted/10.1103/f3w4-hw71"
 url_preprint: ""
 journ: "Physical Review A"
-issue: "Accepted"
-page: 
+issue: "112"
+page: 063535
 year: 2025
 pub_number: 096
 image: "featured.jpeg"

@@ -6,8 +6,9 @@ categories:
 url_source: "https://pubs.acs.org/doi/10.1021/acsphotonics.5c02382"
 url_preprint: ""
 journ: "ACS Photonics"
-issue: Accepted
-page: 
+issue: 12
+volume: 12
+page: "7020-7029"
 year: 2025
 pub_number: 097
 image: "featured.png"
