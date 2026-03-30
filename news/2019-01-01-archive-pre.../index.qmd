@@ -29,16 +29,16 @@ date: '2019-01-01'
 
 * January 2017: Zhaoxia's paper on  [dynamic optical switching of polymer/plasmonic nanoparticle hybrids](http://pubs.acs.org/doi/abs/10.1021/acs.jpcb.7b00013)  is accepted for publication in Journal of Physical Chemistry B
 
-* November 2016: Niket, Steven, and Charles' paper on  [single-particle absorption spectroscopy via photothermal contrast in an optical microresonator cavity](http://www.nature.com/nphoton/journal/vaop/ncurrent/full/nphoton.2016.217.html)  is published online in Nature Photonics!
+* November 2016: Niket, Amber, and Charles' paper on  [single-particle absorption spectroscopy via photothermal contrast in an optical microresonator cavity](http://www.nature.com/nphoton/journal/vaop/ncurrent/full/nphoton.2016.217.html)  is published online in Nature Photonics!
 Press:  [C&E News](http://cen.acs.org/articles/94/i45/Whispering-microresonators-detect-absorption-spectra.html) ,  [Nature Photonics](http://www.nature.com/nphoton/journal/v10/n12/full/nphoton.2016.237.html) 
 
 * September 2016: We're batting 3/3...Our collaborative work with the Camden group (Notre Dame) and Rack group (Tennessee) on  [magnetic plasmon hybridization and all-magnetic Fano interference](http://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6b03504)  is accepted for publication in Nano Letters!
 
-* September 2016: Niket, Steven, and Charles' collaborative paper with the Goldsmith group at UW, Madison on single-particle absorption spectroscopy via photothermal contrast in an optical microresonator cavity is accepted for publication in Nature Photonics
+* September 2016: Niket, Amber, and Charles' collaborative paper with the Goldsmith group at UW, Madison on single-particle absorption spectroscopy via photothermal contrast in an optical microresonator cavity is accepted for publication in Nature Photonics
 
 * September 2016: Nick Montoni's paper on  [imaging energy transfer between noble-metal and catalytic-metal nanoparticles with STEM/EELS](http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.6b01878)  is accepted for publication in JPC Letters
 
-* April 2016: Steven, Charles, and Nick's paper on  [imaging plasmon hybridization in metal nanoparticle aggregates with STEM/EELS](http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b02170)  is accepted for publication in JPC C!
+* April 2016: Amber, Charles, and Nick's paper on  [imaging plasmon hybridization in metal nanoparticle aggregates with STEM/EELS](http://pubs.acs.org/doi/abs/10.1021/acs.jpcc.6b02170)  is accepted for publication in JPC C!
 
 * February 2016: David Masiello receives a Presidential Early Career Award for Scientists and Engineers (PECASE).
 Press:  [White House](https://www.whitehouse.gov/the-press-office/2016/02/18/president-obama-honors-extraordinary-early-career-scientists) ,  [NSF](http://www.nsf.gov/news/news_summ.jsp?cntn_id=137709&WT.mc_id=USNSF_1) ,  [UW](http://www.washington.edu/news/2016/02/18/three-uw-professors-win-presidential-early-career-award-for-scientists-and-engineers/) 
@@ -100,7 +100,7 @@ Alex is the fourth Masiello group student since we began in Fall 2010 to be awar
 
 * December 2013: Collaborative research with Prof. Gamelin's group on  [surface-plasmon resonances in charge-tunable semiconducting quantum dots](http://pubs.acs.org/doi/abs/10.1021/nn406126u)  is accepted for publication in ACS Nano
 
-* December 2013: Chemistry graduate student Steven Quillin joins the group.  Welcome Steve!
+* December 2013: Chemistry graduate student Amber Nelson-Quillin joins the group.  Welcome Amber!
 
 * November 2013: Dr. Charles Cherqui from UNM Physics/LANL CNLS joins the group as a Postdoctoral Fellow.  Welcome Charles!
 

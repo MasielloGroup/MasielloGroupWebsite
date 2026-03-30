@@ -1,11 +1,11 @@
 ---
-title: &TITLE Steven C. Quillin
-first: Steven
-last: Quillin 
+title: &TITLE Amber M. Nelson-Quillin
+first: Amber
+last: Nelson-Quillin 
 subtitle: Graduate Student
 education: Ph.D. Chemistry | University of Washington
 people_group: alumni
-image: avatar.jpeg
+image: avatar.png
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs 
@@ -23,7 +23,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpeg
+  image: avatar.png
 ---
 
 <hr>
