@@ -162,9 +162,17 @@
     ]
   },
   {
-    "listing": "/people/qian-zhaoxia/index.html",
+    "listing": "/people/nixon-austin/index.html",
     "items": [
-      "/publications/2017_035_Dynamic_Optical_Swit/index.html"
+      "/publications/2025_096_strongly_coupled_photonic/index.html",
+      "/publications/2024_087_inelastic_scattering/index.html",
+      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
+      "/publications/2023_083_optical_polarization_analogs/index.html",
+      "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
+      "/publications/2022_076_polarization_resolved/index.html",
+      "/publications/2022_073_nanoscale_mapping/index.html",
+      "/publications/2020_054_Infrared_plasmonics_/index.html",
+      "/publications/2019_051_Focused_Electron_Bea/index.html"
     ]
   },
   {
@@ -543,9 +551,9 @@
       "/people/hu-zhongwei/index.html",
       "/people/kong-xiang-tian/index.html",
       "/people/montoni-nicholas/index.html",
+      "/people/nelson-quillin-amber/index.html",
       "/people/nixon-austin/index.html",
       "/people/qian-zhaoxia/index.html",
-      "/people/quillin-steven/index.html",
       "/people/sanchez-michael/index.html",
       "/people/smith-kevin/index.html",
       "/people/thakkar-niket/index.html",
@@ -572,21 +580,7 @@
     ]
   },
   {
-    "listing": "/people/nixon-austin/index.html",
-    "items": [
-      "/publications/2025_096_strongly_coupled_photonic/index.html",
-      "/publications/2024_087_inelastic_scattering/index.html",
-      "/publications/2023_084_spectroscopy_in_nanoscopic/index.html",
-      "/publications/2023_083_optical_polarization_analogs/index.html",
-      "/publications/2022_077_active_control_of_plasmonic-photonic/index.html",
-      "/publications/2022_076_polarization_resolved/index.html",
-      "/publications/2022_073_nanoscale_mapping/index.html",
-      "/publications/2020_054_Infrared_plasmonics_/index.html",
-      "/publications/2019_051_Focused_Electron_Bea/index.html"
-    ]
-  },
-  {
-    "listing": "/people/quillin-steven/index.html",
+    "listing": "/people/nelson-quillin-amber/index.html",
     "items": [
       "/publications/2019_050_Direct_Observation_o/index.html",
       "/publications/2019_043_Nanoscale_probing_of/index.html",
@@ -597,6 +591,12 @@
       "/publications/2016_034_STEM_EELS_Imaging_of/index.html",
       "/publications/2016_033_Optical_microresonat/index.html",
       "/publications/2016_032_Imaging_Plasmon_Hybr/index.html"
+    ]
+  },
+  {
+    "listing": "/people/qian-zhaoxia/index.html",
+    "items": [
+      "/publications/2017_035_Dynamic_Optical_Swit/index.html"
     ]
   },
   {
