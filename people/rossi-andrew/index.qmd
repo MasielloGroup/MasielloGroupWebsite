@@ -2,11 +2,12 @@
 title: &TITLE Andrew W. Rossi
 last: Rossi
 first: Andrew
-people_group: "gradstudent"
+people_group: "postdoc"
 email: "awrossi@uw.edu"
 education:
-  - B.S. Chemistry | The Ohio State University 
-subtitle: "Graduate Student, Chemistry"
+  - Ph.D. Chemistry | University of Washington 
+  # - B.S. Chemistry | The Ohio State University 
+subtitle: "Postdoctoral Fellow"
 description: ""
 image: avatar.jpg
 listing:
