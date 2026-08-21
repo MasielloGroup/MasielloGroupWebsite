@@ -8,7 +8,8 @@ url_preprint: ""
 journ: "Advanced Materials"
 issue: 
 page: e14310
-year: 2025
+year: 2026
+volume: 38
 pub_number: 098
 image: "featured.png"
 ---
