@@ -1,0 +1,15 @@
+---
+title: "Four in One: Parallel Determination of Optical Activity and Optical Anisotropy from Single Plasmonic Nanostructures"
+author: ["Zachary J. O’Dell","Kevin N. Moser","Megan Knobeloch","Dane Paulson","Sara E. Skrabalak","David J. Masiello","Katherine A. Willets"]
+categories: 
+    - "nanophotonics-quantum_optics"
+    - "Photothermal spectroscopy and microscopy"
+url_source: "https://pubs.acs.org/ancac3/article/20/28/20410/5203641/Four-in-One-Parallel-Determination-of-Optical"
+url_preprint: ""
+journ: "ACS Nano"
+issue: "20" 
+page: "20410–20424"
+year: 2026
+pub_number: 99
+image: "featured.jpg"
+---
