@@ -1,0 +1,14 @@
+---
+title: "Probing Plasmonic Oscillations in 2D Moiré Nanocrystal Superlattices by Low-Loss EEL"
+author: ["Swarnendu Das","Shengsong Yang","Kevin N. Moser","Marc R. Bourgeois","Quentin M. Ramasse","David J. Masiello","Christopher B. Murray","Eric A. Stach"]
+categories: 
+    - "fast_electron_nano-spectroscopy"
+url_source: ""
+url_preprint: "https://arxiv.org/abs/2602.10534"
+journ: "submitted"
+issue: 
+page: 
+year: 2026
+pub_number: 100
+image: "featured.jpg"
+---

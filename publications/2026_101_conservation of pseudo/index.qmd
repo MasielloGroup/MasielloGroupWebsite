@@ -1,0 +1,14 @@
+---
+title: "Conservation of Pseudoangular Momentum in the Radiative Emission and Optical Excitation of Valley-Polarized Surface Lattice Resonances"
+author: ["Siamak Khorasani","Marc R. Bourgeois","David J. Masiello"]
+categories: 
+    - "nanophotonics-quantum_optics"
+url_source: ""
+url_preprint: "https://arxiv.org/abs/2608.18005"
+journ: "submitted"
+issue: 
+page: 
+year: 2026
+pub_number: 101
+image: "featured.jpg"
+---
