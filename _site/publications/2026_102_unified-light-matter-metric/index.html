@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Kevin N. Moser">
+<meta name="author" content="Marc R. Bourgeois">
+<meta name="author" content="David J. Masiello">
 
-<title>Aniruddha Bhattacharya – Masiello Group</title>
+<title>Unified light-matter metric of molecular and nanophotonic chirality – Masiello Group</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -34,12 +37,11 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../images/favicon.drawio.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-7c69b197886ae2a34062761d21e44731.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -74,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pubs .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-publication','listing-title','listing-categories','listing-image','listing-date','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-title","listing-date","listing-author","listing-publication","listing-categories","listing-url_source","listing-journ","listing-issue","listing-page","listing-year","listing-image","listing-pub_number","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pubs'] = new List('listing-pubs', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
 <script type="text/javascript">
 
@@ -119,39 +92,11 @@ ga('send', {
 </script>
 <style>html{ scroll-behavior: smooth; }</style>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta name="twitter:title" content="Aniruddha Bhattacharya – Masiello Group">
-<meta name="twitter:description" content="Postdoctoral Fellow">
-<meta name="twitter:image" content="https://faculty.washington.edu/masiello/people/bhattacharya-aniruddha/avatar.jpg">
+<meta name="twitter:title" content="Unified light-matter metric of molecular and nanophotonic chirality – Masiello Group">
+<meta name="twitter:image" content="https://faculty.washington.edu/masiello/publications/2026_102_unified-light-matter-metric/featured.png">
+<meta name="twitter:image-height" content="1062">
+<meta name="twitter:image-width" content="800">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -209,135 +154,58 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
-  <li><a href="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications" id="toc-b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications" class="nav-link" data-scroll-target="#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications">Aniruddha’s Group Publications</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
-
-
-
-<hr>
-<div class="quarto-about-trestles column-page-left">
-  <div class="about-entity">
-    <img src="avatar.jpg" class="about-image
-  round " style="height: 20em; width: 20em;">
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Aniruddha Bhattacharya</h1>
-<p class="subtitle lead">Postdoctoral Fellow</p>
-</div>
-<div class="quarto-title-meta column-page-left">
+<h1 class="title">Unified light-matter metric of molecular and nanophotonic chirality</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">nanophotonics-quantum_optics</div>
   </div>
-</header>
   </div>
-  <div class="about-contents"><div id="about">
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
-<p>Ph.D.&nbsp;Electrical Engineering | University of Michigan</p>
-<p><br></p>
-</section>
-</div></div>
-</div>
 
-<section id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications" class="level2">
-<h2 data-anchor-id="b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206d657461206669727374203e7d7ds-group-publications">Aniruddha’s Group Publications</h2>
-<div id="listing-pubs" class="quarto-listing quarto-listing-container-custom">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<div class="list quarto-listing-default">
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Kevin N. Moser </p>
+             <p>Marc R. Bourgeois </p>
+             <p>David J. Masiello </p>
+          </div>
+  </div>
     
-    
-    <div class="quarto-post image-right" data-index="0" data-categories="bmFub3Bob3Rvbmljcy1xdWFudHVtX29wdGljcw==" data-listing-date-sort="1614578400000" data-listing-file-modified-sort="1733259901067" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-        <div class="thumbnail">
-            <!-- <a href="/publications/2021_066_Exact_k-body_represe/index.qmd"> -->
-
-                <p>
-                    
-                    <img alt="Exact <i>k</i>-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light" src="../../publications/2021_066_Exact_k-body_represe/featured.png" class="thumbnail-image">
-                    
-
-                </p>
-      
-
-            <!-- </a> -->
-        </div>
-        <div class="body">
-            <!-- <a href="/publications/2021_066_Exact_k-body_represe/index.qmd"> -->
-            <div class="no-anchor listing-pub-title listing-title">Exact <i>k</i>-body representation of the Jaynes-Cummings interaction in the dressed basis: Insight into many-body phenomena with light</div>
-            <!-- </a> -->
-            <!-- <a href="/publications/2021_066_Exact_k-body_represe/index.qmd"> -->
-                
-                <div class="listing-pub-author listing-author">
-                    Kevin C. Smith, Aniruddha Bhattacharya, David J. Masiello<br> 
-                </div>
-                
-                <div class="metadata-value listing-pub-journal listing-publication">
-                    
-                        <i>Physical Review A</i>, <b>104</b>, 13707 (2021)<br>
-                        
-                        
-                        
-                        
-                        
-                        
-                </div>
-                    
-                    
-                    
-            <!-- </a> -->
- <!--               <div class="listing-categories">
-                
-                <div class="listing-category" onclick="window.quartoListingCategory('nanophotonics-quantum_optics'); return false;">nanophotonics-quantum_optics</div>
-                
-                </div>
-                -->
-        </div>
-        <div class="metadata">
-
-            
-            <div class="listing-pub-url">
-
-                    <a href="https://link.aps.org/doi/10.1103/PhysRevA.104.013707">
-                    <p style="color:#8250E6;">journal URL <i class="bi bi-box-arrow-up-right"></i></p>
-                    </a>
-                </div>
-                    
   
-              
-
-        </div>
-    </div>
     
-    
-    </div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
+  </div>
+  
 
 
+</header>
 
 
-</section>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

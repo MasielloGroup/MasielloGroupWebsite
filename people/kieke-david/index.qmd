@@ -1,0 +1,52 @@
+---
+title: &TITLE David Kieke
+last: Kieke
+first: David
+people_group: gradstudent
+email: "dmkieke@uw.edu"
+education:
+  - "M.S. Applied Mathematics | University of Washington"
+subtitle: "Graduate Student, Chemistry"
+image: &IMAGE "avatar.png"
+page-layout: full
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs 
+  contents: 
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+about: 
+  id: about
+  template: trestles
+  image-shape: round
+  image: *IMAGE
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:dmkieke@uw.edu
+---
+<hr>
+
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+:::
+<br>
+
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
+
+
+
+

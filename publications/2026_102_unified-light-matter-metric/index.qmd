@@ -1,0 +1,14 @@
+---
+title: "Unified light-matter metric of molecular and nanophotonic chirality"
+author: ["Kevin N. Moser","Marc R. Bourgeois","David J. Masiello"]
+categories: 
+    - "nanophotonics-quantum_optics"
+url_source: ""
+url_preprint: "https://arxiv.org/abs/2609.13109"
+journ: "Submitted"
+issue: 
+page: 
+year: 2026
+pub_number: 102
+image: "featured.png"
+---
