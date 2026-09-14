@@ -10,5 +10,5 @@ issue:
 page: 
 year: 2026
 pub_number: 102
-image: ""
+image: "featured.png"
 ---
