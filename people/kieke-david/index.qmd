@@ -1,9 +1,9 @@
 ---
 title: &TITLE David Kieke
-last: kieke
-first: david
+last: Kieke
+first: David
 people_group: gradstudent
-email: dmkieke@uw.edu
+email: "dmkieke@uw.edu"
 education:
   - "M.S. Applied Mathematics | University of Washington"
 subtitle: "Graduate Student, Chemistry"
