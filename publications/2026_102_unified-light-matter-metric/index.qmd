@@ -5,9 +5,9 @@ categories:
     - "nanophotonics-quantum_optics"
 url_source: ""
 url_preprint: "https://arxiv.org/abs/2609.13109"
-journ: "Submitted"
+journ: "Physical Review Letters"
 issue: 
-page: 
+page: "accepted"
 year: 2026
 pub_number: 102
 image: "featured.png"
